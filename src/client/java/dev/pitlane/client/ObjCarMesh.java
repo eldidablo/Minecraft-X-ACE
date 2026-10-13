@@ -5,7 +5,7 @@ import com.mojang.blaze3d.vertex.VertexConsumer;
 import dev.pitlane.PitlaneMod;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.LightTexture;
-import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.rendertype.RenderTypes;
 import net.minecraft.resources.Identifier;
 import org.joml.Vector3f;
@@ -42,8 +42,8 @@ final class ObjCarMesh {
         }
     }
 
-    RenderType renderType() {
-        return RenderTypes.entitySolid(WHITE);
+    void submit(PoseStack poseStack, SubmitNodeCollector collector) {
+        collector.submitCustomGeometry(poseStack, RenderTypes.entityCutout(WHITE), this::render);
     }
 
     void render(PoseStack.Pose pose, VertexConsumer buffer) {

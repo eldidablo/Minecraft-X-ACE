@@ -3,6 +3,7 @@ package dev.pitlane.client;
 import dev.pitlane.PitlaneMod;
 import dev.pitlane.entity.CarEntity;
 import net.minecraft.client.renderer.SubmitNodeCollector;
+import net.minecraft.client.renderer.rendertype.RenderTypes;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.Identifier;
@@ -46,7 +47,7 @@ public final class CarRenderer extends EntityRenderer<CarEntity, CarRenderState>
             poseStack.pushPose();
             poseStack.translate(0.0, 0.02, 0.0);
             poseStack.mulPose(new Quaternionf(state.orientation));
-            collector.submitCustomGeometry(poseStack, model.renderType(), model::render);
+            model.submit(poseStack, collector);
             poseStack.popPose();
         }
         super.submit(state, poseStack, collector, cameraState);
