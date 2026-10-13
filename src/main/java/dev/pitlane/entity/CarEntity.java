@@ -221,6 +221,11 @@ public final class CarEntity extends Entity {
     }
 
     @Override
+    public boolean isPickable() {
+        return !isRemoved();
+    }
+
+    @Override
     public boolean isPushable() {
         return false;
     }
