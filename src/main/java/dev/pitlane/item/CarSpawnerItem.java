@@ -35,9 +35,12 @@ public final class CarSpawnerItem extends Item {
         double yaw = Math.toRadians(player.getYRot());
         double spawnX = player.getX() - Math.sin(yaw) * 2.6;
         double spawnZ = player.getZ() + Math.cos(yaw) * 2.6;
-        Vec3 bodyOrigin = new Vec3(spawnX, player.getY() + definition.chassis().heightM() * 0.5, spawnZ);
         CarEntity car = ModEntities.CAR.create(level, EntitySpawnReason.SPAWN_ITEM_USE);
         if (car == null) return InteractionResult.FAIL;
+
+        // The physics frame is centered on the car, while Entity positions are at the feet.
+        // Use the actual entity hitbox height so the spawned hitbox does not intersect the floor.
+        Vec3 bodyOrigin = new Vec3(spawnX, player.getY() + car.getBbHeight() * 0.5 + 0.02, spawnZ);
         VehicleState initialState = VehicleState.initial(bodyOrigin, (float) -yaw, definition);
         car.initialize(definitionId, initialState);
         car.setYRot(player.getYRot());
