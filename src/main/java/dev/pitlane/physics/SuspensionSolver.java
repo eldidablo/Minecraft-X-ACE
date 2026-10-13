@@ -16,7 +16,11 @@ public final class SuspensionSolver {
         double suspensionLength = Math.max(0.0, contact.distanceM() - radius);
         double restLength = layout.suspensionTravelM() * 0.55;
         double compression = clamp(restLength - suspensionLength, -layout.droopStopTravelM(), layout.suspensionTravelM());
-        double compressionRate = dt > 0.0 ? (compression - previous.suspensionCompressionM()) / dt : 0.0;
+        // Do not apply a damper impulse on the first contact after spawning or landing.
+        // The previous state has no valid grounded compression yet, so its difference is not a
+        // meaningful suspension velocity and can otherwise create a large artificial launch.
+        double compressionRate = dt > 0.0 && previous.grounded()
+                ? (compression - previous.suspensionCompressionM()) / dt : 0.0;
         double springRate = wheel < 2 ? config.frontSpringNPerM() : config.rearSpringNPerM();
         double damperRate = wheel < 2
                 ? (compressionRate >= 0.0 ? config.frontCompressionNsPerM() : config.frontReboundNsPerM())
