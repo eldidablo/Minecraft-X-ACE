@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pitlane:item/all_wheel_drive_car"
+  }
+}

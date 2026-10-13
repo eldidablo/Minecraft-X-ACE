@@ -1,0 +1,30 @@
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x142208b10|0x14220a339|bytes=6186|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x142208b5d -> 0x1455e4250 | Car vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x142211f40|0x1422127b5|bytes=2166|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x142211f79 -> 0x1455e4250 | Car vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x14240fae0|0x14240ff24|bytes=1093|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x14240fbd5 -> 0x1455fb1c8 | Suspension vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x1424100e0|0x14241011c|bytes=61|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x1424100e9 -> 0x1455fb1c8 | Suspension vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x142419fd0|0x14241a5bd|bytes=1518|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x14241a0cb -> 0x1455fb6a8 | SuspensionStrut vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x14241eaf0|0x14241ed4c|bytes=605|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x14241ebdb -> 0x1455fb908 | SuspensionML vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x14241eeb0|0x14241eee9|bytes=58|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x14241eeb6 -> 0x1455fb908 | SuspensionML vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x142428b90|0x142429175|bytes=1510|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x142428c94 -> 0x1455fc048 | SuspensionTrailingArm vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x142429390|0x1424293de|bytes=79|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x142429399 -> 0x1455fc048 | SuspensionTrailingArm vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x142432b10|0x142432f8d|bytes=1150|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x142432c05 -> 0x1455fc4c8 | SuspensionWishboneCoil vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x1424330b0|0x1424330ec|bytes=61|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x1424330b9 -> 0x1455fc4c8 | SuspensionWishboneCoil vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x142510dd0|0x142511190|bytes=961|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x142510e00 -> 0x145606230 | PhysicsCore vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x1425115e0|0x142511845|bytes=614|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x1425115f5 -> 0x145606230 | PhysicsCore vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x142516580|0x14251694d|bytes=974|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x1425165b0 -> 0x1456065d8 | PhysicsCoreExperimental vtable  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> FUNC|0x142516a50|0x142516cb5|bytes=614|refs=1  
+2026-10-13 13:57:56 INFO  FindVtableCodeRefs.java> REF|0x142516a65 -> 0x1456065d8 | PhysicsCoreExperimental vtable  

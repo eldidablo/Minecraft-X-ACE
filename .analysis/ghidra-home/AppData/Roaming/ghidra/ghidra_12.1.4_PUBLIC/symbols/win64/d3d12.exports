@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LIBRARY NAME="d3d12.dll" PATH="C:\Windows\System32\D3D12.dll" DATE="Wed Sep 23 14:49:26 WEST 2026" VERSION="10.0.26100.9549 (WinBuild.160101.0800)">
+    <EXPORT ORDINAL="100" NAME="SetAppCompatStringPointer" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="101" NAME="D3D12CreateDevice" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="102" NAME="D3D12GetDebugInterface" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="103" NAME="D3D12CoreCreateLayeredDevice" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="104" NAME="D3D12CoreGetLayeredDeviceSize" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="105" NAME="D3D12CoreRegisterLayers" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="106" NAME="D3D12CreateRootSignatureDeserializer" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="107" NAME="D3D12CreateVersionedRootSignatureDeserializer" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="108" NAME="D3D12DeviceRemovedExtendedData" PURGE="-1" COMMENT="" />
+    <EXPORT ORDINAL="109" NAME="D3D12EnableExperimentalFeatures" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="110" NAME="D3D12GetInterface" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="111" NAME="D3D12PIXEventsReplaceBlock" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="112" NAME="D3D12PIXGetThreadInfo" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="113" NAME="D3D12PIXNotifyWakeFromFenceSignal" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="114" NAME="D3D12PIXReportCounter" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="115" NAME="D3D12SerializeRootSignature" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="116" NAME="D3D12SerializeVersionedRootSignature" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="117" NAME="GetBehaviorValue" PURGE="0" COMMENT="" />
+</LIBRARY>

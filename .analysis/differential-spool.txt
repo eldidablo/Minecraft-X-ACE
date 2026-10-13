@@ -1,0 +1,97 @@
+=== Differential spool activation routine ===
+requested=1422e1160 range=1422e1160..1422e13c1 disassemble=true
+name=FUN_1422e1160 body=[[1422e1160, 1422e13c1]]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_1422e1160(float *param_1,longlong param_2,undefined8 param_3)
+
+{
+  float fVar1;
+  float fVar2;
+  undefined8 *puVar3;
+  float fVar4;
+  undefined1 auStack_b8 [32];
+  undefined1 auStack_98 [16];
+  undefined8 uStack_88;
+  undefined8 uStack_78;
+  undefined4 uStack_70;
+  uint uStack_6c;
+  undefined8 uStack_68;
+  undefined8 uStack_58;
+  longlong lStack_50;
+  undefined8 uStack_48;
+  ulonglong uStack_38;
+  
+  uStack_38 = _DAT_145ca23c0 ^ (ulonglong)auStack_b8;
+  param_1[0xc] = *(float *)(param_2 + 0x2c);
+  fVar1 = *(float *)(param_2 + 0x20);
+  *param_1 = fVar1;
+  fVar2 = *(float *)(param_2 + 0x24);
+  param_1[1] = fVar2;
+  param_1[2] = *(float *)(param_2 + 0x28);
+  fVar4 = _DAT_14319c1fc;
+  param_1[7] = _DAT_14319c1fc * *(float *)(param_2 + 0x50);
+  param_1[6] = fVar4 * *(float *)(param_2 + 0x4c);
+  param_1[8] = *(float *)(param_2 + 0x54);
+  param_1[9] = *(float *)(param_2 + 0x58);
+  param_1[10] = *(float *)(param_2 + 0x5c);
+  param_1[0xb] = (float)(int)*(float *)(param_2 + 0x60);
+  fVar4 = _DAT_143167964;
+  if ((_DAT_143167964 <= fVar1) && (_DAT_143167964 <= fVar2)) {
+    param_1[0xc] = 1.4013e-45;
+    uStack_88 = 0;
+    auStack_98._0_12_ = ZEXT812(0);
+    auStack_98._12_4_ = 0;
+    puVar3 = (undefined8 *)func_0x0001400fb811(3);
+    uStack_78 = 0;
+    uStack_70 = 0;
+    uStack_6c = auStack_98._12_4_;
+    uStack_68 = 0;
+    auStack_98._8_8_ = 0x22;
+    auStack_98._0_8_ = &UNK_1455ee030;
+    lStack_50 = (ulonglong)uStack_6c << 0x20;
+    uStack_58 = 0;
+    uStack_48 = 0;
+    func_0x0001400c2dea(*puVar3,&uStack_58,2,auStack_98);
+  }
+  if ((param_1[0xc] == 5.60519e-45) || (param_1[0xc] == 4.2039e-45)) {
+    param_1[3] = *(float *)(param_2 + 0x48);
+  }
+  param_1[4] = param_1[3] / (fVar4 - param_1[3]);
+  param_1[0xe] = *(float *)(param_2 + 0x40);
+  param_1[0xd] = *(float *)(param_2 + 0x44);
+  fVar1 = *(float *)(param_2 + 0x34);
+  param_1[0xf] = fVar1;
+  fVar2 = *(float *)(param_2 + 0x30);
+  param_1[0x20] = fVar2;
+  fVar4 = *(float *)(param_2 + 0x38);
+  param_1[0x10] = fVar4;
+  *(double *)(param_1 + 0x12) = (double)*(float *)(param_2 + 0x3c);
+  if (fVar2 == 0.0) {
+    param_1[0x20] = 500.0;
+  }
+  if (fVar1 == 0.0) {
+    param_1[0xf] = 0.3;
+  }
+  if (fVar4 == 0.0) {
+    param_1[0x10] = 30.0;
+  }
+  param_1[0x14] = 0.0;
+  param_1[0x15] = 0.0;
+  param_1[0x16] = 0.0;
+  if (*(longlong *)(*(longlong *)(param_2 + 0x18) + 0x10) != 0) {
+    func_0x000140090af7(&uStack_58,*(longlong *)(param_2 + 0x18),0);
+    func_0x00014001bdba(param_3,param_1 + 0x42,&uStack_58);
+    func_0x00014014cdb5(&uStack_58);
+  }
+  if (*(longlong *)(*(longlong *)(param_2 + 0x10) + 0x10) != 0) {
+    func_0x000140090af7(&uStack_58,*(longlong *)(param_2 + 0x10),0);
+    func_0x00014001bdba(param_3,param_1 + 0x22,&uStack_58);
+    func_0x00014014cdb5(&uStack_58);
+  }
+  func_0x0001400bda57(uStack_38 ^ (ulonglong)auStack_b8);
+  return;
+}
+
+

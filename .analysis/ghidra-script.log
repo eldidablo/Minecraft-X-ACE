@@ -1,0 +1,12 @@
+2026-10-13 13:36:01 INFO  PrintSections.java> PROGRAM|AssettoCorsaEVO.exe  
+2026-10-13 13:36:01 INFO  PrintSections.java> IMAGE_BASE|140000000  
+2026-10-13 13:36:01 INFO  PrintSections.java> BLOCK|Headers|140000000|1400005ff|1536|initialized=true  
+2026-10-13 13:36:01 INFO  PrintSections.java> BLOCK|.text|140001000|14315ddff|51760640|initialized=true  
+2026-10-13 13:36:01 INFO  PrintSections.java> BLOCK|.rdata|14315e000|145c55bff|45054976|initialized=true  
+2026-10-13 13:36:01 INFO  PrintSections.java> BLOCK|.data|145c56000|1469c3300|14078721|initialized=true  
+2026-10-13 13:36:01 INFO  PrintSections.java> BLOCK|.pdata|1469c4000|146c3f7ff|2603008|initialized=true  
+2026-10-13 13:36:01 INFO  PrintSections.java> BLOCK|.idata|146c40000|146c507ff|67584|initialized=true  
+2026-10-13 13:36:01 INFO  PrintSections.java> BLOCK|.tls|146c51000|146c517ff|2048|initialized=true  
+2026-10-13 13:36:01 INFO  PrintSections.java> BLOCK|.00cfg|146c52000|146c521ff|512|initialized=true  
+2026-10-13 13:36:01 INFO  PrintSections.java> BLOCK|.rsrc|146c53000|146c535ff|1536|initialized=true  
+2026-10-13 13:36:01 INFO  PrintSections.java> BLOCK|.reloc|146c54000|146cdcfff|561152|initialized=true  

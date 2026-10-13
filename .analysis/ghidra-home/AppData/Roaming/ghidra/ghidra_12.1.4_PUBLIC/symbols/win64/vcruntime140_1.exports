@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LIBRARY NAME="vcruntime140_1.dll" PATH="C:\Program Files\Java\jdk-25\bin\vcruntime140_1.dll" DATE="Sun Dec 28 23:53:32 WET 2025" VERSION="14.42.34438.0">
+    <EXPORT ORDINAL="1" NAME="__CxxFrameHandler4" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="2" NAME="__NLG_Dispatch2" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="3" NAME="__NLG_Return2" PURGE="0" COMMENT="" />
+</LIBRARY>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LIBRARY NAME="dxgi.dll" PATH="C:\Windows\System32\dxgi.dll" DATE="Wed Sep 23 14:49:27 WEST 2026" VERSION="10.0.26100.9549 (WinBuild.160101.0800)">
+    <EXPORT ORDINAL="1" NAME="ApplyCompatResolutionQuirking" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="2" NAME="CompatString" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="3" NAME="CompatValue" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="4" NAME="DXGIDumpJournal" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="5" NAME="PIXBeginCapture" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="6" NAME="PIXEndCapture" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="7" NAME="PIXGetCaptureState" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="8" NAME="SetAppCompatStringPointer" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="9" NAME="UpdateHMDEmulationStatus" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="10" NAME="CreateDXGIFactory" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="11" NAME="CreateDXGIFactory1" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="12" NAME="CreateDXGIFactory2" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="13" NAME="DXGID3D10CreateDevice" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="14" NAME="DXGID3D10CreateLayeredDevice" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="15" NAME="DXGID3D10GetLayeredDeviceSize" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="16" NAME="DXGID3D10RegisterLayers" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="17" NAME="DXGIDeclareAdapterRemovalSupport" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="18" NAME="DXGIDisableVBlankVirtualization" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="19" NAME="DXGIGetDebugInterface1" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="20" NAME="DXGIReportAdapterConfiguration" PURGE="0" COMMENT="" />
+</LIBRARY>

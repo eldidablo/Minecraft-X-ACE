@@ -1,0 +1,689 @@
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> SUMMARY|text_bytes=51760640|pdata_ranges=211416|candidate_strings=2476|direct_refs=1558|functions=884  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dc5960|0x142dc5fc4|bytes=1636|distinct_strings=56|refs=56  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5a5b -> 0x1456aa5e8 | logiWheelGetVersion  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5a72 -> 0x1456aa600 | logiWheelSupportedByDirectInputA  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5a89 -> 0x1456aa628 | logiWheelSupportedByDirectInputW  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5aa0 -> 0x1456aa650 | logiWheelOpenByDirectInputA  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5ab7 -> 0x1456aa678 | logiWheelOpenByDirectInputW  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5ace -> 0x1456aa6a0 | logiWheelClose  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5ae5 -> 0x1456aa6b8 | logiWheelGetForceMode  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5afc -> 0x1456aa6d8 | logiWheelSetForceMode  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5b13 -> 0x1456aa6f8 | logiWheelGetOperatingRangeBoundsRadians  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5b2a -> 0x1456aa728 | logiWheelGetOperatingRangeBoundsDegrees  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5b41 -> 0x1456aa758 | logiWheelGetOperatingRangeRadians  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5b58 -> 0x1456aa780 | logiWheelGetOperatingRangeDegrees  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5b6f -> 0x1456aa7a8 | logiWheelSetOperatingRangeRadians  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5b86 -> 0x1456aa7d0 | logiWheelSetOperatingRangeDegrees  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5b9d -> 0x1456aa7f8 | logiWheelPlayLeds  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5bb4 -> 0x1456aa810 | logiWheelGetRpmLedCaps  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5bcb -> 0x1456aa830 | logiWheelSetRpmLeds  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5be2 -> 0x1456aa848 | logiTrueForceAvailable  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5c00 -> 0x1456aa868 | logiTrueForceSupported  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5c10 -> 0x1456aa888 | logiTrueForceSupportedByDirectInputA  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5c27 -> 0x1456aa8b8 | logiTrueForceSupportedByDirectInputW  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5c3e -> 0x1456aa8e8 | logiTrueForceGetHapticRate  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5c55 -> 0x1456aa908 | logiTrueForceGetHapticThreadStatus  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5c6c -> 0x1456aa938 | logiTrueForceSync  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5c83 -> 0x1456aa950 | logiTrueForcePause  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5c9a -> 0x1456aa968 | logiTrueForceResume  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5cb1 -> 0x1456aa980 | logiTrueForceIsPaused  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5cc8 -> 0x1456aa9a0 | logiTrueForceGetAngleRadians  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5cdf -> 0x1456aa9c8 | logiTrueForceGetAngleDegrees  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5cf6 -> 0x1456aa9f0 | logiTrueForceGetAngularVelocityRadians  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5d0d -> 0x1456aaa20 | logiTrueForceGetAngularVelocityDegrees  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5d24 -> 0x1456aaa50 | logiTrueForceGetMaxPeakTorqueKF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5d3b -> 0x1456aaa78 | logiTrueForceGetMaxContinuousTorqueKF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5d52 -> 0x1456aaaa8 | logiTrueForceGetTorqueKF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5d69 -> 0x1456aaac8 | logiTrueForceSetTorqueKF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5d80 -> 0x1456aaae8 | logiTrueForceSetTorqueKFPiecewise  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5d97 -> 0x1456aab10 | logiTrueForceGetGainKF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5dae -> 0x1456aab30 | logiTrueForceSetGainKF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5dcc -> 0x1456aab50 | logiTrueForceGetDampingMax  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5ddc -> 0x1456aab70 | logiTrueForceGetDamping  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5df3 -> 0x1456aab90 | logiTrueForceSetDamping  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5e0a -> 0x1456aabb0 | logiTrueForceClearKF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5e21 -> 0x1456aabd0 | logiTrueForceGetTorqueTFRateBounds  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5e38 -> 0x1456aac00 | logiTrueForceSetTorqueTFdouble  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5e4f -> 0x1456aac28 | logiTrueForceSetTorqueTFfloat  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5e66 -> 0x1456aac50 | logiTrueForceSetTorqueTFint8  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5e7d -> 0x1456aac78 | logiTrueForceSetTorqueTFint16  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5e94 -> 0x1456aaca0 | logiTrueForceSetTorqueTFint32  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5eab -> 0x1456aacc8 | logiTrueForceSetStreamTF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5ec2 -> 0x1456aace8 | logiTrueForceGetTorqueTF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5ed9 -> 0x1456aad08 | logiTrueForceGetGainTF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5ef0 -> 0x1456aad28 | logiTrueForceSetGainTF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5f07 -> 0x1456aad48 | logiTrueForceClearTF  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5f35 -> 0x1456aad90 | logiTrueForceGetViscosityMax  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5f4c -> 0x1456aadb8 | logiTrueForceGetViscosity  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dc5f63 -> 0x1456aadd8 | logiTrueForceSetViscosity  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1423d88d0|0x1423dad8c|bytes=9404|distinct_strings=20|refs=20  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d91d5 -> 0x1455f78f8 | physicsTimeMs  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d9251 -> 0x1455f78c8 | lateralOffset  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d92ab -> 0x1455e7540 | brake  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d9305 -> 0x1455f7fe0 | ndSlipRawFL  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d9323 -> 0x1455f7fd0 | ndSlipRawFR  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d9341 -> 0x1455f7fc0 | ndSlipRawRL  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d935f -> 0x1455f7fb0 | ndSlipRawRR  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d946d -> 0x1455f7f30 | vBrakeAtLookahead  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d953f -> 0x1455f7e98 | deliverableBrakeAcc  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d955d -> 0x1455f7e88 | brakeEngaged  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d957b -> 0x1455f7e78 | slipCeiling  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d9599 -> 0x1455f7e60 | slipFilteredMax  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d95b7 -> 0x1455f7e50 | slipAxleFront  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d95d5 -> 0x1455f7e40 | slipAxleRear  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d9611 -> 0x1455f7e20 | brakeHintLive  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d962f -> 0x1455f7e10 | availBrakeAcc  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d99b3 -> 0x1455f7c08 | slipRatioFL  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d99d1 -> 0x1455f7bf8 | slipRatioFR  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d99ef -> 0x1455f7be8 | slipRatioRL  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d9a0d -> 0x1455f7bd8 | slipRatioRR  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1401e83e0|0x1401ea90f|bytes=9519|distinct_strings=20|refs=20  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e9257 -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e92fa -> 0x1446f9768 | VehicleGlass  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e939d -> 0x1446f9778 | VehicleGlassInterior  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e9440 -> 0x1431a7af8 | VehicleWindshield  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e94e3 -> 0x1431a7b10 | VehicleWindshieldNoRain  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e9586 -> 0x1446f9798 | VehicleWindow  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e9629 -> 0x143382868 | VehicleLight  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e96cc -> 0x143382840 | VehicleLed  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e976f -> 0x143382878 | VehicleTyre  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e97ff -> 0x1446f9628 | VSTyre  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e9814 -> 0x1446f9630 | VSTyreSkinned  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e9822 -> 0x143382858 | VehicleRim  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e98c5 -> 0x1446f97a8 | VehicleDisc  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e9ea2 -> 0x1431a8128 | BindlessUberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e9f45 -> 0x1431a8198 | BindlessVehicleRim  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401e9fe8 -> 0x1431a8180 | BindlessVehicleTyre  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401ea086 -> 0x1446f9640 | VSTyreBindless  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401ea094 -> 0x1431a8150 | BindlessUberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401ea7ae -> 0x1433828d0 | TrafficVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1401ea851 -> 0x1446f9820 | TrafficVehicleGlass  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dcf3b0|0x142dcff32|bytes=2946|distinct_strings=13|refs=13  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcf4ca -> 0x1456ae420 | FSDeviceBaseCommon::PrivateInterfaceCmdFfbCreate Is16bitConstantForceSupported:%d, FirmwareVersionMajor:%d  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcf514 -> 0x1456ae4b0 | FSDeviceBaseCommon::PrivateInterfaceCmdFfbCreate failed! NULL == m_pIForceFeedback  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcf56d -> 0x1456ae520 | FSDeviceBaseCommon::PrivateInterfaceCmdFfbFullForceCreate failed! false == this->GetDeviceInfo  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcf5b7 -> 0x1456ae5a0 | FSDeviceBaseCommon::QueryInterface failed! NULL == m_pICmdFFBFullForce  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcf6b4 -> 0x1456ae8a0 | FSDeviceBaseCommon::QueryInterface failed! NULL == m_pICmdRumbleMotorsWheel  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcf896 -> 0x1456ae6c0 | FSDeviceBaseCommon::QueryInterface failed! NULL == m_pICmdLedRevsWheelRim  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcf926 -> 0x1456ae780 | FSDeviceBaseCommon::QueryInterface failed! NULL == m_pICmdLedFlagWheelRim  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcf9c4 -> 0x1456ae720 | FSDeviceBaseCommon::QueryInterface failed! NULL == m_pICmdLedRevsWheelBase  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcfb4c -> 0x1456ae960 | FSDeviceBaseCommon::QueryInterface failed! NULL == m_pICmdWheel  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcfbaa -> 0x1456ae9b0 | FSDeviceBaseCommon::QueryInterface failed! NULL == m_pICmdWheelPeripheral  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcfcb4 -> 0x1456aec50 | FSDeviceBaseCommon::QueryInterface failed! NULL == m_pICmdWheelConfig  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcfdb3 -> 0x1456aea10 | FSDeviceBaseCommon::QueryInterface failed! NULL == m_pICmdWheelTuningMenu  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcfe83 -> 0x1456aeb00 | FSDeviceBaseCommon::QueryInterface failed! NULL == m_pICmdWheelTelemetry  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142991b40|0x14299585f|bytes=15647|distinct_strings=12|refs=12  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142992896 -> 0x145652ab8 | CarShadingGlobalSetting.brake_disc_color_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142992a90 -> 0x145652af0 | CarShadingGlobalSetting.tyre_damage_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142992d4e -> 0x145652b28 | CarShadingGlobalSetting.tyre_dirt_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142993412 -> 0x145652cf8 | CarShadingGlobalSetting.tyre_smoke_build_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14299347e -> 0x145652d30 | CarShadingGlobalSetting.tyre_smoke_rate_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429934ea -> 0x145652d68 | CarShadingGlobalSetting.tyre_smoke_cool_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142993556 -> 0x145652da0 | CarShadingGlobalSetting.tyre_dust_rate_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429935c2 -> 0x145652dd8 | CarShadingGlobalSetting.tyre_dust_speed_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14299362e -> 0x145652e10 | CarShadingGlobalSetting.tyre_grass_rate_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14299369a -> 0x145652e48 | CarShadingGlobalSetting.tyre_grass_speed_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429948b7 -> 0x145653240 | CarShadingGlobalSetting.particle_emitter_default_tyre_smoke  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142994923 -> 0x145653288 | CarShadingGlobalSetting.particle_emitter_default_tyre_vapor  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1429b4e90|0x1429b8bad|bytes=15645|distinct_strings=12|refs=12  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b5f0a -> 0x145652ab8 | CarShadingGlobalSetting.brake_disc_color_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b61ef -> 0x145652af0 | CarShadingGlobalSetting.tyre_damage_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b660d -> 0x145652b28 | CarShadingGlobalSetting.tyre_dirt_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b6e1d -> 0x145652cf8 | CarShadingGlobalSetting.tyre_smoke_build_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b6e63 -> 0x145652d30 | CarShadingGlobalSetting.tyre_smoke_rate_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b6ea9 -> 0x145652d68 | CarShadingGlobalSetting.tyre_smoke_cool_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b6eef -> 0x145652da0 | CarShadingGlobalSetting.tyre_dust_rate_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b6f35 -> 0x145652dd8 | CarShadingGlobalSetting.tyre_dust_speed_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b6f7b -> 0x145652e10 | CarShadingGlobalSetting.tyre_grass_rate_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b6fc1 -> 0x145652e48 | CarShadingGlobalSetting.tyre_grass_speed_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b8526 -> 0x145653240 | CarShadingGlobalSetting.particle_emitter_default_tyre_smoke  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1429b856c -> 0x145653288 | CarShadingGlobalSetting.particle_emitter_default_tyre_vapor  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dda620|0x142dda933|bytes=787|distinct_strings=10|refs=12  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda646 -> 0x1456b2770 | FSWinCmdWheelPeripheral::BrakeGainSet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda665 -> 0x1456b27a0 | FSWinCmdWheelPeripheral::BrakeGainSet failed! NULL == m_pICmdUsbHid  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda6d2 -> 0x1456b2ae8 | FSWinCmdWheelPeripheral::PrivateBrakeGainCommandSend  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda752 -> 0x1456b2b28 | FSWinCmdWheelPeripheral::PrivateBrakeGainCommandSend failed!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda763 -> 0x1456b2ae8 | FSWinCmdWheelPeripheral::PrivateBrakeGainCommandSend  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda7f2 -> 0x1456b2870 | FSWinCmdWheelPeripheral::BrakeGainSet RegistrySettingSet failed!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda80a -> 0x1456b2b80 | FSWinCmdWheelPeripheral::PrivateControlDeviceRegistryReload >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda856 -> 0x1456b2c00 | FSWinCmdWheelPeripheral::PrivateControlDeviceRegistryReload ERROR: Can't open \\.\FWFilterUsb (%d)  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda8c6 -> 0x1456b2c80 | FSWinCmdWheelPeripheral::PrivateControlDeviceRegistryReload DeviceIoControl(..,IOCTL_FW_FILTER_USB_REGISTRY_SETTINGS_RELOAD,...) failed! %d  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda8d7 -> 0x1456b2d30 | FSWinCmdWheelPeripheral::PrivateControlDeviceRegistryReload - Filter USB driver may not be installed yet.  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda8e5 -> 0x1456b2db0 | FSWinCmdWheelPeripheral::PrivateControlDeviceRegistryReload <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda8f6 -> 0x1456b2770 | FSWinCmdWheelPeripheral::BrakeGainSet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ac4880|0x142ac4e21|bytes=1441|distinct_strings=10|refs=10  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac49af -> 0x14566c758 | TyreTexturesData.description  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4a63 -> 0x14566c780 | TyreTexturesData.color_map_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4abd -> 0x14566c7a8 | TyreTexturesData.normal_map_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4b17 -> 0x14566c7d0 | TyreTexturesData.ao_map_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4b71 -> 0x14566c7f8 | TyreTexturesData.clear_coat_normal_map_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4bcb -> 0x14566c830 | TyreTexturesData.color_map_blur_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4c25 -> 0x14566c860 | TyreTexturesData.normal_map_blur_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4c7f -> 0x14566c890 | TyreTexturesData.ao_map_blur_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4cd9 -> 0x14566c8b8 | TyreTexturesData.clear_coat_normal_map_blur_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4d2f -> 0x14566c8f8 | TyreTexturesData.brand  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ad8050|0x142ad8350|bytes=768|distinct_strings=10|refs=10  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad807f -> 0x14566c758 | TyreTexturesData.description  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad80ec -> 0x14566c780 | TyreTexturesData.color_map_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad812c -> 0x14566c7a8 | TyreTexturesData.normal_map_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad816c -> 0x14566c7d0 | TyreTexturesData.ao_map_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad81ac -> 0x14566c7f8 | TyreTexturesData.clear_coat_normal_map_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad81ec -> 0x14566c830 | TyreTexturesData.color_map_blur_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad822c -> 0x14566c860 | TyreTexturesData.normal_map_blur_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad826c -> 0x14566c890 | TyreTexturesData.ao_map_blur_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad82ac -> 0x14566c8b8 | TyreTexturesData.clear_coat_normal_map_blur_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad82ec -> 0x14566c8f8 | TyreTexturesData.brand  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1409f2b20|0x1409f3c64|bytes=4420|distinct_strings=9|refs=12  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f2d72 -> 0x143181c00 | [VehicleSystem] Network is not supported by VehicleSystem's configuration  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f2ead -> 0x143181cc0 | [VehicleSystem][{}] SpawnVehicle({}) requested incompatible Physics/Network spawn  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f30b2 -> 0x143181d50 | [VehicleSystem][{}] SpawnVehicle({})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f347b -> 0x143181dc0 | [VehicleSystem][{}] Replay Start Loading  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f3739 -> 0x143181df8 | [VehicleSystem][{}] Physics Start Loading  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f3832 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f384e -> 0x143181e30 | spawnVehicle  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f38a5 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f38ae -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f391b -> 0x143181e40 | [VehicleSystem][{}] Network Start Loading  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f39d6 -> 0x143181e30 | spawnVehicle  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f3bd0 -> 0x143181c60 | [VehicleSystem] Replay is not supported by VehicleSystem's configuration  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142233443|0x1422343ca|bytes=3975|distinct_strings=9|refs=9  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142233772 -> 0x1455e49e0 | CarSetup::wheel rate: prev: {} app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142233ba9 -> 0x1455e4ab0 | CarSetup: dampers slow bump: app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142233c13 -> 0x1455e4ae0 | CarSetup: dampers slow rebound: app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142233ca4 -> 0x1455e4b18 | CarSetup: dampers fast bump: app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142233d1f -> 0x1455e4b48 | CarSetup: dampers fast rebound: app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142233de1 -> 0x1455e4b80 | CarSetup: dampers slow bump: prev: {}  app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142233e89 -> 0x1455e4bc0 | CarSetup: dampers slow rebound: prev: {} app; {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142233f37 -> 0x1455e4c00 | CarSetup: dampers fast bump: prev: {} app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142233fd5 -> 0x1455e4c38 | CarSetup: dampers fast rebound: prev: {} app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1409f9460|0x1409fad96|bytes=6454|distinct_strings=8|refs=10  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f998b -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f99a8 -> 0x143182138 | updateVehicleLoadingState  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f9a0a -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f9a27 -> 0x143182138 | updateVehicleLoadingState  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f9b28 -> 0x143182158 | [VehicleSystem][{}] Replay Loaded  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f9c1f -> 0x143182180 | [VehicleSystem][{}] Gameplay Loaded  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f9dba -> 0x1431821b0 | [VehicleSystem][{}] Graphics Loaded (already in list)  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fa14d -> 0x1431821f0 | [VehicleSystem][{}] Graphics Loaded  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fa29c -> 0x143182220 | [VehicleSystem][{}] Audio Loaded  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fa7ed -> 0x143182248 | [VehicleSystem][{}] Audio Start Loading  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421ea740|0x1421eab1c|bytes=988|distinct_strings=7|refs=7  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ea85e -> 0x1455e3f30 | TyreAlignmentUnits.pressure  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ea8e8 -> 0x1455e3f58 | TyreAlignmentUnits.camber  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ea942 -> 0x1455e3f78 | TyreAlignmentUnits.toe  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ea99c -> 0x1455e3f98 | TyreAlignmentUnits.caster  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ea9f6 -> 0x1455e3fb8 | TyreAlignmentUnits.static_camber  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421eaa50 -> 0x1455e3fe0 | TyreAlignmentUnits.toe_out_linear  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421eaaa6 -> 0x1455e4008 | TyreAlignmentUnits.compound  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421edcc0|0x1421eded3|bytes=531|distinct_strings=7|refs=7  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421edcef -> 0x1455e3f30 | TyreAlignmentUnits.pressure  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421edd2f -> 0x1455e3f58 | TyreAlignmentUnits.camber  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421edd6f -> 0x1455e3f78 | TyreAlignmentUnits.toe  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421eddaf -> 0x1455e3f98 | TyreAlignmentUnits.caster  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421eddef -> 0x1455e3fb8 | TyreAlignmentUnits.static_camber  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ede2f -> 0x1455e3fe0 | TyreAlignmentUnits.toe_out_linear  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ede6f -> 0x1455e4008 | TyreAlignmentUnits.compound  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ddd81c|0x142ddda12|bytes=502|distinct_strings=6|refs=7  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd820 -> 0x1456b42d8 | FSWinCmdWheelConfig::PrivateRegistryHardwareSettingGet >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd853 -> 0x1456b4320 | FSWinCmdWheelConfig::PrivateRegistryHardwareSettingGet CountRegistryHardwareSettingGetAttempt: %d  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd86e -> 0x1456b4460 | FSWinCmdWheelConfig::PrivateRegistryHardwareKeyNameGet >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd92f -> 0x1456b44e0 | FSWinCmdWheelConfig::PrivateRegistryHardwareKeyNameGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd94a -> 0x1456b43a0 | FSWinCmdWheelConfig::PrivateRegistryHardwareSettingGet PrivateRegistryHardwareKeyNameGet failed!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd98d -> 0x1456b44e0 | FSWinCmdWheelConfig::PrivateRegistryHardwareKeyNameGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd9a0 -> 0x1456b4580 | FSWinCmdWheelConfig::PrivateGetRegistryHardwareKeyName <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421e8200|0x1421e8580|bytes=896|distinct_strings=6|refs=6  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e831e -> 0x1455e3ac0 | DifferentialSettingsUnits.power  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e83a8 -> 0x1455e3ae8 | DifferentialSettingsUnits.coast  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e8402 -> 0x1455e3b10 | DifferentialSettingsUnits.preload  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e845c -> 0x1455e3b38 | DifferentialSettingsUnits.friction_faces  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e84b6 -> 0x1455e3b70 | DifferentialSettingsUnits.power_ramp_deg  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e850c -> 0x1455e3ba8 | DifferentialSettingsUnits.coast_ramp_deg  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421ec290|0x1421ec463|bytes=467|distinct_strings=6|refs=6  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ec2bf -> 0x1455e3ac0 | DifferentialSettingsUnits.power  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ec2ff -> 0x1455e3ae8 | DifferentialSettingsUnits.coast  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ec33f -> 0x1455e3b10 | DifferentialSettingsUnits.preload  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ec37f -> 0x1455e3b38 | DifferentialSettingsUnits.friction_faces  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ec3bf -> 0x1455e3b70 | DifferentialSettingsUnits.power_ramp_deg  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ec3ff -> 0x1455e3ba8 | DifferentialSettingsUnits.coast_ramp_deg  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1414c80f0|0x1414c976b|bytes=5755|distinct_strings=6|refs=6  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414c81ce -> 0x1432323c8 | Can't create Physics Car: {} already exists  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414c85f3 -> 0x1432322f0 | Car {} physics  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414c95da -> 0x143232400 | CreatePhysicsCarCommand without CarSpawnData (car {})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414c963a -> 0x143232440 | CreatePhysicsCarCommand without DriverInfo (car {})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414c969a -> 0x143232480 | CreatePhysicsCarCommand without SpawnTransform (car {})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414c9730 -> 0x143232578 | CreatePhysicsCarCommand with empty driver_info().ai_data()  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1417e92d0|0x1417e97dc|bytes=1292|distinct_strings=6|refs=6  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417e93ee -> 0x143261e08 | VehicleAnalysis.CarContentEntry.car_data_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417e9458 -> 0x143261e40 | VehicleAnalysis.CarContentEntry.ai_car_data_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417e94af -> 0x143261e80 | VehicleAnalysis.CarContentEntry.car_model  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417e9509 -> 0x143261eb8 | VehicleAnalysis.CarContentEntry.car_screen_name  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417e9648 -> 0x143261ef8 | VehicleAnalysis.CarContentEntry.error_msg  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417e96a2 -> 0x143261f30 | VehicleAnalysis.CarContentEntry.file_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x140d794f0|0x140d7b51a|bytes=8234|distinct_strings=6|refs=6  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d79596 -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d795ab -> 0x1431a8128 | BindlessUberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d795d5 -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d795ed -> 0x1431a8150 | BindlessUberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d79649 -> 0x1431a8180 | BindlessVehicleTyre  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d79672 -> 0x1431a8198 | BindlessVehicleRim  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ddcef0|0x142ddd294|bytes=932|distinct_strings=6|refs=6  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddcf7a -> 0x1456b5130 | FSWinCmdWheelConfig::SettingEnable IsSettingEnabled failed! FS_WHEEL_SETTING_COMBINED_PEDALS  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd06b -> 0x1456b51a0 | FSWinCmdWheelConfig::SettingEnable IsSettingEnabled failed! FS_WHEEL_SETTING_SHIFTER_PADDLES_TO_SHIFTER_SQ  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd15c -> 0x1456b5220 | FSWinCmdWheelConfig::SettingEnable IsSettingEnabled failed! FS_WHEEL_SETTING_LED_STRIPE_STEERING_WHEEL  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd1dc -> 0x1456b52a0 | FSWinCmdWheelConfig::SettingEnable IsSettingEnabled failed! FS_WHEEL_SETTING_PS_TO_PC_MODE_AUTO_SWITCH  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd22f -> 0x1456b5320 | FSWinCmdWheelConfig::SettingEnable IsSettingEnabled failed! FS_WHEEL_SETTING_CSWV2_COMPATIBILITY  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd245 -> 0x1456b5398 | FSWinCmdWheelConfig::IsSettingEnabled default  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1423d36f0|0x1423d50ea|bytes=6650|distinct_strings=6|refs=6  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d3b46 -> 0x1455f78f8 | physicsTimeMs  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d3ba4 -> 0x1455f78c8 | lateralOffset  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d3bfe -> 0x1455e7540 | brake  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d3cd0 -> 0x1455f7840 | vBrakeAhead  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d40ea -> 0x1455f7600 | focLateral  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423d4144 -> 0x1455f75b0 | focBrakeDemand(999=skipped)  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dddf20|0x142dde25c|bytes=828|distinct_strings=6|refs=6  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dddfb2 -> 0x1456b4e40 | FSWinCmdWheelConfig::SettingEnable RegistrySettingSet failed! FS_WHEEL_SETTING_COMBINED_PEDALS  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dde07f -> 0x1456b4ec0 | FSWinCmdWheelConfig::SettingEnable RegistrySettingSet failed! FS_WHEEL_SETTING_SHIFTER_PADDLES_TO_SHIFTER_SQ  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dde12c -> 0x1456b4f50 | FSWinCmdWheelConfig::SettingEnable RegistrySettingSet failed! FS_WHEEL_SETTING_LED_STRIPE_STEERING_WHEEL  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dde195 -> 0x1456b5000 | FSWinCmdWheelConfig::SettingEnable RegistrySettingSet failed! FS_WHEEL_SETTING_PS_TO_PC_MODE_AUTO_SWITCH  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dde1f3 -> 0x1456b5080 | FSWinCmdWheelConfig::SettingEnable RegistrySettingSet failed! FS_WHEEL_SETTING_CSWV2_COMPATIBILITY  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dde209 -> 0x1456b50f8 | FSWinCmdWheelConfig::SettingEnable default  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1417ea7a0|0x1417eab03|bytes=867|distinct_strings=6|refs=6  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417ea7cf -> 0x143261e08 | VehicleAnalysis.CarContentEntry.car_data_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417ea80f -> 0x143261e40 | VehicleAnalysis.CarContentEntry.ai_car_data_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417ea84f -> 0x143261e80 | VehicleAnalysis.CarContentEntry.car_model  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417ea88f -> 0x143261eb8 | VehicleAnalysis.CarContentEntry.car_screen_name  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417ea9b0 -> 0x143261ef8 | VehicleAnalysis.CarContentEntry.error_msg  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1417ea9f0 -> 0x143261f30 | VehicleAnalysis.CarContentEntry.file_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1419651b0|0x14196595b|bytes=1963|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14196536e -> 0x143270eb0 | PitEngineer: Car {} {} decides to pit due to low energy source {} (less that {})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14196559e -> 0x143270f20 | PitEngineer: Car {} {} decides to pit due Light ({}) tyre wear   
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1419656a4 -> 0x143270f70 | PitEngineer: Car {} {} decides to pit due Moderate ({}) tyre wear   
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1419657aa -> 0x143270fc0 | PitEngineer: Car {} {} decides to pit due Significant ({}) tyre wear   
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1419658b0 -> 0x143271020 | PitEngineer: Car {} {} decides to pit due Severe ({}) tyre wear   
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142b5eac0|0x142b5ef14|bytes=1108|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b5ebde -> 0x14567cad0 | VehicleAnalysisPacejkaData.car_model_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b5ec68 -> 0x14567cb08 | VehicleAnalysisPacejkaData.date  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b5ecc2 -> 0x14567cb30 | VehicleAnalysisPacejkaData.tyre_compound_front  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b5ed1c -> 0x14567cb68 | VehicleAnalysisPacejkaData.tyre_compound_rear  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b5ee44 -> 0x14567cba0 | VehicleAnalysisPacejkaData.curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421e62c0|0x1421e6620|bytes=864|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e63ec -> 0x1455e3eb0 | AeroSettingsUnits.rear_wing_angle  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e6470 -> 0x1455e3e80 | AeroSettingsUnits.front_wing_angle  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e64cd -> 0x1455e3e50 | AeroSettingsUnits.rear_target_height  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e652d -> 0x1455e3e20 | AeroSettingsUnits.front_target_height  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e6593 -> 0x1455e3df0 | AeroSettingsUnits.collar_positions  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421b8af0|0x1421b9260|bytes=1904|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b8b65 -> 0x1455e0100 | EngineData.powerCurve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b8bab -> 0x1455e0120 | EngineData.coastCurve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b8dd7 -> 0x1455e0140 | EngineData.throttleResponseCurve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b8f9e -> 0x1455e0168 | EngineData.gasCoastOffsetCurve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b91bf -> 0x1455e0190 | EngineData.turbos_to_load  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x140d5e980|0x140d5ed6a|bytes=1002|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d5eb65 -> 0x1431a7ec8 | Brakes are missing car renderer cache  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d5ebf2 -> 0x1431a7d48 | Tyre(FL) is missing car renderer cache  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d5ec21 -> 0x1431a7d78 | Tyre(FR) is missing car renderer cache  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d5ec50 -> 0x1431a7da8 | Tyre(RL) is missing car renderer cache  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x140d5ec7f -> 0x1431a7dd8 | Tyre(RR) is missing car renderer cache  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x141e72000|0x141e7296a|bytes=2410|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7212c -> 0x1431a7b10 | VehicleWindshieldNoRain  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e72191 -> 0x1431a8150 | BindlessUberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e721bd -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7236b -> 0x1431a8128 | BindlessUberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e723cd -> 0x1431a8180 | BindlessVehicleTyre  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1422343ca|0x142234965|bytes=1435|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1422344f0 -> 0x1455e4d70 | CarSetup: brake torque mult: prev: {}  app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1422345bb -> 0x1455e4db0 | CarSetup: brake bial perc : prev: {}  app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142234678 -> 0x1455e4de8 | CarSetup: diff preload: prev: {}  app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14223473e -> 0x1455e4e20 | CarSetup: diff power: prev: {}  app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1422347ec -> 0x1455e4e58 | CarSetup: diff coast: prev: {}  app: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x141ccb3c0|0x141ccb70e|bytes=846|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141ccb642 -> 0x1431a8128 | BindlessUberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141ccb652 -> 0x1431a8150 | BindlessUberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141ccb662 -> 0x1431a8180 | BindlessVehicleTyre  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141ccb672 -> 0x1431a8198 | BindlessVehicleRim  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141ccb692 -> 0x1431a7b10 | VehicleWindshieldNoRain  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x141467360|0x141467a21|bytes=1729|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141467688 -> 0x143231288 | Car physics already exist {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414677e2 -> 0x1432312b0 | ACEVO-2629 onCreatePhysicsCarCommand {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14146788e -> 0x143231230 | C:\AC-EVO_DailyBuild\ksPlatformCore\StaticPhysicsEngineController.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414678aa -> 0x143168568 | onCreatePhysicsCarCommand  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14146793d -> 0x1432312e0 | ACEVO-2629 onCreatePhysicsCarCommand not found car  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ddb070|0x142ddb1a8|bytes=312|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddb082 -> 0x1456b2b80 | FSWinCmdWheelPeripheral::PrivateControlDeviceRegistryReload >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddb0d5 -> 0x1456b2c00 | FSWinCmdWheelPeripheral::PrivateControlDeviceRegistryReload ERROR: Can't open \\.\FWFilterUsb (%d)  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddb15a -> 0x1456b2c80 | FSWinCmdWheelPeripheral::PrivateControlDeviceRegistryReload DeviceIoControl(..,IOCTL_FW_FILTER_USB_REGISTRY_SETTINGS_RELOAD,...) failed! %d  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddb16b -> 0x1456b2d30 | FSWinCmdWheelPeripheral::PrivateControlDeviceRegistryReload - Filter USB driver may not be installed yet.  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddb180 -> 0x1456b2db0 | FSWinCmdWheelPeripheral::PrivateControlDeviceRegistryReload <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142b60e80|0x142b611b5|bytes=821|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b60eb4 -> 0x14567cad0 | VehicleAnalysisPacejkaData.car_model_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b60ef4 -> 0x14567cb08 | VehicleAnalysisPacejkaData.date  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b60f34 -> 0x14567cb30 | VehicleAnalysisPacejkaData.tyre_compound_front  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b60f74 -> 0x14567cb68 | VehicleAnalysisPacejkaData.tyre_compound_rear  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b610eb -> 0x14567cba0 | VehicleAnalysisPacejkaData.curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1409ed4f0|0x1409ee377|bytes=3719|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409ed5b1 -> 0x143182530 | [VehicleSystem][{}] TeleportCarCommand: Failed to teleport car because it's not being spawned yet.  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409ed6d6 -> 0x1431825b0 | [VehicleSystem][{}] TeleportCarCommand: Ignoring because same teleport is already pending  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409ed827 -> 0x143182620 | [VehicleSystem][{}] TeleportCarCommand: Slot: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409edd3d -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409ee140 -> 0x1431826d0 | [VehicleSystem][{}] TeleportCarCommand: Failed to teleport car because the game car is not loaded yet.  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ddc620|0x142ddc758|bytes=312|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddc632 -> 0x1456b45c8 | FSWinCmdWheelConfig::ControlDeviceRegistryReload >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddc685 -> 0x1456b4610 | FSWinCmdWheelConfig::ControlDeviceRegistryReload ERROR: Can't open \\.\FWFilterUsb (%d)  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddc70a -> 0x1456b4680 | FSWinCmdWheelConfig::ControlDeviceRegistryReload DeviceIoControl(..,IOCTL_FW_FILTER_USB_REGISTRY_SETTINGS_RELOAD,...) failed! %d  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddc71b -> 0x1456b4720 | FSWinCmdWheelConfig::ControlDeviceRegistryReload - Filter USB driver may not be installed yet.  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddc730 -> 0x1456b4798 | FSWinCmdWheelConfig::ControlDeviceRegistryReload <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dcbf50|0x142dcc102|bytes=434|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcbfb1 -> 0x1456ac9b8 | FSDeviceWheel::FSDeviceWheel ProductId: 0x%04x Constructor >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcbfe8 -> 0x1456acdb0 | FSDeviceWheel::InternalInterfaceQuery QueryInterface FS_INTERFACETYPE_USB_HID failed!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcc011 -> 0x1456ace20 | FSDeviceWheel::InternalInterfaceQuery QueryInterface FS_INTERFACETYPE_WHEEL_CONFIG failed!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcc05d -> 0x1456aca08 | FSDeviceWheel::FSDeviceWheel  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcc0d3 -> 0x1456aca50 | FSDeviceWheel::FSDeviceWheel Constructor <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421aa570|0x1421aaff0|bytes=2688|distinct_strings=5|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421aa6b8 -> 0x1455e0100 | EngineData.powerCurve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421aa72b -> 0x1455e0120 | EngineData.coastCurve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421aa8f2 -> 0x1455e0140 | EngineData.throttleResponseCurve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421aaa64 -> 0x1455e0168 | EngineData.gasCoastOffsetCurve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421aac6f -> 0x1455e0190 | EngineData.turbos_to_load  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ac7520|0x142ac9c83|bytes=10083|distinct_strings=4|refs=6  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac79de -> 0x14566d830 | CarCustomizationData.override_tyre_compound_paths  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac7a2a -> 0x14566d870 | CarCustomizationData.selected_override_tyre_compound_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac903e -> 0x145666d40 | CarCustomizationData.CompatibleTyresEntry.key  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac9238 -> 0x145666d40 | CarCustomizationData.CompatibleTyresEntry.key  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac9488 -> 0x145667030 | CarCustomizationData.TyresEntry.key  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac96a3 -> 0x145667030 | CarCustomizationData.TyresEntry.key  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dda460|0x142dda5c1|bytes=353|distinct_strings=4|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda46d -> 0x1456b28c0 | FSWinCmdWheelPeripheral::BrakeGainGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda48c -> 0x1456b28f0 | FSWinCmdWheelPeripheral::BrakeGainGet Failed! NULL == m_pICmdUsbHid  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda4fd -> 0x1456b29a0 | >> [%s] m_CurrentBrakeGain:%d  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda50e -> 0x1456b28c0 | FSWinCmdWheelPeripheral::BrakeGainGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dda585 -> 0x1456b2950 | FSWinCmdWheelPeripheral::BrakeGainGet RegistrySettingGet Failed!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1424b5c90|0x1424b725c|bytes=5580|distinct_strings=4|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424b6ffd -> 0x145600028 | invalid physics_state.worldMatrix before returning  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424b706b -> 0x145600070 | tyre:   
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424b716a -> 0x1455fff60 | physics_state.worldMatrix after interpolation. interpolationLerpValue={}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424b7186 -> 0x1455fffb8 | Invalid CarPhysicsState::worldMatrix  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424b71ac -> 0x1455fffb8 | Invalid CarPhysicsState::worldMatrix  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x141683910|0x141683ddc|bytes=1228|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141683a2e -> 0x14325a908 | TrafficVehicle.mesh_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141683a98 -> 0x14325a928 | TrafficVehicle.collider_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141683cb0 -> 0x14325a950 | TrafficVehicle.daytime_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141683d0a -> 0x14325a978 | TrafficVehicle.weekday_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421e7bd0|0x1421e7e99|bytes=713|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e7cf4 -> 0x1455e3948 | DamperSettingsUnits.fast_rebound  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e7d7e -> 0x1455e3920 | DamperSettingsUnits.slow_rebound  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e7ddb -> 0x1455e38f8 | DamperSettingsUnits.fast_bump  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e7e37 -> 0x1455e38d0 | DamperSettingsUnits.slow_bump  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421bcbcf|0x1421bcf5a|bytes=907|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421bcc5d -> 0x1455e0010 | SuspensionsData.coilover_front_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421bcc9d -> 0x1455e0040 | SuspensionsData.coilover_rear_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421bccdd -> 0x1455e0070 | SuspensionsData.front_suspension_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421bcd1d -> 0x1455e00a0 | SuspensionsData.rear_suspension_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421b3890|0x1421b428e|bytes=2558|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b3b8e -> 0x1455e04a8 | CarData.frontTyreCompounds  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b3c3e -> 0x1455e04c8 | CarData.rearTyreCompounds  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b3e61 -> 0x1455e0518 | CarData.engine_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b403f -> 0x1455e05a8 | CarData.brakes_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421af0d0|0x1421af764|bytes=1684|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421af391 -> 0x1455e0010 | SuspensionsData.coilover_front_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421af3fe -> 0x1455e0040 | SuspensionsData.coilover_rear_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421af458 -> 0x1455e0070 | SuspensionsData.front_suspension_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421af4b8 -> 0x1455e00a0 | SuspensionsData.rear_suspension_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421b18e0|0x1421b1c28|bytes=840|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b1a82 -> 0x1455e0418 | AeroData.front_lift  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b1ac2 -> 0x1455e0430 | AeroData.rear_lift  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b1b05 -> 0x1455e0448 | AeroData.drag  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421b1b6f -> 0x1455e0458 | AeroData.wings_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142372970|0x142373c15|bytes=4773|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142373375 -> 0x1455f4968 | NaN feedbackTorque  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14237359f -> 0x1455f49c8 | inputs.brakeTorque:{}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423737c7 -> 0x1455f4a30 | inputs.handBrakeTorque:{}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14237384c -> 0x1455f4a50 | inputs.electricTorque{}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421a19f0|0x1421a1e40|bytes=1104|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421a1c43 -> 0x1455e0418 | AeroData.front_lift  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421a1cc9 -> 0x1455e0430 | AeroData.rear_lift  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421a1d2f -> 0x1455e0448 | AeroData.drag  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421a1d8a -> 0x1455e0458 | AeroData.wings_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1409e6c90|0x1409e7308|bytes=1656|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e6ddd -> 0x143181ea0 | [VehicleSystem][{}] DespawnVehicles({})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e6f1e -> 0x143181ed0 | [VehicleSystem][{}] Despawn()  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e71d7 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e71f2 -> 0x143181f28 | despawnVehicles  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dd9ee0|0x142dda009|bytes=297|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dd9f11 -> 0x1456b20b8 | FSCmnCmdWheel::UsbReportTrigger NULL == m_pICmdWheelConfig!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dd9f1d -> 0x1456b2108 | FSCmnCmdWheel::UsbReportTrigger >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dd9fc6 -> 0x1456b2138 | FSWinCmdWheelConfig::UsbReportTrigger HidSendCommand failed!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dd9fdc -> 0x1456b2188 | FSCmnCmdWheel::UsbReportTrigger <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421ebe90|0x1421ebfe3|bytes=339|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ebebf -> 0x1455e38d0 | DamperSettingsUnits.slow_bump  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ebeff -> 0x1455e38f8 | DamperSettingsUnits.fast_bump  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ebf3f -> 0x1455e3920 | DamperSettingsUnits.slow_rebound  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ebf7f -> 0x1455e3948 | DamperSettingsUnits.fast_rebound  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142b1de20|0x142b1e128|bytes=776|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b1df67 -> 0x145672e40 | SpringModeSettings.damping_ratio_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b1dfa7 -> 0x145672e70 | SpringModeSettings.spline_ahead_mult_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b1dfe7 -> 0x145672ea8 | SpringModeSettings.half_life_center_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b1e027 -> 0x145672ee0 | SpringModeSettings.half_life_border_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421a3f00|0x1421a4ba6|bytes=3238|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421a4250 -> 0x1455e04a8 | CarData.frontTyreCompounds  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421a42d3 -> 0x1455e04c8 | CarData.rearTyreCompounds  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421a4506 -> 0x1455e0518 | CarData.engine_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421a4763 -> 0x1455e05a8 | CarData.brakes_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421eaf3d|0x1421eb060|bytes=291|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421eaf47 -> 0x1455e3e20 | AeroSettingsUnits.front_target_height  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421eaf87 -> 0x1455e3e50 | AeroSettingsUnits.rear_target_height  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421eafc7 -> 0x1455e3e80 | AeroSettingsUnits.front_wing_angle  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421eb007 -> 0x1455e3eb0 | AeroSettingsUnits.rear_wing_angle  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142b1a710|0x142b1ab2c|bytes=1052|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b1a8cf -> 0x145672e40 | SpringModeSettings.damping_ratio_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b1a95a -> 0x145672e70 | SpringModeSettings.spline_ahead_mult_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b1a9b7 -> 0x145672ea8 | SpringModeSettings.half_life_center_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142b1aa17 -> 0x145672ee0 | SpringModeSettings.half_life_border_curve  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dee590|0x142deea0b|bytes=1147|distinct_strings=4|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dee5c5 -> 0x1456b95c0 | FSThreadFFBFullForceSample::Resample() >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dee64f -> 0x1456b9690 | FSThreadFFBFullForceSample::Resample(): failed to allocate resampler!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dee9d1 -> 0x1456b9640 | FSThreadFFBFullForceSample::Resample(): no memory for new buffer!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dee9e2 -> 0x1456b96e8 | FSThreadFFBFullForceSample::Resample() <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142de5300|0x142de59ab|bytes=1707|distinct_strings=3|refs=5  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142de55e5 -> 0x1456b6e20 | FSThreadFFBCommand::PrivateCalculateAndSend on FS_ES_PLAYING failed! CurrentForceValuesGet returns false!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142de56aa -> 0x1456b6ee0 | FSThreadFFBCommand::PrivateCalculateAndSend on FS_ES_PLAYING failed! GetFFBHidReportSpring returns false!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142de56f2 -> 0x1456b6f60 | FSThreadFFBCommand::PrivateCalculateAndSend on FS_ES_PLAYING failed! GetFFBHidReportDamper returns false!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142de577f -> 0x1456b6ee0 | FSThreadFFBCommand::PrivateCalculateAndSend on FS_ES_PLAYING failed! GetFFBHidReportSpring returns false!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142de57b4 -> 0x1456b6f60 | FSThreadFFBCommand::PrivateCalculateAndSend on FS_ES_PLAYING failed! GetFFBHidReportDamper returns false!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142df9370|0x142df949a|bytes=298|distinct_strings=3|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142df9389 -> 0x1456ba088 | -------> FSThreadFFBFullForceCommand::Run started....  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142df93b7 -> 0x1456ba0d0 | FSThreadFFBFullForceCommand::Run WaitForMultipleObjects...  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142df942d -> 0x1456ba0d0 | FSThreadFFBFullForceCommand::Run WaitForMultipleObjects...  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142df9476 -> 0x1456ba180 | <------- FSThreadFFBFullForceCommand::Run exited...  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ddd620|0x142ddd796|bytes=374|distinct_strings=3|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd647 -> 0x1456b4460 | FSWinCmdWheelConfig::PrivateRegistryHardwareKeyNameGet >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd70f -> 0x1456b44e0 | FSWinCmdWheelConfig::PrivateRegistryHardwareKeyNameGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd74b -> 0x1456b44e0 | FSWinCmdWheelConfig::PrivateRegistryHardwareKeyNameGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddd75e -> 0x1456b4580 | FSWinCmdWheelConfig::PrivateGetRegistryHardwareKeyName <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142835740|0x1428364f5|bytes=3509|distinct_strings=3|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142835e43 -> 0x14561af70 | ksPhysicsAC  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142835e75 -> 0x145617188 | physics  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142835ea7 -> 0x14561af80 | ksPhysicsCoreODE  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142835ed9 -> 0x145617188 | physics  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x14144c120|0x14144c7e8|bytes=1736|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14144c2b5 -> 0x143230560 | C:\AC-EVO_DailyBuild\ksPlatformCore\gamemodes\VehicleAnalysisModeClient.h  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14144c46e -> 0x1432300b0 | C:\AC-EVO_DailyBuild\ksPlatformCore\gamemodes\VehicleAnalysisModeClient.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14144c486 -> 0x143230420 | VehicleAnalysisModeClient  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x14240aa90|0x14240afa2|bytes=1298|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14240ac07 -> 0x1455fa9c0 | {} limits: {} tyres out, {:.2f}m remaining_gap  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14240ad4c -> 0x1455faa00 | Whiteline limits: {} tyres out, {:.2f}m inside_tyres_out_meters  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14240ae94 -> 0x1455faa50 | Outside limits: {} tyres out, {:.2f}m gap  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dcc220|0x142dcc336|bytes=278|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcc254 -> 0x1456acc08 | FSDeviceWheel::EnableButtonIllumination >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcc2f3 -> 0x1456acc80 | FSDeviceWheel::EnableButtonIllumination SetAutocenter failed!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcc304 -> 0x1456accd0 | FSDeviceWheel::EnableButtonIllumination <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1424e1329|0x1424e16ca|bytes=929|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424e1502 -> 0x145600950 | imperfections: forced {} scheduled {:.0f}m ahead (splinePos {:.4f}-{:.4f}, severity {:.2f})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424e15c9 -> 0x145600918 | imperfections: forced type {} has no executor  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424e1659 -> 0x1456008c0 | imperfections: no section matches forced error type {} on this track  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142032bd0|0x1420333d9|bytes=2057|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142032f14 -> 0x1447d6b70 | engine name missing NULL terminator.  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142032fa8 -> 0x1447d6ba0 | VUID-XrApplicationInfo-engineName-parameter  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1420331e1 -> 0x1447d6be0 | VUID-XrApplicationInfo-engineName-parameter: application name can not be empty.  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421ed810|0x1421ed9a6|bytes=406|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ed83f -> 0x1455e39b8 | SuspensionSettingUnits.wheel_rate  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ed902 -> 0x1455e39e0 | SuspensionSettingUnits.helper_rate  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ed942 -> 0x1455e3a10 | SuspensionSettingUnits.helper_range  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dcc860|0x142dcc963|bytes=259|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcc885 -> 0x1456acd08 | FSDeviceWheel::HostHelloMessageSend >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcc920 -> 0x1456acd38 | FSDeviceWheel::HostHelloMessageSend HidSendCommand failed!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dcc931 -> 0x1456acd80 | FSDeviceWheel::HostHelloMessageSend <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421ea0f0|0x1421ea3a6|bytes=694|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ea219 -> 0x1455e3a10 | SuspensionSettingUnits.helper_range  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ea286 -> 0x1455e39e0 | SuspensionSettingUnits.helper_rate  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421ea350 -> 0x1455e39b8 | SuspensionSettingUnits.wheel_rate  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142394130|0x14239517f|bytes=4175|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142394455 -> 0x1455f61a0 | TYRE COMPRESSIONS. Car mass: {} kg tyre mass: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423944be -> 0x1455f61e0 | Tyre {}: compression: {} m Radius: {} ({})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142395144 -> 0x1455e4710 | Meshes with more than 64k vertices are not currently supported by the physics engine  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1414d8260|0x1414d8757|bytes=1271|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414d82c2 -> 0x143231d60 | Shutting down physics by request  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414d86a4 -> 0x143231dd0 | Physics: clean shutdown  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414d871d -> 0x143231d88 | Physics thread isn't joinable, I have no idea what to do  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1421e6930|0x1421e6ba9|bytes=633|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e6a45 -> 0x1455e3a98 | BrakeSettingUnits.brake_ducts  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e6acd -> 0x1455e3a68 | BrakeSettingUnits.torque_multiplier  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421e6b4d -> 0x1455e3a40 | BrakeSettingUnits.front_bias  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x14212d940|0x14212e20d|bytes=2253|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14212dc19 -> 0x1455cdfb0 | ERROR: InputDevice::initFF(), lpDirectInputDevice->CreateEffect failed GUID_ConstantForce ({:#010x}): {} ({})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14212dd76 -> 0x1455ce040 | lpDirectInputDevice->CreateEffect successful GUID_ConstantForce: {} ({})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14212e0e4 -> 0x1455ce0d0 | lpDirectInputDevice->CreateEffect successful GUID_Damper: {} ({})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142abb1f0|0x142abb600|bytes=1040|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142abb3a0 -> 0x14566cf70 | CompatibleRimData.front_tyre_mesh_paths  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142abb4a4 -> 0x14566cfd0 | CompatibleRimData.rear_tyre_mesh_paths  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142abb535 -> 0x14566d000 | CompatibleRimData.compatible_tyre_compounds  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142df8980|0x142df8a2b|bytes=171|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142df8992 -> 0x1456ba2d8 | FSThreadFFBFullForceCommand::CountFullForceCmds >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142df89ad -> 0x1456ba318 |     Count FullForce:  %d  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142df8a08 -> 0x1456ba378 | FSThreadFFBFullForceCommand::CountFullForceCmds <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142df9950|0x142df99a4|bytes=84|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142df9959 -> 0x1456ba1c0 | FSThreadFFBFullForceCommand::Start >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142df9979 -> 0x1456ba1f0 | FSThreadFFBFullForceCommand::Start failed! FSThreadBase::Start() returns false.  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142df998a -> 0x1456ba258 | FSThreadFFBFullForceCommand::Start <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x14229e9c0|0x14229ec0c|bytes=588|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14229ea2c -> 0x1455ea340 | Initializing main physics thread for fibers  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14229eaa7 -> 0x1455ea378 | Initializing physicsJobQueue  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14229eb10 -> 0x143181b50 | Physics  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1424a61a0|0x1424a64e1|bytes=833|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424a62da -> 0x1455ff1b8 |   - Total abs_lateral_error: {} m  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424a63fb -> 0x1455ff200 |   - Average abs_lateral_error: {} m  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424a64da -> 0x1455ff250 |     - Sequence from {} to {}, {} abs_lateral_error type with peak {}m abs_lateral_error  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1414ad2a0|0x1414ad690|bytes=1008|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414ad3c0 -> 0x1432327d8 | Can't find carId {} for tyre compou change  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414ad4ee -> 0x1432327b0 | CarId: {} Tyre: {} compound: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1414ad603 -> 0x143231ba0 | C:\AC-EVO_DailyBuild\ksPlatformCore\RealtimePhysicsEngineController.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dd8930|0x142dd89b5|bytes=133|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dd8940 -> 0x1456b1c28 | FSCmnCmdWheel::GetClutchBitePoint NULL == m_pICmdWheelConfig!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dd895f -> 0x1456b2028 | FSCmnCmdWheel::PrivateReport0SubIdReportTrigger >> SubId: %d  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dd898a -> 0x1456b2078 | FSCmnCmdWheel::PrivateReport0SubIdReportTrigger <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1424a1660|0x1424a1f09|bytes=2217|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424a18d6 -> 0x1455f86a8 | grip  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424a194e -> 0x1455fedb0 | v_brake_kmh  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1424a1a5c -> 0x1455fed20 | aero_load_factor  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1426e9ee0|0x1426ead67|bytes=3719|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1426ea325 -> 0x1456122c8 | SuspensionGeometryData  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1426ea51b -> 0x1456122f8 | .tyre  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1426ea733 -> 0x145612300 | .brakes  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x14226f6b0|0x14226fb40|bytes=1168|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14226f956 -> 0x1455e7688 | tyresHint: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14226f9df -> 0x1455e7698 | brakeHint: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14226fa5d -> 0x1455e76a8 | aeroHint: {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1409f4c30|0x1409f50a3|bytes=1139|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f4ced -> 0x1431823a0 | [VehicleSystem][{}][{}] Load Completed  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f500d -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409f5027 -> 0x1431823d0 | tryCompleteVehicleCreation  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1423b06e0|0x1423b0c71|bytes=1425|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423b0af7 -> 0x1455f6718 | can't create AICarDataCapabilities, implausible aero latG {}G  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423b0bba -> 0x1455f6620 | can't create AICarDataCapabilities, no complete lateral_g hints  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1423b0bf3 -> 0x1455f65d0 | can't create AICarDataCapabilities, no physics_hints in .aicardata  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1409ebd90|0x1409ec4b0|bytes=1824|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409ebf23 -> 0x143182428 | [VehicleSystem][{}] Network Loaded  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409ec025 -> 0x143182458 | [VehicleSystem][{}] Physics Loaded  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409ec3b4 -> 0x143182488 | tyre settings invalid on car creation for car {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x14144fc10|0x14144fec7|bytes=695|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14144fc72 -> 0x1432304d0 | VehicleAnalysisModeClient::onAiCarDataFinished: car not found {} vs {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14144fd3b -> 0x143230488 | VehicleAnalysisModeClient::onEvalDriverStateUpdate {} {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x14144fdb6 -> 0x1432300b0 | C:\AC-EVO_DailyBuild\ksPlatformCore\gamemodes\VehicleAnalysisModeClient.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142dd1f80|0x142dd2087|bytes=263|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dd1f8f -> 0x1456af710 | FSFFB::SendForceFeedbackCommand >>  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dd2058 -> 0x1456af740 | FSFFB::SendForceFeedbackCommand dwCommand:%d  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142dd2069 -> 0x1456af778 | FSFFB::SendForceFeedbackCommand <<  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x141a0d410|0x141a0e39c|bytes=3980|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141a0d8c9 -> 0x143278048 | ref_realtime_diff_ms:   
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141a0d8f5 -> 0x143278068 | actual_diff_ms:   
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141a0de3f -> 0x143278124 | diff:   
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142133400|0x142133ccd|bytes=2253|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1421336d9 -> 0x1455cdfb0 | ERROR: InputDevice::initFF(), lpDirectInputDevice->CreateEffect failed GUID_ConstantForce ({:#010x}): {} ({})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142133836 -> 0x1455ce040 | lpDirectInputDevice->CreateEffect successful GUID_ConstantForce: {} ({})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142133ba4 -> 0x1455ce0d0 | lpDirectInputDevice->CreateEffect successful GUID_Damper: {} ({})  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1418dafe0|0x1418db65e|bytes=1662|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1418db06d -> 0x143230488 | VehicleAnalysisModeClient::onEvalDriverStateUpdate {} {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1418db1cf -> 0x14326abb0 | VehicleAnalysisModeClient::onEvalDriverStateUpdate: car not found {}  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1418db3d5 -> 0x14326a3b0 | C:\AC-EVO_DailyBuild\ksPlatformCore\gamemodes\VehicleAnalysisModeRemote.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ac4460|0x142ac47a4|bytes=836|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4620 -> 0x14566c918 | TyreMeshData.mesh_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac46ab -> 0x14566c938 | TyreMeshData.shadow_decal_texture_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ac4720 -> 0x14566c968 | TyreMeshData.description  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ad7d60|0x142ad7fba|bytes=602|distinct_strings=3|refs=3  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad7ea7 -> 0x14566c918 | TyreMeshData.mesh_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad7ee7 -> 0x14566c938 | TyreMeshData.shadow_decal_texture_path  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ad7f5e -> 0x14566c968 | TyreMeshData.description  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x141e7eaf0|0x141e7fa59|bytes=3945|distinct_strings=2|refs=12  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7ecdb -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7ed09 -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7edf9 -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7ee25 -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7efeb -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7f01a -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7f114 -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7f13f -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7f239 -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7f267 -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7f35b -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e7f387 -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1409e8d30|0x1409e9cec|bytes=4028|distinct_strings=2|refs=11  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e8d6f -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e933e -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e93e5 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e9491 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e9532 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e95e1 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e9672 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e983d -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e9891 -> 0x143181b90 | VehicleSystem initialized with physics flag but invalid physics communication channel.  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e9aa9 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409e9bb5 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x1409fb570|0x1409fc80f|bytes=4767|distinct_strings=2|refs=10  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fb9d6 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fb9f3 -> 0x143182328 | updateVehicles  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fbca0 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fbcbd -> 0x143182328 | updateVehicles  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fbdf8 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fbe15 -> 0x143182328 | updateVehicles  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fc0d8 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fc0df -> 0x143182328 | updateVehicles  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fc581 -> 0x143181ad8 | C:\AC-EVO_DailyBuild\ksPlatformClient\VehicleSystem.cpp  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x1409fc59e -> 0x143182328 | updateVehicles  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x142ddf220|0x142ddf4c5|bytes=677|distinct_strings=2|refs=8  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddf250 -> 0x1456b3a80 | FSWinCmdWheelConfig::SettingsGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddf2ae -> 0x1456b3a80 | FSWinCmdWheelConfig::SettingsGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddf311 -> 0x1456b3a80 | FSWinCmdWheelConfig::SettingsGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddf318 -> 0x1456b3b18 | >> [%s] RegistrySettingGet szWheelTypeW failed!  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddf373 -> 0x1456b3a80 | FSWinCmdWheelConfig::SettingsGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddf3e3 -> 0x1456b3a80 | FSWinCmdWheelConfig::SettingsGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddf448 -> 0x1456b3a80 | FSWinCmdWheelConfig::SettingsGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x142ddf48a -> 0x1456b3a80 | FSWinCmdWheelConfig::SettingsGet  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x141e97180|0x141e9741b|bytes=667|distinct_strings=2|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e971cc -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e97214 -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e9724a -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141e97336 -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> FUNC|0x141ea7380|0x141ea87b1|bytes=5169|distinct_strings=2|refs=4  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141ea78f3 -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141ea7af6 -> 0x1431a7c20 | UberVehicleInteriorMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141ea83f5 -> 0x1431a8110 | UberVehicleMaterial  
+2026-10-13 13:46:01 INFO  FindPhysicsRefs.java> REF|0x141ea8431 -> 0x1431a7c20 | UberVehicleInteriorMaterial  

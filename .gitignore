@@ -1,0 +1,11 @@
+.gradle/
+.gradle-user-home/
+.wrapper-gen/
+build/
+run/
+out/
+*.iml
+.idea/
+*.class
+
+ghidra-analysis/

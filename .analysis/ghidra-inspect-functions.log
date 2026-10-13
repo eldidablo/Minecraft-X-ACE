@@ -1,0 +1,4 @@
+2026-10-13 13:43:11 INFO  InspectFunctionEvidence.java> FUNC|0x1423d88d0|0x1423dad8b|function=FUN_1423d88d0|bodyBytes=1|instructionsInPdataRange=1922  
+2026-10-13 13:43:11 INFO  InspectFunctionEvidence.java> FUNC|0x142372970|0x142373c14|function=FUN_142372970|bodyBytes=1|instructionsInPdataRange=948  
+2026-10-13 13:43:11 INFO  InspectFunctionEvidence.java> FUNC|0x142b60e80|0x142b611b4|function=FUN_142b60e80|bodyBytes=1|instructionsInPdataRange=226  
+2026-10-13 13:43:11 INFO  InspectFunctionEvidence.java> FUNC|0x142b5eac0|0x142b5ef13|function=FUN_142b5eac0|bodyBytes=1|instructionsInPdataRange=92  

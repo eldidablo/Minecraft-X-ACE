@@ -1,0 +1,10 @@
+2026-10-13 13:50:37 INFO  FindPhysicsVtables.java> TYPE|.?AVPhysicsEngine@@|descriptors=1  
+2026-10-13 13:50:37 INFO  FindPhysicsVtables.java> COL|.?AVPhysicsEngine@@|col=0x14575e588|td=0x145d37d88|offset=0|cd=0|hierarchy=0x14575e5b8|vfptr=0x14575e590  
+2026-10-13 13:50:37 INFO  FindPhysicsVtables.java> TYPE|.?AVIPhysicsCore@@|descriptors=1  
+2026-10-13 13:50:37 INFO  FindPhysicsVtables.java> COL|.?AVIPhysicsCore@@|col=0x145763650|td=0x145d39780|offset=0|cd=0|hierarchy=0x145763680|vfptr=0x145763658  
+2026-10-13 13:50:37 INFO  FindPhysicsVtables.java> TYPE|.?AVPhysicsCore@@|descriptors=1  
+2026-10-13 13:50:37 INFO  FindPhysicsVtables.java> COL|.?AVPhysicsCore@@|col=0x145763a30|td=0x145d39870|offset=0|cd=0|hierarchy=0x145763a60|vfptr=0x145763a38  
+2026-10-13 13:50:37 INFO  FindPhysicsVtables.java> TYPE|.?AVPhysicsCoreExperimental@@|descriptors=1  
+2026-10-13 13:50:37 INFO  FindPhysicsVtables.java> COL|.?AVPhysicsCoreExperimental@@|col=0x145763b50|td=0x145d398f8|offset=0|cd=0|hierarchy=0x145763b80|vfptr=0x145763b58  
+2026-10-13 13:50:37 INFO  FindPhysicsVtables.java> TYPE|.?AVITyreModel@@|descriptors=1  
+2026-10-13 13:50:38 INFO  FindPhysicsVtables.java> COL|.?AVITyreModel@@|col=0x1457632f0|td=0x145d396d8|offset=0|cd=0|hierarchy=0x145763320|vfptr=0x1457632f8  

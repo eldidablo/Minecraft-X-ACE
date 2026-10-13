@@ -1,0 +1,13 @@
+{
+  "itemGroup.pitlane": "Pitlane — Cars",
+  "item.pitlane.front_drive_car": "Front wheel drive car spawner",
+  "item.pitlane.rear_drive_car": "Rear wheel drive car spawner",
+  "item.pitlane.all_wheel_drive_car": "All wheel drive car spawner",
+  "entity.pitlane.car": "Pitlane car",
+  "key.category.pitlane.controls": "Pitlane",
+  "key.pitlane.accelerate": "Accelerate",
+  "key.pitlane.brake": "Brake",
+  "key.pitlane.steer_left": "Steer left",
+  "key.pitlane.steer_right": "Steer right",
+  "key.pitlane.handbrake": "Handbrake"
+}

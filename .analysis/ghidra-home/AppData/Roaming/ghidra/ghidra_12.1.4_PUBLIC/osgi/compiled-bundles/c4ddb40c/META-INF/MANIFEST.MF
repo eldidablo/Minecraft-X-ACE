@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 25.0.1 (Oracle Corporation)
+Tool: Bnd-7.0.0.202310060912
+Bnd-LastModified: 1791897040305
+Import-Package: ghidra.app.cmd.disassemble,ghidra.app.decompiler,ghidra.
+ app.plugin.core.osgi,ghidra.app.script,ghidra.program.model.address,ghi
+ dra.program.model.listing,ghidra.program.model.mem,ghidra.program.model
+ .symbol,ghidra.util.task,java.lang,java.lang.invoke,java.nio.charset,ja
+ va.nio.file,java.util,java.util.function,org.osgi.framework
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=21))"
+Bundle-SymbolicName: c4ddb40c
+Bundle-Version: 1.0
+Bundle-Name: c4ddb40c
+Bundle-Activator: GeneratedActivator
+

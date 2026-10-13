@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pitlane",
+  "version": "${version}",
+  "name": "Pitlane",
+  "description": "Carro de condução com física por roda para Minecraft.",
+  "authors": ["Pitlane contributors"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.pitlane.PitlaneMod"],
+    "client": ["dev.pitlane.client.PitlaneClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

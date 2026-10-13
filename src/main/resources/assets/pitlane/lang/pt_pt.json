@@ -1,0 +1,13 @@
+{
+  "itemGroup.pitlane": "Pitlane — Carros",
+  "item.pitlane.front_drive_car": "Criador de carro de tração dianteira",
+  "item.pitlane.rear_drive_car": "Criador de carro de tração traseira",
+  "item.pitlane.all_wheel_drive_car": "Criador de carro de tração integral",
+  "entity.pitlane.car": "Carro Pitlane",
+  "key.category.pitlane.controls": "Pitlane",
+  "key.pitlane.accelerate": "Acelerar",
+  "key.pitlane.brake": "Travar",
+  "key.pitlane.steer_left": "Virar à esquerda",
+  "key.pitlane.steer_right": "Virar à direita",
+  "key.pitlane.handbrake": "Travão de mão"
+}

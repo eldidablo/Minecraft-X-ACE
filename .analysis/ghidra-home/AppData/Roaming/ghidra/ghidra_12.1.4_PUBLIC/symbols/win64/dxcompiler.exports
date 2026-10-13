@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LIBRARY NAME="dxcompiler.dll" PATH="L:\Program Files\Games\steamapps\steamapps\common\Assetto Corsa EVO\dxcompiler.dll" DATE="Sun Aug 23 13:43:09 WEST 2026" VERSION="10.0.19041.685 (WinBuild.160101.0800)">
+    <EXPORT ORDINAL="1" NAME="DxcCreateInstance2" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="2" NAME="DxcCreateInstance" PURGE="0" COMMENT="" />
+</LIBRARY>

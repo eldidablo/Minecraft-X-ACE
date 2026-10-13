@@ -1,0 +1,104 @@
+{
+  "displayName": "Pitlane Sport RWD",
+  "chassis": {
+    "massKg": 1375,
+    "lengthM": 4.38,
+    "widthM": 1.84,
+    "heightM": 1.32,
+    "centerOfMassM": { "x": 0.0, "y": 0.43, "z": -0.06 },
+    "momentOfInertiaKgM2": { "pitch": 2050, "yaw": 2580, "roll": 710 },
+    "dragCoefficient": 0.29,
+    "frontalAreaM2": 2.06
+  },
+  "wheels": {
+    "wheelbaseM": 2.68,
+    "frontTrackM": 1.57,
+    "rearTrackM": 1.58,
+    "suspensionTravelM": 0.20,
+    "bumpStopTravelM": 0.17,
+    "droopStopTravelM": 0.035,
+    "positions": [
+      { "xM": -0.785, "yM": -0.32, "zM": 1.34, "radiusM": 0.34, "steered": true,  "handbrakeAffected": false },
+      { "xM":  0.785, "yM": -0.32, "zM": 1.34, "radiusM": 0.34, "steered": true,  "handbrakeAffected": false },
+      { "xM": -0.79, "yM": -0.32, "zM": -1.34, "radiusM": 0.35, "steered": false, "handbrakeAffected": true },
+      { "xM":  0.79, "yM": -0.32, "zM": -1.34, "radiusM": 0.35, "steered": false, "handbrakeAffected": true }
+    ]
+  },
+  "suspension": {
+    "frontSpringNPerM": 39000,
+    "rearSpringNPerM": 35500,
+    "frontCompressionNsPerM": 4100,
+    "frontReboundNsPerM": 5900,
+    "rearCompressionNsPerM": 3900,
+    "rearReboundNsPerM": 5600,
+    "frontAntiRollNPerM": 9800,
+    "rearAntiRollNPerM": 8700,
+    "bumpStopNPerM": 128000,
+    "droopStopNPerM": 48000
+  },
+  "tire": {
+    "longitudinalStiffness": 105000,
+    "lateralStiffness": 89000,
+    "peakSlipRatio": 0.11,
+    "peakSlipAngleRad": 0.10,
+    "peakFriction": 1.12,
+    "loadSensitivity": 0.13,
+    "referenceLoadN": 3450,
+    "combinedSlipExponent": 1.8,
+    "pressureKpa": 228,
+    "idealPressureKpa": 225,
+    "temperatureC": 83,
+    "idealTemperatureC": 86
+  },
+  "engine": {
+    "torqueCurveNm": [
+      { "rpm": 850, "torqueNm": 145 },
+      { "rpm": 1800, "torqueNm": 250 },
+      { "rpm": 3000, "torqueNm": 328 },
+      { "rpm": 4300, "torqueNm": 365 },
+      { "rpm": 5600, "torqueNm": 354 },
+      { "rpm": 6900, "torqueNm": 296 },
+      { "rpm": 7500, "torqueNm": 220 }
+    ],
+    "idleRpm": 850,
+    "redlineRpm": 7600,
+    "throttleResponsePerSecond": 5.8,
+    "coastTorqueNm": 48,
+    "inertiaKgM2": 0.31
+  },
+  "transmission": {
+    "gearRatios": [3.12, 2.11, 1.55, 1.22, 1.00, 0.84],
+    "reverseRatio": 3.0,
+    "finalDriveRatio": 3.73,
+    "upshiftRpm": 7100,
+    "downshiftRpm": 2700,
+    "shiftDurationSeconds": 0.27
+  },
+  "drivetrain": {
+    "type": "RWD",
+    "frontTorqueShare": 0.0,
+    "frontDifferentialLock": 0.0,
+    "rearDifferentialLock": 0.36,
+    "centerDifferentialLock": 0.0
+  },
+  "brakes": {
+    "frontMaxTorqueNm": 2200,
+    "rearMaxTorqueNm": 1460,
+    "handbrakeMaxTorqueNm": 2600,
+    "frontBias": 0.60
+  },
+  "surfaceGrip": {
+    "default": 1.0,
+    "multipliers": {
+      "asphalt": 1.0,
+      "concrete": 0.97,
+      "stone": 0.92,
+      "dirt": 0.67,
+      "gravel": 0.61,
+      "sand": 0.52,
+      "grass": 0.48,
+      "snow": 0.32,
+      "ice": 0.16
+    }
+  }
+}

@@ -1,0 +1,3270 @@
+
+=== PhysicsEngine vtable slot 0 ===
+entry=140088f37 range=140088f37..140088f3b source=ret-scan name=thunk_FUN_142297970
+
+undefined8 thunk_FUN_142297970(undefined8 param_1,ulonglong param_2)
+
+{
+  func_0x000140194ea3();
+  if ((param_2 & 1) != 0) {
+    func_0x000140140cdb(param_1,0x19e8);
+  }
+  return param_1;
+}
+
+
+
+=== PhysicsEngine vtable slot 1 ===
+entry=140070aa9 range=140070aa9..140070aad source=ret-scan name=thunk_FUN_14229f1f0
+
+void thunk_FUN_14229f1f0(longlong param_1,undefined8 *param_2)
+
+{
+  longlong *plVar1;
+  longlong lVar2;
+  bool bVar3;
+  bool bVar4;
+  longlong lVar5;
+  longlong *plVar6;
+  longlong *plVar7;
+  undefined8 uStack_68;
+  undefined8 uStack_60;
+  undefined8 uStack_58;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  undefined8 uStack_40;
+  undefined8 uStack_38;
+  undefined8 uStack_30;
+  undefined8 uStack_28;
+  longlong lStack_20;
+  longlong lStack_18;
+  undefined8 uStack_10;
+  
+  uStack_68 = *param_2;
+  uStack_60 = param_2[1];
+  uStack_58 = param_2[2];
+  uStack_50 = param_2[3];
+  uStack_48 = param_2[4];
+  uStack_40 = param_2[5];
+  uStack_38 = param_2[6];
+  bVar3 = false;
+  plVar6 = *(longlong **)(param_1 + 0x10);
+  bVar4 = false;
+  plVar1 = *(longlong **)(param_1 + 0x18);
+  uStack_28 = param_2[8];
+  lStack_18 = param_2[10];
+  uStack_10 = param_2[0xb];
+  if (plVar6 == plVar1) {
+code_r0x00014229f2b5:
+    lVar5 = param_2[9];
+    uStack_30 = param_2[7];
+    lStack_20 = lVar5;
+    if (plVar6 == plVar1) goto code_r0x00014229f304;
+  }
+  else {
+    plVar7 = plVar6;
+    do {
+      if (*(longlong *)(*plVar7 + 0x360) == param_2[9]) {
+        bVar3 = true;
+      }
+      if (*(longlong *)(*plVar7 + 0x360) == param_2[10]) {
+        bVar4 = true;
+      }
+      plVar7 = plVar7 + 1;
+    } while (plVar7 != plVar1);
+    if ((bVar3) || (!bVar4)) goto code_r0x00014229f2b5;
+    uStack_30 = param_2[8];
+    lVar5 = param_2[10];
+    uStack_28 = param_2[7];
+    lStack_20 = lVar5;
+    lStack_18 = param_2[9];
+  }
+  do {
+    lVar2 = *(longlong *)(*plVar6 + 0x360);
+    if ((lVar2 == lVar5) || (lVar2 == lStack_18)) {
+      func_0x0001400da391(*plVar6,&uStack_68);
+      lVar5 = lStack_20;
+    }
+    plVar6 = plVar6 + 1;
+  } while (plVar6 != plVar1);
+code_r0x00014229f304:
+  if ((lVar5 != 0) && (lStack_18 != 0)) {
+    *(undefined4 *)(lVar5 + 8) = 0x3f800000;
+    *(undefined4 *)(lStack_18 + 8) = 0x3f800000;
+  }
+  return;
+}
+
+
+
+=== PhysicsEngine vtable slot 2 ===
+entry=1400c7cff range=1400c7cff..1400c7d03 source=ret-scan name=thunk_FUN_14229f3a0
+
+void thunk_FUN_14229f3a0(longlong param_1,undefined8 *param_2)
+
+{
+  longlong *plVar1;
+  longlong lVar2;
+  bool bVar3;
+  bool bVar4;
+  longlong lVar5;
+  longlong *plVar6;
+  longlong *plVar7;
+  undefined8 uStack_28;
+  undefined8 uStack_20;
+  longlong lStack_18;
+  longlong lStack_10;
+  
+  uStack_20 = param_2[1];
+  lStack_10 = param_2[3];
+  plVar6 = *(longlong **)(param_1 + 0x10);
+  plVar1 = *(longlong **)(param_1 + 0x18);
+  bVar3 = false;
+  bVar4 = false;
+  if (plVar6 != plVar1) {
+    plVar7 = plVar6;
+    do {
+      if (*(longlong *)(*plVar7 + 0x360) == param_2[2]) {
+        bVar3 = true;
+      }
+      if (*(longlong *)(*plVar7 + 0x360) == param_2[3]) {
+        bVar4 = true;
+      }
+      plVar7 = plVar7 + 1;
+    } while (plVar7 != plVar1);
+    if ((!bVar3) && (bVar4)) {
+      uStack_28 = param_2[1];
+      lVar5 = param_2[3];
+      uStack_20 = *param_2;
+      lStack_18 = lVar5;
+      lStack_10 = param_2[2];
+      goto code_r0x00014229f460;
+    }
+  }
+  lVar5 = param_2[2];
+  uStack_28 = *param_2;
+  lStack_18 = lVar5;
+  if (plVar6 == plVar1) {
+    return;
+  }
+code_r0x00014229f460:
+  do {
+    lVar2 = *(longlong *)(*plVar6 + 0x360);
+    if ((lVar2 == lVar5) || (lVar2 == lStack_10)) {
+      func_0x000140166d05(*plVar6,&uStack_28);
+      lVar5 = lStack_18;
+    }
+    plVar6 = plVar6 + 1;
+  } while (plVar6 != plVar1);
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 0 ===
+entry=140098379 range=140098379..14009837d source=ret-scan name=thunk_FUN_1425161a0
+
+/* WARNING: Possible PIC construction at 0x0001425161b0: Changing call to branch */
+/* WARNING: Removing unreachable block (ram,0x0001425161b5) */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_1425161a0(longlong param_1)
+
+{
+  longlong lVar1;
+  code *pcVar2;
+  longlong lVar3;
+  undefined1 *puVar4;
+  longlong *plVar5;
+  undefined8 uVar6;
+  ulonglong *puVar7;
+  ulonglong uVar8;
+  undefined8 unaff_RBP;
+  undefined8 unaff_RSI;
+  undefined8 unaff_RDI;
+  undefined8 *puVar9;
+  undefined8 unaff_R12;
+  undefined8 unaff_R14;
+  undefined *puStack_48;
+  undefined1 auStack_20 [24];
+  
+  puVar7 = *(ulonglong **)(param_1 + 0xa8);
+  puStack_48 = &UNK_14252adde;
+  lVar3 = func_0x000140045840();
+  lVar3 = -lVar3;
+  *(ulonglong *)(&stack0x00001fe0 + lVar3) =
+       _DAT_145ca23c0 ^ (ulonglong)(auStack_20 + lVar3 + -0x20);
+  uVar8 = *puVar7;
+  if (uVar8 == 0) goto DAT_14252af80;
+  *(undefined8 *)(&stack0x00002000 + lVar3) = unaff_RDI;
+  *(undefined8 *)(&stack0x00001ff8 + lVar3) = unaff_R12;
+  lVar1 = uVar8 * 8;
+  *(undefined8 *)(&stack0x00002030 + lVar3) = unaff_RSI;
+  if (uVar8 < 0x401) {
+    puVar4 = auStack_20 + lVar3;
+code_r0x00014252ae42:
+    *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252ae4d;
+    func_0x0001401089bc(puVar7,puVar4);
+    do {
+      puVar9 = *(undefined8 **)(puVar4 + uVar8 * 8 + -8);
+      uVar8 = uVar8 - 1;
+      if (puVar9[1] != 0) {
+        *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252ae66;
+        func_0x0001425276d0(puVar9);
+        if (puVar9[2] != 0) {
+          *(undefined8 *)(puVar9[2] + 0x18) = puVar9[3];
+        }
+        *(undefined8 *)puVar9[3] = puVar9[2];
+        puVar9[2] = 0;
+        puVar9[3] = 0;
+        *(int *)(puVar9[1] + 0x3c) = *(int *)(puVar9[1] + 0x3c) + -1;
+      }
+      pcVar2 = *(code **)*puVar9;
+      *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252ae9b;
+      (*pcVar2)(puVar9,0);
+    } while (uVar8 != 0);
+  }
+  else {
+    *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252ae3a;
+    puVar4 = (undefined1 *)func_0x000140192b99(lVar1);
+    if (puVar4 != (undefined1 *)0x0) goto code_r0x00014252ae42;
+    *(undefined8 *)(&stack0x00001ff0 + lVar3) = unaff_R14;
+    *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252aeb6;
+    plVar5 = (longlong *)func_0x00014012b516(puVar7 + 1);
+    if (plVar5 != (longlong *)0x0) {
+      *(undefined8 *)(&stack0x00002028 + lVar3) = unaff_RBP;
+      do {
+        pcVar2 = *(code **)(*plVar5 + 0x28);
+        *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252aedc;
+        uVar6 = (*pcVar2)(plVar5);
+        if (plVar5[1] != 0) {
+          *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252aeed;
+          func_0x0001425276d0(plVar5);
+          if (plVar5[2] != 0) {
+            *(longlong *)(plVar5[2] + 0x18) = plVar5[3];
+          }
+          *(longlong *)plVar5[3] = plVar5[2];
+          plVar5[2] = 0;
+          plVar5[3] = 0;
+          *(int *)(plVar5[1] + 0x3c) = *(int *)(plVar5[1] + 0x3c) + -1;
+        }
+        pcVar2 = *(code **)*plVar5;
+        *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252af22;
+        (*pcVar2)(plVar5,0);
+        *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252af2e;
+        plVar5 = (longlong *)func_0x000140119b59(puVar7 + 1,uVar6);
+      } while (plVar5 != (longlong *)0x0);
+    }
+  }
+  *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252af4e;
+  func_0x00014012d72b(puVar7);
+  if ((puVar4 != auStack_20 + lVar3) && (puVar4 != (undefined1 *)0x0)) {
+    *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252af70;
+    func_0x00014009773f(puVar4,lVar1);
+  }
+DAT_14252af80:
+  *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252af90;
+  func_0x0001400bda57(*(ulonglong *)(&stack0x00001fe0 + lVar3) ^
+                      (ulonglong)(auStack_20 + lVar3 + -0x20));
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 1 ===
+entry=140022f0c range=140022f0c..140022f10 source=ret-scan name=FUN_140022f0c
+
+undefined1 FUN_140022f0c(void)
+
+{
+  undefined1 uVar1;
+  
+  uVar1 = FUN_142541a20(0xffffffff);
+  return uVar1;
+}
+
+
+
+=== PhysicsCore vtable slot 2 ===
+entry=140130eee range=140130eee..140130ef2 source=ret-scan name=thunk_FUN_1425162d0
+
+void thunk_FUN_1425162d0(longlong param_1,undefined8 param_2,char param_3)
+
+{
+  undefined1 auVar1 [16];
+  undefined1 auVar2 [16];
+  undefined1 auVar3 [16];
+  undefined1 auVar4 [16];
+  double dVar5;
+  double dVar6;
+  undefined1 auVar7 [16];
+  undefined1 auVar8 [16];
+  
+  if (*(longlong *)(param_1 + 0x20) != *(longlong *)(param_1 + 0x28)) {
+    *(longlong *)(param_1 + 0x28) = *(longlong *)(param_1 + 0x20);
+  }
+  dVar5 = (double)func_0x000140009f07();
+  if ((param_3 != '\0') || (*(char *)(param_1 + 0x118) != '\0')) {
+    if (*(int *)(param_1 + 0xd0) == 0) {
+      *(undefined1 *)(param_1 + 0x118) = 0;
+      func_0x0001401a853e(param_1,param_2,param_3);
+    }
+    else {
+      *(int *)(param_1 + 0xd0) = *(int *)(param_1 + 0xd0) + -1;
+    }
+  }
+  dVar6 = (double)func_0x000140009f07();
+  dVar6 = dVar6 - dVar5;
+  auVar7._8_8_ = dVar6;
+  auVar7._0_8_ = dVar6;
+  if (*(int *)(param_1 + 0x88) == 0) {
+    *(undefined1 (*) [16])(param_1 + 0x78) = auVar7;
+  }
+  else {
+    auVar1._8_8_ = 0;
+    auVar1._0_8_ = *(ulonglong *)(param_1 + 0x80);
+    auVar1 = vminsd_avx(auVar7,auVar1);
+    *(longlong *)(param_1 + 0x80) = auVar1._0_8_;
+    auVar2._8_8_ = 0;
+    auVar2._0_8_ = *(ulonglong *)(param_1 + 0x78);
+    auVar7 = vmaxsd_avx(auVar7,auVar2);
+    *(longlong *)(param_1 + 0x78) = auVar7._0_8_;
+  }
+  *(double *)(param_1 + 0x70) = dVar6 + *(double *)(param_1 + 0x70);
+  *(int *)(param_1 + 0x88) = *(int *)(param_1 + 0x88) + 1;
+  dVar6 = (double)func_0x000140009f07();
+  func_0x0001400f33f0(*(undefined8 *)(param_1 + 0x18),param_2);
+  dVar5 = (double)func_0x000140009f07();
+  dVar5 = dVar5 - dVar6;
+  auVar8._8_8_ = dVar5;
+  auVar8._0_8_ = dVar5;
+  if (*(int *)(param_1 + 0x68) == 0) {
+    *(undefined1 (*) [16])(param_1 + 0x58) = auVar8;
+  }
+  else {
+    auVar3._8_8_ = 0;
+    auVar3._0_8_ = *(ulonglong *)(param_1 + 0x60);
+    auVar7 = vminsd_avx(auVar8,auVar3);
+    *(longlong *)(param_1 + 0x60) = auVar7._0_8_;
+    auVar4._8_8_ = 0;
+    auVar4._0_8_ = *(ulonglong *)(param_1 + 0x58);
+    auVar7 = vmaxsd_avx(auVar8,auVar4);
+    *(longlong *)(param_1 + 0x58) = auVar7._0_8_;
+  }
+  *(double *)(param_1 + 0x50) = dVar5 + *(double *)(param_1 + 0x50);
+  *(int *)(param_1 + 0x68) = *(int *)(param_1 + 0x68) + 1;
+  func_0x00014018eb6b(*(undefined8 *)(param_1 + 0xb8));
+  *(undefined8 *)(param_1 + 8) = 0;
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 3 ===
+entry=14009191b range=14009191b..14009191f source=ret-scan name=FUN_14009191b
+
+void FUN_14009191b(longlong param_1)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x000142532533. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (**(code **)(**(longlong **)(param_1 + 0x38) + 0x40))();
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 4 ===
+entry=14019993f range=14019993f..140199943 source=ret-scan name=thunk_FUN_142514500
+
+bool thunk_FUN_142514500(longlong param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  
+  iVar1 = *(int *)(param_1 + 0xf8);
+  iVar2 = func_0x000142e32cb9();
+  return iVar2 == iVar1;
+}
+
+
+
+=== PhysicsCore vtable slot 5 ===
+entry=140171ee9 range=140171ee9..140171eed source=ret-scan name=thunk_FUN_142513eb0
+
+undefined8 thunk_FUN_142513eb0(undefined8 param_1)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0x70);
+  if (lVar1 != 0) {
+    uVar2 = func_0x00014007ddd5(lVar1,param_1);
+    return uVar2;
+  }
+  return 0;
+}
+
+
+
+=== PhysicsCore vtable slot 6 ===
+entry=140165a13 range=140165a13..140165a17 source=ret-scan name=FUN_140165a13
+
+longlong FUN_140165a13(longlong param_1)
+
+{
+  return param_1 + 0x20;
+}
+
+
+
+=== PhysicsCore vtable slot 7 ===
+entry=14002d1c8 range=14002d1c8..14002d1cc source=ret-scan name=FUN_14002d1c8
+
+void FUN_14002d1c8(longlong *param_1)
+
+{
+  if (param_1 != (longlong *)0x0) {
+                    /* WARNING: Could not recover jumptable at 0x000142515f8d. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (**(code **)(*param_1 + 0x140))(param_1,1);
+    return;
+  }
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 8 ===
+entry=1401a03f7 range=1401a03f7..1401a03fb source=ret-scan name=thunk_FUN_1425132f0
+
+undefined8 *
+thunk_FUN_1425132f0(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 *param_4,
+                   undefined8 *param_5)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  undefined8 uVar6;
+  
+  lVar1 = func_0x000142e3747c(param_2,0,0x145ce0370,0x145ce0398,0);
+  lVar2 = func_0x000142e3747c(param_3,0,0x145ce0370,0x145ce0398,0);
+  uVar3 = func_0x0001400ff7ef(*(undefined8 *)(param_1 + 0x18),0);
+  func_0x00014017f044(uVar3,*(undefined8 *)(lVar1 + 0x10),*(undefined8 *)(lVar2 + 0x10));
+  func_0x00014013953f(uVar3,*param_4,param_4[1],param_4[2]);
+  func_0x00014006e768(uVar3,*param_5,param_5[1],param_5[2]);
+  uVar6 = func_0x0001400cfb5d(uVar3);
+  puVar4 = (undefined8 *)func_0x000140010ae1(0x20);
+  if (puVar4 == (undefined8 *)0x0) {
+    puVar4 = (undefined8 *)0x0;
+  }
+  else {
+    puVar4[1] = 0;
+    *puVar4 = &UNK_145606038;
+  }
+  puVar4[2] = uVar3;
+  puVar4[3] = uVar6;
+  puVar5 = (undefined8 *)func_0x000140010ae1(0x80);
+  if (puVar5 != (undefined8 *)0x0) {
+    *puVar5 = 0;
+    puVar5[1] = 0;
+    puVar5[2] = 0;
+    puVar5[3] = 0;
+    puVar5[4] = 0;
+    puVar5[5] = 0;
+    puVar5[6] = 0;
+    puVar5[7] = 0;
+    puVar5[8] = 0;
+    puVar5[9] = 0;
+    puVar5[10] = 0;
+    puVar5[0xb] = 0;
+    puVar5[0xc] = 0;
+    puVar5[0xd] = 0;
+    puVar5[0xe] = 0;
+    puVar5[0xf] = 0;
+  }
+  puVar4[1] = puVar5;
+  *puVar5 = 0;
+  puVar5[1] = 0;
+  puVar5[2] = 0;
+  puVar5[3] = 0;
+  puVar5[4] = 0;
+  puVar5[5] = 0;
+  puVar5[6] = 0;
+  puVar5[7] = 0;
+  puVar5[8] = 0;
+  puVar5[9] = 0;
+  puVar5[10] = 0;
+  puVar5[0xb] = 0;
+  puVar5[0xc] = 0;
+  puVar5[0xd] = 0;
+  puVar5[0xe] = 0;
+  puVar5[0xf] = 0;
+  func_0x00014010af87(puVar4[2],puVar4[1]);
+  return puVar4;
+}
+
+
+
+=== PhysicsCore vtable slot 9 ===
+entry=1400ce50f range=1400ce50f..1400ce513 source=ret-scan name=thunk_FUN_142512d20
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142512d20(undefined8 param_1,undefined8 *param_2,undefined4 *param_3,
+                        undefined4 param_4,undefined4 param_5,undefined8 param_6,undefined4 param_7,
+                        undefined1 param_8)
+
+{
+  undefined1 auStack_98 [32];
+  undefined8 uStack_78;
+  undefined4 *puStack_70;
+  undefined4 uStack_68;
+  undefined4 uStack_64;
+  undefined4 uStack_60;
+  undefined8 uStack_58;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  longlong lStack_40;
+  undefined4 uStack_38;
+  undefined4 uStack_34;
+  undefined4 uStack_30;
+  undefined1 uStack_2c;
+  ulonglong uStack_28;
+  
+  uStack_28 = _DAT_145ca23c0 ^ (ulonglong)auStack_98;
+  lStack_40 = func_0x000140010ae1(0x70);
+  if (lStack_40 != 0) {
+    uStack_34 = param_5;
+    uStack_30 = param_7;
+    uStack_2c = param_8;
+    uStack_68 = *param_3;
+    uStack_64 = param_3[1];
+    uStack_60 = param_3[2];
+    uStack_58 = *param_2;
+    uStack_50 = param_2[1];
+    uStack_48 = param_2[2];
+    puStack_70 = &uStack_38;
+    uStack_78 = param_6;
+    uStack_38 = param_4;
+    func_0x00014002dd26(lStack_40,param_1,&uStack_58,&uStack_68);
+  }
+  func_0x0001400bda57(uStack_28 ^ (ulonglong)auStack_98);
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 10 ===
+entry=140156dc9 range=140156dc9..140156dcd source=ret-scan name=thunk_FUN_142512e60
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142512e60(undefined8 param_1,undefined8 param_2,undefined8 param_3,
+                        undefined4 *param_4,undefined4 param_5,undefined4 param_6,undefined8 param_7
+                        ,undefined4 param_8,undefined1 param_9)
+
+{
+  undefined1 auStack_a8 [32];
+  undefined4 *puStack_88;
+  undefined8 uStack_80;
+  undefined4 *puStack_78;
+  undefined4 uStack_68;
+  undefined4 uStack_64;
+  undefined4 uStack_60;
+  longlong lStack_58;
+  undefined4 uStack_50;
+  undefined4 uStack_4c;
+  undefined4 uStack_48;
+  undefined1 uStack_44;
+  ulonglong uStack_40;
+  
+  uStack_40 = _DAT_145ca23c0 ^ (ulonglong)auStack_a8;
+  lStack_58 = func_0x000140010ae1(0x70);
+  if (lStack_58 != 0) {
+    uStack_50 = param_5;
+    uStack_4c = param_6;
+    uStack_48 = param_8;
+    uStack_44 = param_9;
+    uStack_68 = *param_4;
+    uStack_64 = param_4[1];
+    uStack_60 = param_4[2];
+    puStack_78 = &uStack_50;
+    uStack_80 = param_7;
+    puStack_88 = &uStack_68;
+    func_0x000140073dad(lStack_58,param_1,param_2,param_3);
+  }
+  func_0x0001400bda57(uStack_40 ^ (ulonglong)auStack_a8);
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 11 ===
+entry=14000236a range=14000236a..14000236e source=ret-scan name=thunk_FUN_142512fa0
+
+undefined8
+thunk_FUN_142512fa0(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined4 param_4,
+                   undefined8 param_5,undefined4 param_6,undefined1 param_7)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  longlong lVar3;
+  undefined1 auStack_18 [16];
+  
+  lVar1 = func_0x000140010ae1(0x90);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    lVar3 = lVar1;
+    uVar2 = func_0x0001400d52ab(auStack_18,param_2);
+    uVar2 = func_0x0001401768c7(lVar1,param_1,uVar2,param_3,param_4,param_5,param_6,param_7,lVar3);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCore vtable slot 12 ===
+entry=140100979 range=140100979..14010097d source=ret-scan name=thunk_FUN_142513070
+
+undefined8
+thunk_FUN_142513070(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined8 param_4,
+                   undefined4 param_5,undefined4 *param_6,undefined4 param_7,undefined4 param_8,
+                   undefined8 param_9,undefined4 param_10,undefined8 param_11,undefined4 param_12,
+                   undefined1 param_13)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  undefined4 uStack_20;
+  undefined4 uStack_1c;
+  undefined4 uStack_18;
+  
+  lVar1 = func_0x000140010ae1(0x90);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uStack_20 = *param_6;
+    uStack_1c = param_6[1];
+    uStack_18 = param_6[2];
+    uVar2 = func_0x0001400b5ebf(lVar1,param_1,param_2,param_3,param_4,param_5,&uStack_20,param_7,
+                                param_8,param_9,param_10,param_11,param_12,param_13,lVar1);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCore vtable slot 13 ===
+entry=140099620 range=140099620..140099624 source=ret-scan name=thunk_FUN_1425131c0
+
+undefined8 *
+thunk_FUN_1425131c0(undefined8 param_1,undefined8 *param_2,undefined8 param_3,undefined4 param_4,
+                   undefined8 param_5,undefined4 param_6,undefined4 *param_7,undefined8 param_8,
+                   undefined4 param_9)
+
+{
+  undefined1 (*pauVar1) [16];
+  undefined4 uStack_20;
+  undefined4 uStack_1c;
+  undefined4 uStack_18;
+  
+  pauVar1 = (undefined1 (*) [16])func_0x000140010ae1(0x48);
+  if (pauVar1 == (undefined1 (*) [16])0x0) {
+    pauVar1 = (undefined1 (*) [16])0x0;
+  }
+  else {
+    *pauVar1 = (undefined1  [16])0x0;
+    *(undefined4 *)(*pauVar1 + 8) = 1;
+    *(undefined4 *)(*pauVar1 + 0xc) = 1;
+    *(undefined **)*pauVar1 = &UNK_1456063e8;
+    uStack_20 = *param_7;
+    uStack_1c = param_7[1];
+    uStack_18 = param_7[2];
+    func_0x0001400aebd3(pauVar1 + 1,param_3,param_4,param_5,param_6,&uStack_20,param_8,param_9);
+  }
+  *param_2 = pauVar1 + 1;
+  param_2[1] = pauVar1;
+  return param_2;
+}
+
+
+
+=== PhysicsCore vtable slot 14 ===
+entry=14001024e range=14001024e..140010252 source=ret-scan name=thunk_FUN_142513a60
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142513a60(undefined8 param_1,undefined8 *param_2,undefined8 param_3,
+                        undefined8 param_4,undefined8 param_5,undefined4 param_6,undefined4 param_7,
+                        undefined4 param_8,undefined8 param_9,undefined4 param_10,
+                        undefined1 param_11)
+
+{
+  undefined1 auStack_c8 [32];
+  undefined8 uStack_a8;
+  undefined8 uStack_a0;
+  undefined4 uStack_98;
+  undefined8 uStack_90;
+  undefined4 *puStack_88;
+  undefined8 uStack_78;
+  undefined8 uStack_70;
+  undefined8 uStack_68;
+  longlong lStack_60;
+  undefined4 uStack_58;
+  undefined4 uStack_54;
+  undefined4 uStack_50;
+  undefined1 uStack_4c;
+  ulonglong uStack_48;
+  
+  uStack_48 = _DAT_145ca23c0 ^ (ulonglong)auStack_c8;
+  lStack_60 = func_0x000140010ae1(0x90);
+  if (lStack_60 != 0) {
+    uStack_58 = param_7;
+    uStack_54 = param_8;
+    uStack_50 = param_10;
+    uStack_4c = param_11;
+    uStack_78 = *param_2;
+    uStack_70 = param_2[1];
+    uStack_68 = param_2[2];
+    puStack_88 = &uStack_58;
+    uStack_90 = param_9;
+    uStack_98 = param_6;
+    uStack_a0 = param_5;
+    uStack_a8 = param_4;
+    func_0x00014013c325(lStack_60,param_1,&uStack_78,param_3);
+  }
+  func_0x0001400bda57(uStack_48 ^ (ulonglong)auStack_c8);
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 15 ===
+entry=140154d4e range=140154d4e..140154d52 source=ret-scan name=thunk_FUN_142513ba0
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142513ba0(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4
+                        ,undefined8 param_5,undefined8 param_6,undefined4 param_7,undefined4 param_8
+                        ,undefined4 param_9,undefined8 param_10,undefined4 param_11,
+                        undefined1 param_12)
+
+{
+  undefined1 auStack_c8 [32];
+  undefined8 uStack_a8;
+  undefined8 uStack_a0;
+  undefined8 uStack_98;
+  undefined4 uStack_90;
+  undefined8 uStack_88;
+  undefined4 *puStack_80;
+  longlong lStack_78;
+  undefined4 uStack_70;
+  undefined4 uStack_6c;
+  undefined4 uStack_68;
+  undefined1 uStack_64;
+  ulonglong uStack_60;
+  
+  uStack_60 = _DAT_145ca23c0 ^ (ulonglong)auStack_c8;
+  lStack_78 = func_0x000140010ae1(0x90);
+  if (lStack_78 != 0) {
+    uStack_70 = param_8;
+    uStack_6c = param_9;
+    uStack_68 = param_11;
+    uStack_64 = param_12;
+    puStack_80 = &uStack_70;
+    uStack_88 = param_10;
+    uStack_90 = param_7;
+    uStack_98 = param_6;
+    uStack_a0 = param_5;
+    uStack_a8 = param_4;
+    func_0x0001400ed590(lStack_78,param_1,param_2,param_3);
+  }
+  func_0x0001400bda57(uStack_60 ^ (ulonglong)auStack_c8);
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 16 ===
+entry=1400f1e24 range=1400f1e24..1400f1e28 source=ret-scan name=thunk_FUN_142513cf0
+
+undefined8
+thunk_FUN_142513cf0(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined8 param_4,
+                   undefined4 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,
+                   undefined4 param_9,undefined4 param_10,undefined4 param_11,undefined8 param_12,
+                   undefined4 param_13,undefined8 param_14,undefined4 param_15,undefined1 param_16)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0xe0);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uVar2 = func_0x00014007dbf0(lVar1,param_1,param_2,param_3,param_4,param_5,param_6,param_7,
+                                param_8,param_9,param_10,param_11,param_12,param_13,param_14,
+                                param_15,param_16);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCore vtable slot 17 ===
+entry=140098720 range=140098720..140098724 source=ret-scan name=thunk_FUN_1425135d0
+
+undefined8
+thunk_FUN_1425135d0(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                   undefined4 param_5,undefined8 param_6,undefined4 param_7,undefined4 param_8,
+                   undefined4 param_9,undefined8 param_10,undefined4 param_11,undefined4 param_12)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0x78);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uVar2 = func_0x00014008b0d4(lVar1,param_1,param_2,param_3,param_4,param_5,param_6,param_7,
+                                param_8,param_9,param_10,param_11,param_12);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCore vtable slot 18 ===
+entry=14010a6f4 range=14010a6f4..14010a6f8 source=ret-scan name=thunk_FUN_142513810
+
+undefined8
+thunk_FUN_142513810(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined4 param_4,
+                   undefined8 param_5,undefined4 param_6,undefined4 param_7,undefined8 param_8,
+                   undefined4 param_9,undefined8 param_10,undefined4 param_11,undefined4 param_12)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0x78);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uVar2 = func_0x000140158e08(lVar1,param_1,param_2,param_8,param_3,param_4,param_5,param_6,
+                                param_7,param_9,param_10,param_11,param_12);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCore vtable slot 19 ===
+entry=1400fec5f range=1400fec5f..1400fec63 source=ret-scan name=thunk_FUN_1425136f0
+
+undefined8
+thunk_FUN_1425136f0(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined4 param_4,
+                   undefined8 param_5,undefined4 param_6,undefined4 param_7,undefined8 param_8,
+                   undefined4 param_9,undefined8 param_10,undefined4 param_11,undefined4 param_12)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0xe8);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uVar2 = func_0x0001400ca2ac(lVar1,param_1,param_2,param_3,param_4,param_5,param_6,param_7,
+                                param_8,param_9,param_10,param_11,param_12);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCore vtable slot 20 ===
+entry=14016646d range=14016646d..140166471 source=ret-scan name=thunk_FUN_1425159b0
+
+undefined8
+thunk_FUN_1425159b0(longlong *param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                   undefined8 param_5,undefined4 param_6,undefined1 param_7)
+
+{
+  func_0x000140055169(param_1[0x18],param_5);
+  (**(code **)(*param_1 + 0x138))(param_1,param_2,param_3,param_4,param_1[0x18],param_6,param_7);
+  return param_2;
+}
+
+
+
+=== PhysicsCore vtable slot 21 ===
+entry=14000104b range=14000104b..14000104f source=ret-scan name=FUN_14000104b
+
+void FUN_14000104b(longlong param_1,undefined8 param_2)
+
+{
+  *(undefined8 *)(param_1 + 200) = param_2;
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 22 ===
+entry=1400a2f9a range=1400a2f9a..1400a2f9e source=ret-scan name=thunk_FUN_142515fa0
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142515fa0(undefined8 param_1,longlong param_2,undefined8 *param_3,undefined8 *param_4
+                        )
+
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined1 auStack_98 [32];
+  undefined8 *puStack_78;
+  undefined8 uStack_68;
+  undefined8 uStack_60;
+  undefined8 uStack_58;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  undefined8 uStack_40;
+  ulonglong uStack_38;
+  
+  uStack_38 = _DAT_145ca23c0 ^ (ulonglong)auStack_98;
+  uVar1 = func_0x0001401a075d(*(undefined8 *)(param_2 + 0x10),0);
+  uVar2 = func_0x0001401a075d(*(undefined8 *)(param_2 + 0x10),1);
+  puStack_78 = &uStack_68;
+  func_0x0001400c4a9b(uVar1,*param_3,param_3[1],param_3[2]);
+  puStack_78 = &uStack_50;
+  func_0x0001400c4a9b(uVar2,*param_4,param_4[1],param_4[2]);
+  func_0x00014013953f(*(undefined8 *)(param_2 + 0x10),uStack_68,uStack_60,uStack_58);
+  func_0x00014006e768(*(undefined8 *)(param_2 + 0x10),uStack_50,uStack_48,uStack_40);
+  func_0x0001400b365b(*(undefined8 *)(param_2 + 0x10),*(undefined8 *)(param_2 + 0x18));
+  func_0x0001400bda57(uStack_38 ^ (ulonglong)auStack_98);
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 23 ===
+entry=1400bb2e8 range=1400bb2e8..1400bb2ec source=ret-scan name=FUN_1400bb2e8
+
+void FUN_1400bb2e8(void)
+
+{
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 24 ===
+entry=140045c14 range=140045c14..140045c18 source=ret-scan name=thunk_FUN_142513920
+
+void thunk_FUN_142513920(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 *param_4,
+                        undefined8 *param_5)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  
+  puVar5 = (undefined8 *)0x0;
+  lVar1 = func_0x000142e3747c(param_2,0,0x145ce0370,0x145ce0398,0);
+  lVar2 = func_0x000142e3747c(param_3,0,0x145ce0370,0x145ce0398,0);
+  uVar3 = func_0x000140129018(*(undefined8 *)(param_1 + 0x18),0);
+  func_0x00014017f044(uVar3,*(undefined8 *)(lVar1 + 0x10),*(undefined8 *)(lVar2 + 0x10));
+  func_0x000140001415(uVar3,*param_4,param_4[1],param_4[2]);
+  func_0x0001400d947d(uVar3,*param_5,param_5[1],param_5[2]);
+  puVar4 = (undefined8 *)func_0x000140010ae1(0x20);
+  if (puVar4 != (undefined8 *)0x0) {
+    puVar4[1] = 0;
+    *puVar4 = &UNK_145606068;
+    puVar5 = puVar4;
+  }
+  puVar5[2] = uVar3;
+  puVar5[3] = 0;
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 25 ===
+entry=1401a48bc range=1401a48bc..1401a48c0 source=ret-scan name=thunk_FUN_1425160c0
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_1425160c0(undefined8 param_1,longlong param_2,undefined8 *param_3,undefined8 *param_4
+                        )
+
+{
+  undefined8 uVar1;
+  undefined1 auStack_68 [32];
+  undefined8 *puStack_48;
+  undefined8 uStack_38;
+  undefined8 uStack_30;
+  undefined8 uStack_28;
+  ulonglong uStack_20;
+  
+  uStack_20 = _DAT_145ca23c0 ^ (ulonglong)auStack_68;
+  uVar1 = func_0x0001401a075d(*(undefined8 *)(param_2 + 0x10),0);
+  func_0x0001401a075d(*(undefined8 *)(param_2 + 0x10),1);
+  puStack_48 = &uStack_38;
+  func_0x0001400c4a9b(uVar1,*param_3,param_3[1],param_3[2]);
+  func_0x000140001415(*(undefined8 *)(param_2 + 0x10),uStack_38,uStack_30,uStack_28);
+  func_0x0001400d947d(*(undefined8 *)(param_2 + 0x10),*param_4,param_4[1],param_4[2]);
+  func_0x0001400bda57(uStack_20 ^ (ulonglong)auStack_68);
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 26 ===
+entry=1401090a6 range=1401090a6..1401090aa source=ret-scan name=thunk_FUN_142513f00
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 *
+thunk_FUN_142513f00(longlong param_1,undefined8 param_2,undefined8 param_3,double *param_4)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  double dVar9;
+  
+  puVar5 = (undefined8 *)0x0;
+  lVar1 = func_0x000142e3747c(param_2,0,0x145ce0370,0x145ce0398,0);
+  lVar2 = func_0x000142e3747c(param_3,0,0x145ce0370,0x145ce0398,0);
+  uVar3 = func_0x00014011b4f9(*(undefined8 *)(param_1 + 0x18),0);
+  func_0x00014017f044(uVar3,*(undefined8 *)(lVar1 + 0x10),*(undefined8 *)(lVar2 + 0x10));
+  dVar7 = *param_4;
+  dVar8 = param_4[1];
+  dVar9 = param_4[2];
+  dVar6 = dVar8 * dVar8 + dVar7 * dVar7 + dVar9 * dVar9;
+  if (dVar6 < 0.0) {
+    dVar6 = (double)func_0x000142e3765c(dVar6);
+  }
+  else {
+    dVar6 = SQRT(dVar6);
+  }
+  dVar6 = _DAT_14316b3f8 / dVar6;
+  func_0x0001400245eb(uVar3,dVar6 * dVar7,dVar6 * dVar8,dVar6 * dVar9);
+  puVar4 = (undefined8 *)func_0x000140010ae1(0x18);
+  if (puVar4 != (undefined8 *)0x0) {
+    puVar4[1] = 0;
+    *puVar4 = &UNK_145605fa8;
+    puVar4[2] = uVar3;
+    puVar5 = puVar4;
+    uVar3 = uRam0000000000000010;
+  }
+  uRam0000000000000010 = uVar3;
+  return puVar5;
+}
+
+
+
+=== PhysicsCore vtable slot 27 ===
+entry=140182f23 range=140182f23..140182f27 source=ret-scan name=FUN_140182f23
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_140182f23(undefined8 param_1,longlong param_2,undefined8 *param_3)
+
+{
+  double *pdVar1;
+  double *pdVar2;
+  longlong lVar3;
+  longlong lVar4;
+  longlong lVar5;
+  undefined8 uVar6;
+  uint uVar7;
+  uint uVar8;
+  
+  lVar3 = *(longlong *)(param_2 + 0x10);
+  func_0x00014004ca6e(lVar3,*param_3,param_3[1],param_3[2],lVar3 + 0xa0,0);
+  func_0x000140124108(lVar3);
+  uVar6 = _DAT_1431671b0;
+  lVar4 = *(longlong *)(lVar3 + 0x40);
+  if (lVar4 != 0) {
+    lVar5 = *(longlong *)(lVar3 + 0x58);
+    pdVar1 = (double *)(lVar4 + 0x1b8);
+    if (lVar5 != 0) {
+      pdVar2 = (double *)(lVar5 + 0x1b8);
+      *(double *)(lVar3 + 0xc0) =
+           *pdVar1 * *pdVar2 + *(double *)(lVar5 + 0x1c0) * *(double *)(lVar4 + 0x1c0) +
+           *(double *)(lVar5 + 0x1c8) * *(double *)(lVar4 + 0x1c8) +
+           *(double *)(lVar5 + 0x1d0) * *(double *)(lVar4 + 0x1d0);
+      *(double *)(lVar3 + 200) =
+           ((*(double *)(lVar5 + 0x1c0) * *pdVar1 - *pdVar2 * *(double *)(lVar4 + 0x1c0)) -
+           *(double *)(lVar5 + 0x1d0) * *(double *)(lVar4 + 0x1c8)) +
+           *(double *)(lVar5 + 0x1c8) * *(double *)(lVar4 + 0x1d0);
+      *(double *)(lVar3 + 0xd0) =
+           ((*(double *)(lVar5 + 0x1c8) * *pdVar1 - *(double *)(lVar4 + 0x1c8) * *pdVar2) -
+           *(double *)(lVar4 + 0x1d0) * *(double *)(lVar5 + 0x1c0)) +
+           *(double *)(lVar5 + 0x1d0) * *(double *)(lVar4 + 0x1c0);
+      *(double *)(lVar3 + 0xd8) =
+           ((*(double *)(lVar5 + 0x1d0) * *pdVar1 - *(double *)(lVar4 + 0x1d0) * *pdVar2) -
+           *(double *)(lVar5 + 0x1c8) * *(double *)(lVar4 + 0x1c0)) +
+           *(double *)(lVar4 + 0x1c8) * *(double *)(lVar5 + 0x1c0);
+      return;
+    }
+    *(double *)(lVar3 + 0xc0) = *pdVar1;
+    uVar7 = (uint)uVar6;
+    uVar8 = (uint)((ulonglong)uVar6 >> 0x20);
+    *(ulonglong *)(lVar3 + 200) =
+         CONCAT44((uint)((ulonglong)*(undefined8 *)(lVar4 + 0x1c0) >> 0x20) ^ uVar8,
+                  (uint)*(undefined8 *)(lVar4 + 0x1c0) ^ uVar7);
+    *(ulonglong *)(lVar3 + 0xd0) =
+         CONCAT44((uint)((ulonglong)*(undefined8 *)(lVar4 + 0x1c8) >> 0x20) ^ uVar8,
+                  (uint)*(undefined8 *)(lVar4 + 0x1c8) ^ uVar7);
+    *(ulonglong *)(lVar3 + 0xd8) =
+         CONCAT44((uint)((ulonglong)*(undefined8 *)(lVar4 + 0x1d0) >> 0x20) ^ uVar8,
+                  (uint)*(undefined8 *)(lVar4 + 0x1d0) ^ uVar7);
+  }
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 28 ===
+entry=1401528c8 range=1401528c8..1401528cc source=ret-scan name=thunk_FUN_142512c00
+
+undefined8 *
+thunk_FUN_142512c00(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 *param_4)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  
+  puVar5 = (undefined8 *)0x0;
+  lVar1 = func_0x000142e3747c(param_2,0,0x145ce0370,0x145ce0398,0);
+  lVar2 = func_0x000142e3747c(param_3,0,0x145ce0370,0x145ce0398,0);
+  uVar3 = func_0x00014001e07e(*(undefined8 *)(param_1 + 0x18),0);
+  func_0x00014017f044(uVar3,*(undefined8 *)(lVar1 + 0x10),*(undefined8 *)(lVar2 + 0x10));
+  func_0x0001400b2fa3(uVar3,*param_4,param_4[1],param_4[2]);
+  puVar4 = (undefined8 *)func_0x000140010ae1(0x18);
+  if (puVar4 != (undefined8 *)0x0) {
+    puVar4[1] = 0;
+    *puVar4 = &UNK_145605fd8;
+    puVar4[2] = uVar3;
+    puVar5 = puVar4;
+    uVar3 = uRam0000000000000010;
+  }
+  uRam0000000000000010 = uVar3;
+  return puVar5;
+}
+
+
+
+=== PhysicsCore vtable slot 29 ===
+entry=1400a81e8 range=1400a81e8..1400a81ec source=ret-scan name=thunk_FUN_1425134d0
+
+undefined8 * thunk_FUN_1425134d0(longlong param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  
+  puVar5 = (undefined8 *)0x0;
+  lVar1 = func_0x000142e3747c(param_2,0,0x145ce0370,0x145ce0398,0);
+  lVar2 = func_0x000142e3747c(param_3,0,0x145ce0370,0x145ce0398,0);
+  uVar3 = func_0x0001400381e5(*(undefined8 *)(param_1 + 0x18),0);
+  func_0x00014017f044(uVar3,*(undefined8 *)(lVar1 + 0x10),*(undefined8 *)(lVar2 + 0x10));
+  func_0x00014009dcc0(uVar3);
+  puVar4 = (undefined8 *)func_0x000140010ae1(0x18);
+  if (puVar4 != (undefined8 *)0x0) {
+    puVar4[1] = 0;
+    *puVar4 = &UNK_145606008;
+    puVar4[2] = uVar3;
+    puVar5 = puVar4;
+    uVar3 = uRam0000000000000010;
+  }
+  uRam0000000000000010 = uVar3;
+  return puVar5;
+}
+
+
+
+=== PhysicsCore vtable slot 30 ===
+entry=140156dc4 range=140156dc4..140156dc8 source=ret-scan name=thunk_FUN_142513e40
+
+undefined8 thunk_FUN_142513e40(undefined8 param_1,undefined8 param_2)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0x18);
+  if (lVar1 != 0) {
+    uVar2 = func_0x00014005a92f(lVar1,param_1,param_2);
+    return uVar2;
+  }
+  return 0;
+}
+
+
+
+=== PhysicsCore vtable slot 31 ===
+entry=14017439c range=14017439c..1401743a0 source=ret-scan name=FUN_14017439c
+
+undefined8 * FUN_14017439c(longlong param_1,undefined8 *param_2)
+
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  
+  uVar1 = *(undefined8 *)(param_1 + 0x58);
+  uVar2 = *(undefined8 *)(param_1 + 0x60);
+  uVar3 = *(undefined8 *)(param_1 + 0x68);
+  uVar4 = *(undefined8 *)(param_1 + 0x70);
+  uVar5 = *(undefined8 *)(param_1 + 0x78);
+  uVar6 = *(undefined8 *)(param_1 + 0x80);
+  uVar7 = *(undefined8 *)(param_1 + 0x88);
+  *param_2 = *(undefined8 *)(param_1 + 0x50);
+  param_2[1] = uVar1;
+  param_2[2] = uVar2;
+  param_2[3] = uVar3;
+  uVar1 = *(undefined8 *)(param_1 + 0x90);
+  param_2[4] = uVar4;
+  param_2[5] = uVar5;
+  param_2[6] = uVar6;
+  param_2[7] = uVar7;
+  param_2[8] = uVar1;
+  return param_2;
+}
+
+
+
+=== PhysicsCore vtable slot 32 ===
+entry=14015d291 range=14015d291..14015d295 source=ret-scan name=FUN_14015d291
+
+void FUN_14015d291(longlong param_1,undefined4 param_2)
+
+{
+  *(undefined4 *)(param_1 + 0xd0) = param_2;
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 33 ===
+entry=140174fbd range=140174fbd..140174fc1 source=ret-scan name=FUN_140174fbd
+
+void FUN_140174fbd(longlong param_1)
+
+{
+  *(undefined1 *)(param_1 + 0x118) = 1;
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 34 ===
+entry=1400c3033 range=1400c3033..1400c3037 source=ret-scan name=FUN_1400c3033
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_1400c3033(undefined8 param_1,longlong param_2)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = *(longlong *)(param_2 + 0x10);
+  if (*(longlong *)(lVar1 + 0x40) == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uVar2 = func_0x0001400f4665(*(longlong *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x58),
+                                lVar1 + 0xe0,lVar1 + 0x120);
+    if ((*(byte *)(lVar1 + 0x30) & 2) != 0) {
+      return CONCAT44((uint)((ulonglong)uVar2 >> 0x20) ^ _UNK_1431671b4,(uint)uVar2 ^ _DAT_1431671b0
+                     );
+    }
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCore vtable slot 35 ===
+entry=140136380 range=140136380..140136384 source=ret-scan name=FUN_140136380
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+double FUN_140136380(undefined8 param_1,longlong param_2)
+
+{
+  double dVar1;
+  longlong lVar2;
+  longlong lVar3;
+  longlong lVar4;
+  double dVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  
+  lVar2 = *(longlong *)(param_2 + 0x10);
+  lVar3 = *(longlong *)(lVar2 + 0x40);
+  if (lVar3 != 0) {
+    dVar6 = *(double *)(lVar2 + 0xe8);
+    dVar8 = *(double *)(lVar2 + 0xe0);
+    dVar1 = *(double *)(lVar2 + 0xf0);
+    dVar5 = dVar6 * *(double *)(lVar3 + 0x160) + dVar8 * *(double *)(lVar3 + 0x158) +
+            dVar1 * *(double *)(lVar3 + 0x168);
+    dVar7 = dVar6 * *(double *)(lVar3 + 0x180) + dVar8 * *(double *)(lVar3 + 0x178) +
+            dVar1 * *(double *)(lVar3 + 0x188);
+    dVar8 = dVar6 * *(double *)(lVar3 + 0x1a0) + dVar8 * *(double *)(lVar3 + 0x198) +
+            dVar1 * *(double *)(lVar3 + 0x1a8);
+    lVar4 = *(longlong *)(lVar2 + 0x58);
+    dVar6 = dVar7 * *(double *)(lVar3 + 0x200) + dVar5 * *(double *)(lVar3 + 0x1f8) +
+            dVar8 * *(double *)(lVar3 + 0x208);
+    if (lVar4 != 0) {
+      dVar6 = dVar6 - (dVar7 * *(double *)(lVar4 + 0x200) + dVar5 * *(double *)(lVar4 + 0x1f8) +
+                      dVar8 * *(double *)(lVar4 + 0x208));
+    }
+    if ((*(byte *)(lVar2 + 0x30) & 2) != 0) {
+      dVar6 = (double)CONCAT44((uint)((ulonglong)dVar6 >> 0x20) ^ _UNK_1431671b4,
+                               SUB84(dVar6,0) ^ _DAT_1431671b0);
+    }
+    return dVar6;
+  }
+  return 0.0;
+}
+
+
+
+=== PhysicsCore vtable slot 36 ===
+entry=14013ba1f range=14013ba1f..14013ba23 source=ret-scan name=thunk_FUN_1425127f0
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_1425127f0(longlong param_1,undefined8 *param_2,undefined8 *param_3,undefined8 param_4
+                        ,longlong param_5,longlong param_6)
+
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  undefined1 auStack_1a8 [96];
+  undefined8 uStack_148;
+  undefined8 uStack_128;
+  undefined8 uStack_120;
+  undefined8 uStack_118;
+  undefined8 uStack_110;
+  undefined8 uStack_108;
+  undefined8 uStack_100;
+  undefined8 uStack_f8;
+  undefined8 uStack_f0;
+  undefined8 uStack_e8;
+  undefined8 uStack_e0;
+  undefined8 uStack_d8;
+  undefined8 uStack_d0;
+  undefined8 uStack_c8;
+  undefined8 uStack_c0;
+  undefined8 uStack_b8;
+  undefined8 uStack_b0;
+  undefined8 uStack_a8;
+  undefined8 uStack_a0;
+  undefined8 uStack_98;
+  undefined8 uStack_90;
+  undefined8 uStack_88;
+  undefined8 uStack_80;
+  undefined8 uStack_78;
+  undefined8 uStack_70;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  undefined8 uStack_40;
+  undefined8 uStack_38;
+  ulonglong uStack_28;
+  
+  uStack_28 = _DAT_145ca23c0 ^ (ulonglong)auStack_1a8;
+  uStack_128 = 0x701c;
+  uStack_118 = 0;
+  uStack_110 = 0;
+  uStack_108 = 0;
+  uStack_100 = 0;
+  uStack_d8 = 0;
+  uStack_d0 = 0;
+  uStack_c8 = 0;
+  uStack_c0 = 0;
+  uStack_b0 = *param_2;
+  uStack_a8 = param_2[1];
+  uStack_a0 = param_2[2];
+  uStack_98 = param_2[3];
+  uStack_50 = 0;
+  uStack_48 = 0;
+  uStack_40 = 0;
+  uStack_38 = 0;
+  uStack_90 = *param_3;
+  uStack_88 = param_3[1];
+  uStack_80 = param_3[2];
+  uStack_78 = param_3[3];
+  uStack_b8 = 0;
+  uStack_f8 = _UNK_1455f4c48;
+  uStack_120 = _DAT_143176ea8;
+  uStack_f0 = 0;
+  uStack_e8 = _UNK_145606460;
+  uStack_e0 = _UNK_145606468;
+  uStack_148 = param_4;
+  uStack_70 = param_4;
+  uVar1 = func_0x00014014d7c4(*(undefined8 *)(param_1 + 0x18),*(undefined8 *)(param_1 + 0xb8),
+                              &uStack_128);
+  uVar3 = 0;
+  uVar2 = uVar3;
+  if (param_5 != 0) {
+    uVar2 = *(undefined8 *)(param_5 + 0x10);
+  }
+  if (param_6 != 0) {
+    uVar3 = *(undefined8 *)(param_6 + 0x10);
+  }
+  func_0x00014017f044(uVar1,uVar2,uVar3);
+  func_0x0001400bda57(uStack_28 ^ (ulonglong)auStack_1a8);
+  return;
+}
+
+
+
+=== PhysicsCore vtable slot 37 ===
+entry=1400b03d4 range=1400b03d4..1400b03d8 source=ret-scan name=thunk_FUN_142514320
+
+undefined8 thunk_FUN_142514320(longlong param_1,uint param_2)
+
+{
+  longlong *plVar1;
+  char cVar2;
+  longlong *plVar3;
+  longlong *plVar4;
+  longlong *plVar5;
+  undefined8 uVar6;
+  undefined8 *puVar7;
+  longlong *plVar8;
+  uint auStackX_10 [6];
+  
+  if (param_2 != 0) {
+    plVar1 = (longlong *)(param_1 + 0xe8);
+    plVar3 = (longlong *)*plVar1;
+    plVar5 = (longlong *)plVar3[1];
+    cVar2 = *(char *)((longlong)plVar5 + 0x19);
+    plVar4 = plVar3;
+    while (cVar2 == '\0') {
+      plVar8 = plVar5;
+      if (*(uint *)(plVar5 + 4) < param_2) {
+        plVar5 = plVar5 + 2;
+        plVar8 = plVar4;
+      }
+      plVar5 = (longlong *)*plVar5;
+      plVar4 = plVar8;
+      cVar2 = *(char *)((longlong)plVar5 + 0x19);
+    }
+    auStackX_10[0] = param_2;
+    if (((*(char *)((longlong)plVar4 + 0x19) != '\0') || (param_2 < *(uint *)(plVar4 + 4))) ||
+       (plVar4 == plVar3)) {
+      uVar6 = func_0x0001425134c0(*(undefined8 *)(param_1 + 0x40));
+      puVar7 = (undefined8 *)func_0x0001400e061a(plVar1,auStackX_10);
+      *puVar7 = uVar6;
+    }
+    puVar7 = (undefined8 *)func_0x0001400e061a(plVar1,auStackX_10);
+    return *puVar7;
+  }
+  return *(undefined8 *)(param_1 + 0x40);
+}
+
+
+
+=== PhysicsCore vtable slot 38 ===
+entry=1401aca03 range=1401aca03..1401aca07 source=ret-scan name=thunk_FUN_142514420
+
+undefined8 thunk_FUN_142514420(longlong param_1,uint param_2)
+
+{
+  longlong *plVar1;
+  char cVar2;
+  longlong *plVar3;
+  longlong *plVar4;
+  longlong *plVar5;
+  undefined8 uVar6;
+  undefined8 *puVar7;
+  longlong *plVar8;
+  uint auStackX_10 [6];
+  
+  if (param_2 != 0) {
+    plVar1 = (longlong *)(param_1 + 0xd8);
+    plVar3 = (longlong *)*plVar1;
+    plVar5 = (longlong *)plVar3[1];
+    cVar2 = *(char *)((longlong)plVar5 + 0x19);
+    plVar4 = plVar3;
+    while (cVar2 == '\0') {
+      plVar8 = plVar5;
+      if (*(uint *)(plVar5 + 4) < param_2) {
+        plVar5 = plVar5 + 2;
+        plVar8 = plVar4;
+      }
+      plVar5 = (longlong *)*plVar5;
+      plVar4 = plVar8;
+      cVar2 = *(char *)((longlong)plVar5 + 0x19);
+    }
+    auStackX_10[0] = param_2;
+    if (((*(char *)((longlong)plVar4 + 0x19) != '\0') || (param_2 < *(uint *)(plVar4 + 4))) ||
+       (plVar4 == plVar3)) {
+      uVar6 = FUN_1425140a0(*(undefined8 *)(param_1 + 0x38));
+      puVar7 = (undefined8 *)func_0x0001400e061a(plVar1,auStackX_10);
+      *puVar7 = uVar6;
+    }
+    puVar7 = (undefined8 *)func_0x0001400e061a(plVar1,auStackX_10);
+    return *puVar7;
+  }
+  return *(undefined8 *)(param_1 + 0x38);
+}
+
+
+
+=== PhysicsCore vtable slot 39 ===
+entry=140088d20 range=140088d20..140088d24 source=ret-scan name=thunk_FUN_1425154d0
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 *
+thunk_FUN_1425154d0(longlong param_1,undefined8 *param_2,undefined8 *param_3,undefined8 *param_4,
+                   undefined8 param_5,undefined4 param_6,char param_7)
+
+{
+  ulonglong uVar1;
+  undefined1 uVar2;
+  short sVar3;
+  ulonglong uVar4;
+  double *pdVar5;
+  longlong lVar6;
+  int iVar7;
+  undefined4 uVar8;
+  uint uVar9;
+  undefined1 uVar11;
+  undefined1 auVar12 [16];
+  undefined1 auVar13 [64];
+  undefined8 uVar14;
+  undefined8 uVar15;
+  undefined8 uVar16;
+  undefined8 uVar17;
+  undefined8 uVar18;
+  undefined8 uVar19;
+  double dVar20;
+  undefined1 auStack_188 [16];
+  undefined1 auStack_178 [16];
+  undefined1 auStack_168 [16];
+  undefined1 uStack_158;
+  undefined4 uStack_154;
+  longlong lStack_150;
+  undefined1 auStack_148 [16];
+  undefined1 auStack_138 [16];
+  undefined1 auStack_128 [16];
+  ulonglong uVar10;
+  
+  sVar3 = func_0x000142e37506(*param_4);
+  if (((0 < sVar3) || (sVar3 = func_0x000142e37506(param_4[1]), 0 < sVar3)) ||
+     (sVar3 = func_0x000142e37506(param_4[2]), 0 < sVar3)) {
+    *param_2 = 0;
+    param_2[1] = 0;
+    param_2[2] = 0;
+    param_2[3] = 0;
+    param_2[4] = 0;
+    param_2[5] = 0;
+    param_2[6] = 0;
+    *(undefined1 *)(param_2 + 7) = 0;
+    *(undefined4 *)((longlong)param_2 + 0x3c) = 0xffffffff;
+    param_2[8] = 0;
+    param_2[9] = 0;
+    param_2[10] = 0;
+    param_2[0xb] = 0;
+    param_2[0xc] = 0;
+    param_2[0xd] = 0;
+    *(undefined1 *)(param_2 + 0x12) = 0;
+    param_2[0x13] = 0xbff0000000000000;
+    param_2[0xe] = 0;
+    param_2[0xf] = 0;
+    param_2[0x10] = 0;
+    param_2[0x11] = 0;
+    return param_2;
+  }
+  uVar4 = 0;
+  uVar8 = 0xffffffff;
+  uVar11 = 0;
+  uStack_158 = 0;
+  auStack_188 = (undefined1  [16])0x0;
+  auStack_178 = (undefined1  [16])0x0;
+  auStack_168 = (undefined1  [16])0x0;
+  uStack_154 = param_6;
+  auStack_148 = (undefined1  [16])0x0;
+  auStack_138 = (undefined1  [16])0x0;
+  auStack_128 = (undefined1  [16])0x0;
+  dVar20 = _DAT_143176ef8;
+  lStack_150 = param_1;
+  if (param_7 != '\0') {
+    func_0x000140094ba2(*(undefined8 *)(param_1 + 0xc0),0);
+  }
+  func_0x0001400c156c(param_5,*param_3,param_3[1],param_3[2],*param_4,param_4[1],param_4[2]);
+  *(undefined4 *)(param_1 + 8) = 0;
+  *(undefined4 *)(param_1 + 0x10) = 0;
+  func_0x00014005f92a(param_5,*(undefined8 *)(param_1 + 0x38),auStack_188,&UNK_140068476);
+  iVar7 = -1;
+  auVar13 = ZEXT464(_UNK_1431679f4);
+  uVar1 = (longlong)(auStack_168._0_8_ - auStack_178._8_8_) / 0x60;
+  if (uVar1 != 0) {
+    pdVar5 = (double *)(auStack_178._8_8_ + 0x40);
+    uVar10 = uVar4;
+    do {
+      if ((auVar13._0_4_ < 0.0) || (*pdVar5 < (double)auVar13._0_4_)) {
+        auVar12._8_8_ = 0;
+        auVar12._0_8_ = *pdVar5;
+        auVar12 = vcvtpd2ps_avx(auVar12);
+        auVar13 = ZEXT1664(auVar12);
+        iVar7 = (int)uVar10;
+      }
+      uVar9 = (int)uVar10 + 1;
+      uVar10 = (ulonglong)uVar9;
+      pdVar5 = pdVar5 + 0xc;
+    } while ((ulonglong)(longlong)(int)uVar9 < uVar1);
+    if (0.0 <= auVar13._0_4_) {
+      uVar11 = 1;
+      lVar6 = (longlong)iVar7 * 0x60;
+      uVar14 = *(undefined8 *)(auStack_178._8_8_ + lVar6);
+      uVar15 = *(undefined8 *)(auStack_178._8_8_ + 8 + lVar6);
+      uVar16 = *(undefined8 *)(auStack_178._8_8_ + 0x10 + lVar6);
+      uVar17 = *(undefined8 *)(auStack_178._8_8_ + 0x20 + lVar6);
+      uVar18 = *(undefined8 *)(auStack_178._8_8_ + 0x28 + lVar6);
+      uVar19 = *(undefined8 *)(auStack_178._8_8_ + 0x30 + lVar6);
+      uVar4 = func_0x0001400cebea(*(undefined8 *)(auStack_178._8_8_ + 0x50 + lVar6));
+      dVar20 = (double)auVar13._0_4_;
+      uVar8 = *(undefined4 *)(auStack_178._8_8_ + 0x5c + lVar6);
+      uVar2 = uStack_158;
+      goto code_r0x000142515753;
+    }
+  }
+  uVar2 = 0;
+  uVar14 = auStack_148._0_8_;
+  uVar15 = auStack_148._8_8_;
+  uVar16 = auStack_138._0_8_;
+  uVar17 = auStack_138._8_8_;
+  uVar18 = auStack_128._0_8_;
+  uVar19 = auStack_128._8_8_;
+code_r0x000142515753:
+  param_2[6] = uVar4;
+  *param_2 = uVar14;
+  param_2[1] = uVar15;
+  param_2[2] = uVar16;
+  param_2[3] = uVar17;
+  param_2[4] = uVar18;
+  param_2[5] = uVar19;
+  param_2[0x13] = dVar20;
+  *(undefined1 *)(param_2 + 7) = uVar11;
+  *(undefined4 *)((longlong)param_2 + 0x3c) = uVar8;
+  param_2[8] = 0;
+  param_2[9] = 0;
+  param_2[10] = 0;
+  param_2[0xb] = 0;
+  param_2[0xc] = 0;
+  param_2[0xd] = 0;
+  param_2[0xe] = 0;
+  param_2[0xf] = 0;
+  param_2[0x10] = 0;
+  param_2[0x11] = 0;
+  *(undefined1 *)(param_2 + 0x12) = uVar2;
+  func_0x0001400be68c(auStack_178 + 8);
+  func_0x000140025d15(auStack_188);
+  return param_2;
+}
+
+
+
+=== PhysicsCore vtable slot 40 ===
+entry=1400b835e range=1400b835e..1400b8362 source=ret-scan name=thunk_FUN_142511e20
+
+undefined8 thunk_FUN_142511e20(undefined8 param_1,ulonglong param_2)
+
+{
+  func_0x000140124658();
+  if ((param_2 & 1) != 0) {
+    func_0x000140140cdb(param_1,0x120);
+  }
+  return param_1;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 0 ===
+entry=1400ce50a range=1400ce50a..1400ce50e source=ret-scan name=thunk_FUN_14251a010
+
+/* WARNING: Possible PIC construction at 0x00014251a020: Changing call to branch */
+/* WARNING: Removing unreachable block (ram,0x00014251a025) */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_14251a010(longlong param_1)
+
+{
+  longlong lVar1;
+  code *pcVar2;
+  longlong lVar3;
+  undefined1 *puVar4;
+  longlong *plVar5;
+  undefined8 uVar6;
+  ulonglong *puVar7;
+  ulonglong uVar8;
+  undefined8 unaff_RBP;
+  undefined8 unaff_RSI;
+  undefined8 unaff_RDI;
+  undefined8 *puVar9;
+  undefined8 unaff_R12;
+  undefined8 unaff_R14;
+  undefined *puStack_48;
+  undefined1 auStack_20 [24];
+  
+  puVar7 = *(ulonglong **)(param_1 + 0xb8);
+  puStack_48 = &UNK_14252adde;
+  lVar3 = func_0x000140045840();
+  lVar3 = -lVar3;
+  *(ulonglong *)(&stack0x00001fe0 + lVar3) =
+       _DAT_145ca23c0 ^ (ulonglong)(auStack_20 + lVar3 + -0x20);
+  uVar8 = *puVar7;
+  if (uVar8 == 0) goto DAT_14252af80;
+  *(undefined8 *)(&stack0x00002000 + lVar3) = unaff_RDI;
+  *(undefined8 *)(&stack0x00001ff8 + lVar3) = unaff_R12;
+  lVar1 = uVar8 * 8;
+  *(undefined8 *)(&stack0x00002030 + lVar3) = unaff_RSI;
+  if (uVar8 < 0x401) {
+    puVar4 = auStack_20 + lVar3;
+code_r0x00014252ae42:
+    *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252ae4d;
+    func_0x0001401089bc(puVar7,puVar4);
+    do {
+      puVar9 = *(undefined8 **)(puVar4 + uVar8 * 8 + -8);
+      uVar8 = uVar8 - 1;
+      if (puVar9[1] != 0) {
+        *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252ae66;
+        func_0x0001425276d0(puVar9);
+        if (puVar9[2] != 0) {
+          *(undefined8 *)(puVar9[2] + 0x18) = puVar9[3];
+        }
+        *(undefined8 *)puVar9[3] = puVar9[2];
+        puVar9[2] = 0;
+        puVar9[3] = 0;
+        *(int *)(puVar9[1] + 0x3c) = *(int *)(puVar9[1] + 0x3c) + -1;
+      }
+      pcVar2 = *(code **)*puVar9;
+      *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252ae9b;
+      (*pcVar2)(puVar9,0);
+    } while (uVar8 != 0);
+  }
+  else {
+    *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252ae3a;
+    puVar4 = (undefined1 *)func_0x000140192b99(lVar1);
+    if (puVar4 != (undefined1 *)0x0) goto code_r0x00014252ae42;
+    *(undefined8 *)(&stack0x00001ff0 + lVar3) = unaff_R14;
+    *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252aeb6;
+    plVar5 = (longlong *)func_0x00014012b516(puVar7 + 1);
+    if (plVar5 != (longlong *)0x0) {
+      *(undefined8 *)(&stack0x00002028 + lVar3) = unaff_RBP;
+      do {
+        pcVar2 = *(code **)(*plVar5 + 0x28);
+        *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252aedc;
+        uVar6 = (*pcVar2)(plVar5);
+        if (plVar5[1] != 0) {
+          *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252aeed;
+          func_0x0001425276d0(plVar5);
+          if (plVar5[2] != 0) {
+            *(longlong *)(plVar5[2] + 0x18) = plVar5[3];
+          }
+          *(longlong *)plVar5[3] = plVar5[2];
+          plVar5[2] = 0;
+          plVar5[3] = 0;
+          *(int *)(plVar5[1] + 0x3c) = *(int *)(plVar5[1] + 0x3c) + -1;
+        }
+        pcVar2 = *(code **)*plVar5;
+        *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252af22;
+        (*pcVar2)(plVar5,0);
+        *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252af2e;
+        plVar5 = (longlong *)func_0x000140119b59(puVar7 + 1,uVar6);
+      } while (plVar5 != (longlong *)0x0);
+    }
+  }
+  *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252af4e;
+  func_0x00014012d72b(puVar7);
+  if ((puVar4 != auStack_20 + lVar3) && (puVar4 != (undefined1 *)0x0)) {
+    *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252af70;
+    func_0x00014009773f(puVar4,lVar1);
+  }
+DAT_14252af80:
+  *(undefined **)((longlong)&puStack_48 + lVar3) = &UNK_14252af90;
+  func_0x0001400bda57(*(ulonglong *)(&stack0x00001fe0 + lVar3) ^
+                      (ulonglong)(auStack_20 + lVar3 + -0x20));
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 1 ===
+entry=1400b2c5b range=1400b2c5b..1400b2c5f source=ret-scan name=FUN_1400b2c5b
+
+undefined1 FUN_1400b2c5b(void)
+
+{
+  undefined1 uVar1;
+  
+  uVar1 = FUN_142541a20(0xffffffff);
+  return uVar1;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 2 ===
+entry=14019ac6d range=14019ac6d..14019ac71 source=ret-scan name=thunk_FUN_14251a100
+
+void thunk_FUN_14251a100(longlong param_1,undefined8 param_2,char param_3)
+
+{
+  undefined1 auVar1 [16];
+  undefined1 auVar2 [16];
+  undefined1 auVar3 [16];
+  undefined1 auVar4 [16];
+  double dVar5;
+  double dVar6;
+  undefined1 auVar7 [16];
+  undefined1 auVar8 [16];
+  
+  if (*(longlong *)(param_1 + 0x20) != *(longlong *)(param_1 + 0x28)) {
+    *(longlong *)(param_1 + 0x28) = *(longlong *)(param_1 + 0x20);
+  }
+  dVar5 = (double)func_0x000140009f07();
+  if ((param_3 != '\0') || (*(char *)(param_1 + 0x128) != '\0')) {
+    if (*(int *)(param_1 + 0xe0) == 0) {
+      *(undefined1 *)(param_1 + 0x128) = 0;
+      func_0x00014002266a(param_1,param_2,param_3);
+    }
+    else {
+      *(int *)(param_1 + 0xe0) = *(int *)(param_1 + 0xe0) + -1;
+    }
+  }
+  dVar6 = (double)func_0x000140009f07();
+  dVar6 = dVar6 - dVar5;
+  auVar7._8_8_ = dVar6;
+  auVar7._0_8_ = dVar6;
+  if (*(int *)(param_1 + 0x88) == 0) {
+    *(undefined1 (*) [16])(param_1 + 0x78) = auVar7;
+  }
+  else {
+    auVar1._8_8_ = 0;
+    auVar1._0_8_ = *(ulonglong *)(param_1 + 0x80);
+    auVar1 = vminsd_avx(auVar7,auVar1);
+    *(longlong *)(param_1 + 0x80) = auVar1._0_8_;
+    auVar2._8_8_ = 0;
+    auVar2._0_8_ = *(ulonglong *)(param_1 + 0x78);
+    auVar7 = vmaxsd_avx(auVar7,auVar2);
+    *(longlong *)(param_1 + 0x78) = auVar7._0_8_;
+  }
+  *(double *)(param_1 + 0x70) = dVar6 + *(double *)(param_1 + 0x70);
+  *(int *)(param_1 + 0x88) = *(int *)(param_1 + 0x88) + 1;
+  dVar6 = (double)func_0x000140009f07();
+  func_0x0001400f33f0(*(undefined8 *)(param_1 + 0x18),param_2);
+  dVar5 = (double)func_0x000140009f07();
+  dVar5 = dVar5 - dVar6;
+  auVar8._8_8_ = dVar5;
+  auVar8._0_8_ = dVar5;
+  if (*(int *)(param_1 + 0x68) == 0) {
+    *(undefined1 (*) [16])(param_1 + 0x58) = auVar8;
+  }
+  else {
+    auVar3._8_8_ = 0;
+    auVar3._0_8_ = *(ulonglong *)(param_1 + 0x60);
+    auVar7 = vminsd_avx(auVar8,auVar3);
+    *(longlong *)(param_1 + 0x60) = auVar7._0_8_;
+    auVar4._8_8_ = 0;
+    auVar4._0_8_ = *(ulonglong *)(param_1 + 0x58);
+    auVar7 = vmaxsd_avx(auVar8,auVar4);
+    *(longlong *)(param_1 + 0x58) = auVar7._0_8_;
+  }
+  *(double *)(param_1 + 0x50) = dVar5 + *(double *)(param_1 + 0x50);
+  *(int *)(param_1 + 0x68) = *(int *)(param_1 + 0x68) + 1;
+  func_0x00014018eb6b(*(undefined8 *)(param_1 + 200));
+  *(undefined8 *)(param_1 + 0x98) = 0;
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 3 ===
+entry=14000be1a range=14000be1a..14000be1e source=ret-scan name=FUN_14000be1a
+
+void FUN_14000be1a(longlong param_1)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x000142532533. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (**(code **)(**(longlong **)(param_1 + 0x38) + 0x40))();
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 4 ===
+entry=14012d596 range=14012d596..14012d59a source=ret-scan name=thunk_FUN_142518860
+
+bool thunk_FUN_142518860(longlong param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  
+  iVar1 = *(int *)(param_1 + 0x108);
+  iVar2 = func_0x000142e32cb9();
+  return iVar2 == iVar1;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 5 ===
+entry=14012c6a5 range=14012c6a5..14012c6a9 source=ret-scan name=thunk_FUN_1425183d0
+
+undefined8 thunk_FUN_1425183d0(undefined8 param_1)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0x70);
+  if (lVar1 != 0) {
+    uVar2 = func_0x00014007ddd5(lVar1,param_1);
+    return uVar2;
+  }
+  return 0;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 6 ===
+entry=1400113b5 range=1400113b5..1400113b9 source=ret-scan name=FUN_1400113b5
+
+longlong FUN_1400113b5(longlong param_1)
+
+{
+  return param_1 + 0x20;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 7 ===
+entry=1400905b1 range=1400905b1..1400905b5 source=ret-scan name=FUN_1400905b1
+
+void FUN_1400905b1(longlong *param_1)
+
+{
+  if (param_1 != (longlong *)0x0) {
+                    /* WARNING: Could not recover jumptable at 0x000142519dfd. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (**(code **)(*param_1 + 0x140))(param_1,1);
+    return;
+  }
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 8 ===
+entry=140196e06 range=140196e06..140196e0a source=ret-scan name=thunk_FUN_142517810
+
+undefined8 *
+thunk_FUN_142517810(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 *param_4,
+                   undefined8 *param_5)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  undefined8 uVar6;
+  
+  lVar1 = func_0x000142e3747c(param_2,0,0x145ce0370,0x145ce0398,0);
+  lVar2 = func_0x000142e3747c(param_3,0,0x145ce0370,0x145ce0398,0);
+  uVar3 = func_0x0001400ff7ef(*(undefined8 *)(param_1 + 0x18),0);
+  func_0x00014017f044(uVar3,*(undefined8 *)(lVar1 + 0x10),*(undefined8 *)(lVar2 + 0x10));
+  func_0x00014013953f(uVar3,*param_4,param_4[1],param_4[2]);
+  func_0x00014006e768(uVar3,*param_5,param_5[1],param_5[2]);
+  uVar6 = func_0x0001400cfb5d(uVar3);
+  puVar4 = (undefined8 *)func_0x000140010ae1(0x20);
+  if (puVar4 == (undefined8 *)0x0) {
+    puVar4 = (undefined8 *)0x0;
+  }
+  else {
+    puVar4[1] = 0;
+    *puVar4 = &UNK_145606038;
+  }
+  puVar4[2] = uVar3;
+  puVar4[3] = uVar6;
+  puVar5 = (undefined8 *)func_0x000140010ae1(0x80);
+  if (puVar5 != (undefined8 *)0x0) {
+    *puVar5 = 0;
+    puVar5[1] = 0;
+    puVar5[2] = 0;
+    puVar5[3] = 0;
+    puVar5[4] = 0;
+    puVar5[5] = 0;
+    puVar5[6] = 0;
+    puVar5[7] = 0;
+    puVar5[8] = 0;
+    puVar5[9] = 0;
+    puVar5[10] = 0;
+    puVar5[0xb] = 0;
+    puVar5[0xc] = 0;
+    puVar5[0xd] = 0;
+    puVar5[0xe] = 0;
+    puVar5[0xf] = 0;
+  }
+  puVar4[1] = puVar5;
+  *puVar5 = 0;
+  puVar5[1] = 0;
+  puVar5[2] = 0;
+  puVar5[3] = 0;
+  puVar5[4] = 0;
+  puVar5[5] = 0;
+  puVar5[6] = 0;
+  puVar5[7] = 0;
+  puVar5[8] = 0;
+  puVar5[9] = 0;
+  puVar5[10] = 0;
+  puVar5[0xb] = 0;
+  puVar5[0xc] = 0;
+  puVar5[0xd] = 0;
+  puVar5[0xe] = 0;
+  puVar5[0xf] = 0;
+  func_0x00014010af87(puVar4[2],puVar4[1]);
+  return puVar4;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 9 ===
+entry=14010bc20 range=14010bc20..14010bc24 source=ret-scan name=thunk_FUN_142517240
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142517240(undefined8 param_1,undefined8 *param_2,undefined4 *param_3,
+                        undefined4 param_4,undefined4 param_5,undefined8 param_6,undefined4 param_7,
+                        undefined1 param_8)
+
+{
+  undefined1 auStack_98 [32];
+  undefined8 uStack_78;
+  undefined4 *puStack_70;
+  undefined4 uStack_68;
+  undefined4 uStack_64;
+  undefined4 uStack_60;
+  undefined8 uStack_58;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  longlong lStack_40;
+  undefined4 uStack_38;
+  undefined4 uStack_34;
+  undefined4 uStack_30;
+  undefined1 uStack_2c;
+  ulonglong uStack_28;
+  
+  uStack_28 = _DAT_145ca23c0 ^ (ulonglong)auStack_98;
+  lStack_40 = func_0x000140010ae1(0x70);
+  if (lStack_40 != 0) {
+    uStack_34 = param_5;
+    uStack_30 = param_7;
+    uStack_2c = param_8;
+    uStack_68 = *param_3;
+    uStack_64 = param_3[1];
+    uStack_60 = param_3[2];
+    uStack_58 = *param_2;
+    uStack_50 = param_2[1];
+    uStack_48 = param_2[2];
+    puStack_70 = &uStack_38;
+    uStack_78 = param_6;
+    uStack_38 = param_4;
+    func_0x00014002dd26(lStack_40,param_1,&uStack_58,&uStack_68);
+  }
+  func_0x0001400bda57(uStack_28 ^ (ulonglong)auStack_98);
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 10 ===
+entry=140045052 range=140045052..140045056 source=ret-scan name=thunk_FUN_142517380
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142517380(undefined8 param_1,undefined8 param_2,undefined8 param_3,
+                        undefined4 *param_4,undefined4 param_5,undefined4 param_6,undefined8 param_7
+                        ,undefined4 param_8,undefined1 param_9)
+
+{
+  undefined1 auStack_a8 [32];
+  undefined4 *puStack_88;
+  undefined8 uStack_80;
+  undefined4 *puStack_78;
+  undefined4 uStack_68;
+  undefined4 uStack_64;
+  undefined4 uStack_60;
+  longlong lStack_58;
+  undefined4 uStack_50;
+  undefined4 uStack_4c;
+  undefined4 uStack_48;
+  undefined1 uStack_44;
+  ulonglong uStack_40;
+  
+  uStack_40 = _DAT_145ca23c0 ^ (ulonglong)auStack_a8;
+  lStack_58 = func_0x000140010ae1(0x70);
+  if (lStack_58 != 0) {
+    uStack_50 = param_5;
+    uStack_4c = param_6;
+    uStack_48 = param_8;
+    uStack_44 = param_9;
+    uStack_68 = *param_4;
+    uStack_64 = param_4[1];
+    uStack_60 = param_4[2];
+    puStack_78 = &uStack_50;
+    uStack_80 = param_7;
+    puStack_88 = &uStack_68;
+    func_0x000140073dad(lStack_58,param_1,param_2,param_3);
+  }
+  func_0x0001400bda57(uStack_40 ^ (ulonglong)auStack_a8);
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 11 ===
+entry=1401ad5f2 range=1401ad5f2..1401ad5f6 source=ret-scan name=thunk_FUN_1425174c0
+
+undefined8
+thunk_FUN_1425174c0(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined4 param_4,
+                   undefined8 param_5,undefined4 param_6,undefined1 param_7)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  longlong lVar3;
+  undefined1 auStack_18 [16];
+  
+  lVar1 = func_0x000140010ae1(0x90);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    lVar3 = lVar1;
+    uVar2 = func_0x0001400d52ab(auStack_18,param_2);
+    uVar2 = func_0x0001401768c7(lVar1,param_1,uVar2,param_3,param_4,param_5,param_6,param_7,lVar3);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 12 ===
+entry=14002ff77 range=14002ff77..14002ff7b source=ret-scan name=thunk_FUN_142517590
+
+undefined8
+thunk_FUN_142517590(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined8 param_4,
+                   undefined4 param_5,undefined4 *param_6,undefined4 param_7,undefined4 param_8,
+                   undefined8 param_9,undefined4 param_10,undefined8 param_11,undefined4 param_12,
+                   undefined1 param_13)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  undefined4 uStack_20;
+  undefined4 uStack_1c;
+  undefined4 uStack_18;
+  
+  lVar1 = func_0x000140010ae1(0x90);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uStack_20 = *param_6;
+    uStack_1c = param_6[1];
+    uStack_18 = param_6[2];
+    uVar2 = func_0x0001400b5ebf(lVar1,param_1,param_2,param_3,param_4,param_5,&uStack_20,param_7,
+                                param_8,param_9,param_10,param_11,param_12,param_13,lVar1);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 13 ===
+entry=140034fef range=140034fef..140034ff3 source=ret-scan name=thunk_FUN_1425176e0
+
+undefined8 *
+thunk_FUN_1425176e0(undefined8 param_1,undefined8 *param_2,undefined8 param_3,undefined4 param_4,
+                   undefined8 param_5,undefined4 param_6,undefined4 *param_7,undefined8 param_8,
+                   undefined4 param_9)
+
+{
+  undefined1 (*pauVar1) [16];
+  undefined4 uStack_20;
+  undefined4 uStack_1c;
+  undefined4 uStack_18;
+  
+  pauVar1 = (undefined1 (*) [16])func_0x000140010ae1(0x48);
+  if (pauVar1 == (undefined1 (*) [16])0x0) {
+    pauVar1 = (undefined1 (*) [16])0x0;
+  }
+  else {
+    *pauVar1 = (undefined1  [16])0x0;
+    *(undefined4 *)(*pauVar1 + 8) = 1;
+    *(undefined4 *)(*pauVar1 + 0xc) = 1;
+    *(undefined **)*pauVar1 = &UNK_1456063e8;
+    uStack_20 = *param_7;
+    uStack_1c = param_7[1];
+    uStack_18 = param_7[2];
+    func_0x0001400aebd3(pauVar1 + 1,param_3,param_4,param_5,param_6,&uStack_20,param_8,param_9);
+  }
+  *param_2 = pauVar1 + 1;
+  param_2[1] = pauVar1;
+  return param_2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 14 ===
+entry=1400a7e69 range=1400a7e69..1400a7e6d source=ret-scan name=thunk_FUN_142517f80
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142517f80(undefined8 param_1,undefined8 *param_2,undefined8 param_3,
+                        undefined8 param_4,undefined8 param_5,undefined4 param_6,undefined4 param_7,
+                        undefined4 param_8,undefined8 param_9,undefined4 param_10,
+                        undefined1 param_11)
+
+{
+  undefined1 auStack_c8 [32];
+  undefined8 uStack_a8;
+  undefined8 uStack_a0;
+  undefined4 uStack_98;
+  undefined8 uStack_90;
+  undefined4 *puStack_88;
+  undefined8 uStack_78;
+  undefined8 uStack_70;
+  undefined8 uStack_68;
+  longlong lStack_60;
+  undefined4 uStack_58;
+  undefined4 uStack_54;
+  undefined4 uStack_50;
+  undefined1 uStack_4c;
+  ulonglong uStack_48;
+  
+  uStack_48 = _DAT_145ca23c0 ^ (ulonglong)auStack_c8;
+  lStack_60 = func_0x000140010ae1(0x90);
+  if (lStack_60 != 0) {
+    uStack_58 = param_7;
+    uStack_54 = param_8;
+    uStack_50 = param_10;
+    uStack_4c = param_11;
+    uStack_78 = *param_2;
+    uStack_70 = param_2[1];
+    uStack_68 = param_2[2];
+    puStack_88 = &uStack_58;
+    uStack_90 = param_9;
+    uStack_98 = param_6;
+    uStack_a0 = param_5;
+    uStack_a8 = param_4;
+    func_0x00014013c325(lStack_60,param_1,&uStack_78,param_3);
+  }
+  func_0x0001400bda57(uStack_48 ^ (ulonglong)auStack_c8);
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 15 ===
+entry=14011e587 range=14011e587..14011e58b source=ret-scan name=thunk_FUN_1425180c0
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_1425180c0(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4
+                        ,undefined8 param_5,undefined8 param_6,undefined4 param_7,undefined4 param_8
+                        ,undefined4 param_9,undefined8 param_10,undefined4 param_11,
+                        undefined1 param_12)
+
+{
+  undefined1 auStack_c8 [32];
+  undefined8 uStack_a8;
+  undefined8 uStack_a0;
+  undefined8 uStack_98;
+  undefined4 uStack_90;
+  undefined8 uStack_88;
+  undefined4 *puStack_80;
+  longlong lStack_78;
+  undefined4 uStack_70;
+  undefined4 uStack_6c;
+  undefined4 uStack_68;
+  undefined1 uStack_64;
+  ulonglong uStack_60;
+  
+  uStack_60 = _DAT_145ca23c0 ^ (ulonglong)auStack_c8;
+  lStack_78 = func_0x000140010ae1(0x90);
+  if (lStack_78 != 0) {
+    uStack_70 = param_8;
+    uStack_6c = param_9;
+    uStack_68 = param_11;
+    uStack_64 = param_12;
+    puStack_80 = &uStack_70;
+    uStack_88 = param_10;
+    uStack_90 = param_7;
+    uStack_98 = param_6;
+    uStack_a0 = param_5;
+    uStack_a8 = param_4;
+    func_0x0001400ed590(lStack_78,param_1,param_2,param_3);
+  }
+  func_0x0001400bda57(uStack_60 ^ (ulonglong)auStack_c8);
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 16 ===
+entry=14015b6ad range=14015b6ad..14015b6b1 source=ret-scan name=thunk_FUN_142518210
+
+undefined8
+thunk_FUN_142518210(undefined8 param_1,undefined8 param_2,undefined4 param_3,undefined8 param_4,
+                   undefined4 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,
+                   undefined4 param_9,undefined4 param_10,undefined4 param_11,undefined8 param_12,
+                   undefined4 param_13,undefined8 param_14,undefined4 param_15,undefined1 param_16)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0xe0);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uVar2 = func_0x00014007dbf0(lVar1,param_1,param_2,param_3,param_4,param_5,param_6,param_7,
+                                param_8,param_9,param_10,param_11,param_12,param_13,param_14,
+                                param_15,param_16);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 17 ===
+entry=140193d37 range=140193d37..140193d3b source=ret-scan name=thunk_FUN_142517af0
+
+undefined8
+thunk_FUN_142517af0(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                   undefined4 param_5,undefined8 param_6,undefined4 param_7,undefined4 param_8,
+                   undefined4 param_9,undefined8 param_10,undefined4 param_11,undefined4 param_12)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0x78);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uVar2 = func_0x00014008b0d4(lVar1,param_1,param_2,param_3,param_4,param_5,param_6,param_7,
+                                param_8,param_9,param_10,param_11,param_12);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 18 ===
+entry=14016c48a range=14016c48a..14016c48e source=ret-scan name=thunk_FUN_142517d30
+
+undefined8
+thunk_FUN_142517d30(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined4 param_4,
+                   undefined8 param_5,undefined4 param_6,undefined4 param_7,undefined8 param_8,
+                   undefined4 param_9,undefined8 param_10,undefined4 param_11,undefined4 param_12)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0x78);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uVar2 = func_0x000140158e08(lVar1,param_1,param_2,param_8,param_3,param_4,param_5,param_6,
+                                param_7,param_9,param_10,param_11,param_12);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 19 ===
+entry=14016e03c range=14016e03c..14016e040 source=ret-scan name=thunk_FUN_142517c10
+
+undefined8
+thunk_FUN_142517c10(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined4 param_4,
+                   undefined8 param_5,undefined4 param_6,undefined4 param_7,undefined8 param_8,
+                   undefined4 param_9,undefined8 param_10,undefined4 param_11,undefined4 param_12)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0xe8);
+  if (lVar1 == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uVar2 = func_0x0001400ca2ac(lVar1,param_1,param_2,param_3,param_4,param_5,param_6,param_7,
+                                param_8,param_9,param_10,param_11,param_12);
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 20 ===
+entry=1400a3ec7 range=1400a3ec7..1400a3ecb source=ret-scan name=thunk_FUN_142519810
+
+undefined8
+thunk_FUN_142519810(longlong *param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                   undefined8 param_5,undefined4 param_6,undefined1 param_7)
+
+{
+  func_0x000140055169(param_1[0x1a],param_5);
+  (**(code **)(*param_1 + 0x138))(param_1,param_2,param_3,param_4,param_1[0x1a],param_6,param_7);
+  return param_2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 21 ===
+entry=140139887 range=140139887..14013988b source=ret-scan name=FUN_140139887
+
+void FUN_140139887(longlong param_1,undefined8 param_2)
+
+{
+  *(undefined8 *)(param_1 + 0xd8) = param_2;
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 22 ===
+entry=1400e186c range=1400e186c..1400e1870 source=ret-scan name=thunk_FUN_142519e10
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142519e10(undefined8 param_1,longlong param_2,undefined8 *param_3,undefined8 *param_4
+                        )
+
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined1 auStack_98 [32];
+  undefined8 *puStack_78;
+  undefined8 uStack_68;
+  undefined8 uStack_60;
+  undefined8 uStack_58;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  undefined8 uStack_40;
+  ulonglong uStack_38;
+  
+  uStack_38 = _DAT_145ca23c0 ^ (ulonglong)auStack_98;
+  uVar1 = func_0x0001401a075d(*(undefined8 *)(param_2 + 0x10),0);
+  uVar2 = func_0x0001401a075d(*(undefined8 *)(param_2 + 0x10),1);
+  puStack_78 = &uStack_68;
+  func_0x0001400c4a9b(uVar1,*param_3,param_3[1],param_3[2]);
+  puStack_78 = &uStack_50;
+  func_0x0001400c4a9b(uVar2,*param_4,param_4[1],param_4[2]);
+  func_0x00014013953f(*(undefined8 *)(param_2 + 0x10),uStack_68,uStack_60,uStack_58);
+  func_0x00014006e768(*(undefined8 *)(param_2 + 0x10),uStack_50,uStack_48,uStack_40);
+  func_0x0001400b365b(*(undefined8 *)(param_2 + 0x10),*(undefined8 *)(param_2 + 0x18));
+  func_0x0001400bda57(uStack_38 ^ (ulonglong)auStack_98);
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 23 ===
+entry=14014c743 range=14014c743..14014c747 source=ret-scan name=FUN_14014c743
+
+void FUN_14014c743(void)
+
+{
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 24 ===
+entry=1400fd0c6 range=1400fd0c6..1400fd0ca source=ret-scan name=thunk_FUN_142517e40
+
+void thunk_FUN_142517e40(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 *param_4,
+                        undefined8 *param_5)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  
+  puVar5 = (undefined8 *)0x0;
+  lVar1 = func_0x000142e3747c(param_2,0,0x145ce0370,0x145ce0398,0);
+  lVar2 = func_0x000142e3747c(param_3,0,0x145ce0370,0x145ce0398,0);
+  uVar3 = func_0x000140129018(*(undefined8 *)(param_1 + 0x18),0);
+  func_0x00014017f044(uVar3,*(undefined8 *)(lVar1 + 0x10),*(undefined8 *)(lVar2 + 0x10));
+  func_0x000140001415(uVar3,*param_4,param_4[1],param_4[2]);
+  func_0x0001400d947d(uVar3,*param_5,param_5[1],param_5[2]);
+  puVar4 = (undefined8 *)func_0x000140010ae1(0x20);
+  if (puVar4 != (undefined8 *)0x0) {
+    puVar4[1] = 0;
+    *puVar4 = &UNK_145606068;
+    puVar5 = puVar4;
+  }
+  puVar5[2] = uVar3;
+  puVar5[3] = 0;
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 25 ===
+entry=140023cf4 range=140023cf4..140023cf8 source=ret-scan name=thunk_FUN_142519f30
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142519f30(undefined8 param_1,longlong param_2,undefined8 *param_3,undefined8 *param_4
+                        )
+
+{
+  undefined8 uVar1;
+  undefined1 auStack_68 [32];
+  undefined8 *puStack_48;
+  undefined8 uStack_38;
+  undefined8 uStack_30;
+  undefined8 uStack_28;
+  ulonglong uStack_20;
+  
+  uStack_20 = _DAT_145ca23c0 ^ (ulonglong)auStack_68;
+  uVar1 = func_0x0001401a075d(*(undefined8 *)(param_2 + 0x10),0);
+  func_0x0001401a075d(*(undefined8 *)(param_2 + 0x10),1);
+  puStack_48 = &uStack_38;
+  func_0x0001400c4a9b(uVar1,*param_3,param_3[1],param_3[2]);
+  func_0x000140001415(*(undefined8 *)(param_2 + 0x10),uStack_38,uStack_30,uStack_28);
+  func_0x0001400d947d(*(undefined8 *)(param_2 + 0x10),*param_4,param_4[1],param_4[2]);
+  func_0x0001400bda57(uStack_20 ^ (ulonglong)auStack_68);
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 26 ===
+entry=1400f89c7 range=1400f89c7..1400f89cb source=ret-scan name=thunk_FUN_142518420
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 *
+thunk_FUN_142518420(longlong param_1,undefined8 param_2,undefined8 param_3,double *param_4)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  double dVar9;
+  
+  puVar5 = (undefined8 *)0x0;
+  lVar1 = func_0x000142e3747c(param_2,0,0x145ce0370,0x145ce0398,0);
+  lVar2 = func_0x000142e3747c(param_3,0,0x145ce0370,0x145ce0398,0);
+  uVar3 = func_0x00014011b4f9(*(undefined8 *)(param_1 + 0x18),0);
+  func_0x00014017f044(uVar3,*(undefined8 *)(lVar1 + 0x10),*(undefined8 *)(lVar2 + 0x10));
+  dVar7 = *param_4;
+  dVar8 = param_4[1];
+  dVar9 = param_4[2];
+  dVar6 = dVar8 * dVar8 + dVar7 * dVar7 + dVar9 * dVar9;
+  if (dVar6 < 0.0) {
+    dVar6 = (double)func_0x000142e3765c(dVar6);
+  }
+  else {
+    dVar6 = SQRT(dVar6);
+  }
+  dVar6 = _DAT_14316b3f8 / dVar6;
+  func_0x0001400245eb(uVar3,dVar6 * dVar7,dVar6 * dVar8,dVar6 * dVar9);
+  puVar4 = (undefined8 *)func_0x000140010ae1(0x18);
+  if (puVar4 != (undefined8 *)0x0) {
+    puVar4[1] = 0;
+    *puVar4 = &UNK_145605fa8;
+    puVar4[2] = uVar3;
+    puVar5 = puVar4;
+    uVar3 = uRam0000000000000010;
+  }
+  uRam0000000000000010 = uVar3;
+  return puVar5;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 27 ===
+entry=140164c85 range=140164c85..140164c89 source=ret-scan name=FUN_140164c85
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_140164c85(undefined8 param_1,longlong param_2,undefined8 *param_3)
+
+{
+  double *pdVar1;
+  double *pdVar2;
+  longlong lVar3;
+  longlong lVar4;
+  longlong lVar5;
+  undefined8 uVar6;
+  uint uVar7;
+  uint uVar8;
+  
+  lVar3 = *(longlong *)(param_2 + 0x10);
+  func_0x00014004ca6e(lVar3,*param_3,param_3[1],param_3[2],lVar3 + 0xa0,0);
+  func_0x000140124108(lVar3);
+  uVar6 = _DAT_1431671b0;
+  lVar4 = *(longlong *)(lVar3 + 0x40);
+  if (lVar4 != 0) {
+    lVar5 = *(longlong *)(lVar3 + 0x58);
+    pdVar1 = (double *)(lVar4 + 0x1b8);
+    if (lVar5 != 0) {
+      pdVar2 = (double *)(lVar5 + 0x1b8);
+      *(double *)(lVar3 + 0xc0) =
+           *pdVar1 * *pdVar2 + *(double *)(lVar5 + 0x1c0) * *(double *)(lVar4 + 0x1c0) +
+           *(double *)(lVar5 + 0x1c8) * *(double *)(lVar4 + 0x1c8) +
+           *(double *)(lVar5 + 0x1d0) * *(double *)(lVar4 + 0x1d0);
+      *(double *)(lVar3 + 200) =
+           ((*(double *)(lVar5 + 0x1c0) * *pdVar1 - *pdVar2 * *(double *)(lVar4 + 0x1c0)) -
+           *(double *)(lVar5 + 0x1d0) * *(double *)(lVar4 + 0x1c8)) +
+           *(double *)(lVar5 + 0x1c8) * *(double *)(lVar4 + 0x1d0);
+      *(double *)(lVar3 + 0xd0) =
+           ((*(double *)(lVar5 + 0x1c8) * *pdVar1 - *(double *)(lVar4 + 0x1c8) * *pdVar2) -
+           *(double *)(lVar4 + 0x1d0) * *(double *)(lVar5 + 0x1c0)) +
+           *(double *)(lVar5 + 0x1d0) * *(double *)(lVar4 + 0x1c0);
+      *(double *)(lVar3 + 0xd8) =
+           ((*(double *)(lVar5 + 0x1d0) * *pdVar1 - *(double *)(lVar4 + 0x1d0) * *pdVar2) -
+           *(double *)(lVar5 + 0x1c8) * *(double *)(lVar4 + 0x1c0)) +
+           *(double *)(lVar4 + 0x1c8) * *(double *)(lVar5 + 0x1c0);
+      return;
+    }
+    *(double *)(lVar3 + 0xc0) = *pdVar1;
+    uVar7 = (uint)uVar6;
+    uVar8 = (uint)((ulonglong)uVar6 >> 0x20);
+    *(ulonglong *)(lVar3 + 200) =
+         CONCAT44((uint)((ulonglong)*(undefined8 *)(lVar4 + 0x1c0) >> 0x20) ^ uVar8,
+                  (uint)*(undefined8 *)(lVar4 + 0x1c0) ^ uVar7);
+    *(ulonglong *)(lVar3 + 0xd0) =
+         CONCAT44((uint)((ulonglong)*(undefined8 *)(lVar4 + 0x1c8) >> 0x20) ^ uVar8,
+                  (uint)*(undefined8 *)(lVar4 + 0x1c8) ^ uVar7);
+    *(ulonglong *)(lVar3 + 0xd8) =
+         CONCAT44((uint)((ulonglong)*(undefined8 *)(lVar4 + 0x1d0) >> 0x20) ^ uVar8,
+                  (uint)*(undefined8 *)(lVar4 + 0x1d0) ^ uVar7);
+  }
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 28 ===
+entry=140165f5e range=140165f5e..140165f62 source=ret-scan name=thunk_FUN_142517120
+
+undefined8 *
+thunk_FUN_142517120(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 *param_4)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  
+  puVar5 = (undefined8 *)0x0;
+  lVar1 = func_0x000142e3747c(param_2,0,0x145ce0370,0x145ce0398,0);
+  lVar2 = func_0x000142e3747c(param_3,0,0x145ce0370,0x145ce0398,0);
+  uVar3 = func_0x00014001e07e(*(undefined8 *)(param_1 + 0x18),0);
+  func_0x00014017f044(uVar3,*(undefined8 *)(lVar1 + 0x10),*(undefined8 *)(lVar2 + 0x10));
+  func_0x0001400b2fa3(uVar3,*param_4,param_4[1],param_4[2]);
+  puVar4 = (undefined8 *)func_0x000140010ae1(0x18);
+  if (puVar4 != (undefined8 *)0x0) {
+    puVar4[1] = 0;
+    *puVar4 = &UNK_145605fd8;
+    puVar4[2] = uVar3;
+    puVar5 = puVar4;
+    uVar3 = uRam0000000000000010;
+  }
+  uRam0000000000000010 = uVar3;
+  return puVar5;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 29 ===
+entry=1401552f8 range=1401552f8..1401552fc source=ret-scan name=thunk_FUN_1425179f0
+
+undefined8 * thunk_FUN_1425179f0(longlong param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  
+  puVar5 = (undefined8 *)0x0;
+  lVar1 = func_0x000142e3747c(param_2,0,0x145ce0370,0x145ce0398,0);
+  lVar2 = func_0x000142e3747c(param_3,0,0x145ce0370,0x145ce0398,0);
+  uVar3 = func_0x0001400381e5(*(undefined8 *)(param_1 + 0x18),0);
+  func_0x00014017f044(uVar3,*(undefined8 *)(lVar1 + 0x10),*(undefined8 *)(lVar2 + 0x10));
+  func_0x00014009dcc0(uVar3);
+  puVar4 = (undefined8 *)func_0x000140010ae1(0x18);
+  if (puVar4 != (undefined8 *)0x0) {
+    puVar4[1] = 0;
+    *puVar4 = &UNK_145606008;
+    puVar4[2] = uVar3;
+    puVar5 = puVar4;
+    uVar3 = uRam0000000000000010;
+  }
+  uRam0000000000000010 = uVar3;
+  return puVar5;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 30 ===
+entry=14007c27d range=14007c27d..14007c281 source=ret-scan name=thunk_FUN_142518360
+
+undefined8 thunk_FUN_142518360(undefined8 param_1,undefined8 param_2)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = func_0x000140010ae1(0x18);
+  if (lVar1 != 0) {
+    uVar2 = func_0x00014005a92f(lVar1,param_1,param_2);
+    return uVar2;
+  }
+  return 0;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 31 ===
+entry=1401484b3 range=1401484b3..1401484b7 source=ret-scan name=FUN_1401484b3
+
+undefined8 * FUN_1401484b3(longlong param_1,undefined8 *param_2)
+
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  
+  uVar1 = *(undefined8 *)(param_1 + 0x58);
+  uVar2 = *(undefined8 *)(param_1 + 0x60);
+  uVar3 = *(undefined8 *)(param_1 + 0x68);
+  uVar4 = *(undefined8 *)(param_1 + 0x70);
+  uVar5 = *(undefined8 *)(param_1 + 0x78);
+  uVar6 = *(undefined8 *)(param_1 + 0x80);
+  uVar7 = *(undefined8 *)(param_1 + 0x88);
+  *param_2 = *(undefined8 *)(param_1 + 0x50);
+  param_2[1] = uVar1;
+  param_2[2] = uVar2;
+  param_2[3] = uVar3;
+  uVar1 = *(undefined8 *)(param_1 + 0x90);
+  param_2[4] = uVar4;
+  param_2[5] = uVar5;
+  param_2[6] = uVar6;
+  param_2[7] = uVar7;
+  param_2[8] = uVar1;
+  return param_2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 32 ===
+entry=14006bff9 range=14006bff9..14006bffd source=ret-scan name=FUN_14006bff9
+
+void FUN_14006bff9(longlong param_1,undefined4 param_2)
+
+{
+  *(undefined4 *)(param_1 + 0xe0) = param_2;
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 33 ===
+entry=1400bee02 range=1400bee02..1400bee06 source=ret-scan name=FUN_1400bee02
+
+void FUN_1400bee02(longlong param_1)
+
+{
+  *(undefined1 *)(param_1 + 0x128) = 1;
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 34 ===
+entry=1400b98a8 range=1400b98a8..1400b98ac source=ret-scan name=FUN_1400b98a8
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_1400b98a8(undefined8 param_1,longlong param_2)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = *(longlong *)(param_2 + 0x10);
+  if (*(longlong *)(lVar1 + 0x40) == 0) {
+    uVar2 = 0;
+  }
+  else {
+    uVar2 = func_0x0001400f4665(*(longlong *)(lVar1 + 0x40),*(undefined8 *)(lVar1 + 0x58),
+                                lVar1 + 0xe0,lVar1 + 0x120);
+    if ((*(byte *)(lVar1 + 0x30) & 2) != 0) {
+      return CONCAT44((uint)((ulonglong)uVar2 >> 0x20) ^ _UNK_1431671b4,(uint)uVar2 ^ _DAT_1431671b0
+                     );
+    }
+  }
+  return uVar2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 35 ===
+entry=14009567e range=14009567e..140095682 source=ret-scan name=FUN_14009567e
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+double FUN_14009567e(undefined8 param_1,longlong param_2)
+
+{
+  double dVar1;
+  longlong lVar2;
+  longlong lVar3;
+  longlong lVar4;
+  double dVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  
+  lVar2 = *(longlong *)(param_2 + 0x10);
+  lVar3 = *(longlong *)(lVar2 + 0x40);
+  if (lVar3 != 0) {
+    dVar6 = *(double *)(lVar2 + 0xe8);
+    dVar8 = *(double *)(lVar2 + 0xe0);
+    dVar1 = *(double *)(lVar2 + 0xf0);
+    dVar5 = dVar6 * *(double *)(lVar3 + 0x160) + dVar8 * *(double *)(lVar3 + 0x158) +
+            dVar1 * *(double *)(lVar3 + 0x168);
+    dVar7 = dVar6 * *(double *)(lVar3 + 0x180) + dVar8 * *(double *)(lVar3 + 0x178) +
+            dVar1 * *(double *)(lVar3 + 0x188);
+    dVar8 = dVar6 * *(double *)(lVar3 + 0x1a0) + dVar8 * *(double *)(lVar3 + 0x198) +
+            dVar1 * *(double *)(lVar3 + 0x1a8);
+    lVar4 = *(longlong *)(lVar2 + 0x58);
+    dVar6 = dVar7 * *(double *)(lVar3 + 0x200) + dVar5 * *(double *)(lVar3 + 0x1f8) +
+            dVar8 * *(double *)(lVar3 + 0x208);
+    if (lVar4 != 0) {
+      dVar6 = dVar6 - (dVar7 * *(double *)(lVar4 + 0x200) + dVar5 * *(double *)(lVar4 + 0x1f8) +
+                      dVar8 * *(double *)(lVar4 + 0x208));
+    }
+    if ((*(byte *)(lVar2 + 0x30) & 2) != 0) {
+      dVar6 = (double)CONCAT44((uint)((ulonglong)dVar6 >> 0x20) ^ _UNK_1431671b4,
+                               SUB84(dVar6,0) ^ _DAT_1431671b0);
+    }
+    return dVar6;
+  }
+  return 0.0;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 36 ===
+entry=14007d5c4 range=14007d5c4..14007d5c8 source=ret-scan name=thunk_FUN_142516e10
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_142516e10(longlong param_1,undefined8 *param_2,undefined8 *param_3,undefined8 param_4
+                        ,longlong param_5,longlong param_6)
+
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  undefined1 auStack_1a8 [96];
+  undefined8 uStack_148;
+  undefined8 uStack_128;
+  undefined8 uStack_120;
+  undefined8 uStack_118;
+  undefined8 uStack_110;
+  undefined8 uStack_108;
+  undefined8 uStack_100;
+  undefined8 uStack_f8;
+  undefined8 uStack_f0;
+  undefined8 uStack_e8;
+  undefined8 uStack_e0;
+  undefined8 uStack_d8;
+  undefined8 uStack_d0;
+  undefined8 uStack_c8;
+  undefined8 uStack_c0;
+  undefined8 uStack_b8;
+  undefined8 uStack_b0;
+  undefined8 uStack_a8;
+  undefined8 uStack_a0;
+  undefined8 uStack_98;
+  undefined8 uStack_90;
+  undefined8 uStack_88;
+  undefined8 uStack_80;
+  undefined8 uStack_78;
+  undefined8 uStack_70;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  undefined8 uStack_40;
+  undefined8 uStack_38;
+  ulonglong uStack_28;
+  
+  uStack_28 = _DAT_145ca23c0 ^ (ulonglong)auStack_1a8;
+  uStack_128 = 0x701c;
+  uStack_118 = 0;
+  uStack_110 = 0;
+  uStack_108 = 0;
+  uStack_100 = 0;
+  uStack_d8 = 0;
+  uStack_d0 = 0;
+  uStack_c8 = 0;
+  uStack_c0 = 0;
+  uStack_b0 = *param_2;
+  uStack_a8 = param_2[1];
+  uStack_a0 = param_2[2];
+  uStack_98 = param_2[3];
+  uStack_50 = 0;
+  uStack_48 = 0;
+  uStack_40 = 0;
+  uStack_38 = 0;
+  uStack_90 = *param_3;
+  uStack_88 = param_3[1];
+  uStack_80 = param_3[2];
+  uStack_78 = param_3[3];
+  uStack_b8 = 0;
+  uStack_e8 = _UNK_145606790;
+  uStack_e0 = _UNK_145606798;
+  uStack_120 = _DAT_143176ea8;
+  uStack_f8 = 0;
+  uStack_f0 = 0;
+  uStack_148 = param_4;
+  uStack_70 = param_4;
+  uVar1 = func_0x00014014d7c4(*(undefined8 *)(param_1 + 0x18),*(undefined8 *)(param_1 + 200),
+                              &uStack_128);
+  uVar3 = 0;
+  uVar2 = uVar3;
+  if (param_5 != 0) {
+    uVar2 = *(undefined8 *)(param_5 + 0x10);
+  }
+  if (param_6 != 0) {
+    uVar3 = *(undefined8 *)(param_6 + 0x10);
+  }
+  func_0x00014017f044(uVar1,uVar2,uVar3);
+  func_0x0001400bda57(uStack_28 ^ (ulonglong)auStack_1a8);
+  return;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 37 ===
+entry=14006a6a9 range=14006a6a9..14006a6ad source=ret-scan name=thunk_FUN_142518680
+
+undefined8 thunk_FUN_142518680(longlong param_1,uint param_2)
+
+{
+  longlong *plVar1;
+  char cVar2;
+  longlong *plVar3;
+  longlong *plVar4;
+  longlong *plVar5;
+  undefined8 uVar6;
+  undefined8 *puVar7;
+  longlong *plVar8;
+  uint auStackX_10 [6];
+  
+  if (param_2 != 0) {
+    plVar1 = (longlong *)(param_1 + 0xf8);
+    plVar3 = (longlong *)*plVar1;
+    plVar5 = (longlong *)plVar3[1];
+    cVar2 = *(char *)((longlong)plVar5 + 0x19);
+    plVar4 = plVar3;
+    while (cVar2 == '\0') {
+      plVar8 = plVar5;
+      if (*(uint *)(plVar5 + 4) < param_2) {
+        plVar5 = plVar5 + 2;
+        plVar8 = plVar4;
+      }
+      plVar5 = (longlong *)*plVar5;
+      plVar4 = plVar8;
+      cVar2 = *(char *)((longlong)plVar5 + 0x19);
+    }
+    auStackX_10[0] = param_2;
+    if (((*(char *)((longlong)plVar4 + 0x19) != '\0') || (param_2 < *(uint *)(plVar4 + 4))) ||
+       (plVar4 == plVar3)) {
+      uVar6 = func_0x0001425179e0(*(undefined8 *)(param_1 + 0x40));
+      puVar7 = (undefined8 *)func_0x0001400e061a(plVar1,auStackX_10);
+      *puVar7 = uVar6;
+    }
+    puVar7 = (undefined8 *)func_0x0001400e061a(plVar1,auStackX_10);
+    return *puVar7;
+  }
+  return *(undefined8 *)(param_1 + 0x40);
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 38 ===
+entry=14010a523 range=14010a523..14010a527 source=ret-scan name=thunk_FUN_142518780
+
+undefined8 thunk_FUN_142518780(longlong param_1,uint param_2)
+
+{
+  longlong *plVar1;
+  char cVar2;
+  longlong *plVar3;
+  longlong *plVar4;
+  longlong *plVar5;
+  undefined8 uVar6;
+  undefined8 *puVar7;
+  longlong *plVar8;
+  uint auStackX_10 [6];
+  
+  if (param_2 != 0) {
+    plVar1 = (longlong *)(param_1 + 0xe8);
+    plVar3 = (longlong *)*plVar1;
+    plVar5 = (longlong *)plVar3[1];
+    cVar2 = *(char *)((longlong)plVar5 + 0x19);
+    plVar4 = plVar3;
+    while (cVar2 == '\0') {
+      plVar8 = plVar5;
+      if (*(uint *)(plVar5 + 4) < param_2) {
+        plVar5 = plVar5 + 2;
+        plVar8 = plVar4;
+      }
+      plVar5 = (longlong *)*plVar5;
+      plVar4 = plVar8;
+      cVar2 = *(char *)((longlong)plVar5 + 0x19);
+    }
+    auStackX_10[0] = param_2;
+    if (((*(char *)((longlong)plVar4 + 0x19) != '\0') || (param_2 < *(uint *)(plVar4 + 4))) ||
+       (plVar4 == plVar3)) {
+      uVar6 = FUN_1425185c0(*(undefined8 *)(param_1 + 0x38));
+      puVar7 = (undefined8 *)func_0x0001400e061a(plVar1,auStackX_10);
+      *puVar7 = uVar6;
+    }
+    puVar7 = (undefined8 *)func_0x0001400e061a(plVar1,auStackX_10);
+    return *puVar7;
+  }
+  return *(undefined8 *)(param_1 + 0x38);
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 39 ===
+entry=140125422 range=140125422..140125426 source=ret-scan name=thunk_FUN_142519520
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 *
+thunk_FUN_142519520(longlong param_1,undefined8 *param_2,undefined8 *param_3,undefined8 *param_4,
+                   undefined8 param_5,undefined4 param_6,char param_7)
+
+{
+  undefined8 *puVar1;
+  undefined4 uVar2;
+  ulonglong uVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  double *pdVar6;
+  longlong lVar7;
+  int iVar8;
+  int iVar9;
+  undefined1 auVar10 [16];
+  undefined1 auVar11 [64];
+  undefined1 auStack_68 [16];
+  undefined1 auStack_58 [16];
+  undefined1 auStack_48 [16];
+  undefined1 uStack_38;
+  undefined4 uStack_34;
+  longlong lStack_30;
+  
+  iVar9 = 0;
+  uStack_38 = 0;
+  iVar8 = -1;
+  *param_2 = 0;
+  param_2[1] = 0;
+  param_2[2] = 0;
+  param_2[3] = 0;
+  param_2[4] = 0;
+  param_2[5] = 0;
+  param_2[6] = 0;
+  *(undefined1 *)(param_2 + 7) = 0;
+  *(undefined4 *)((longlong)param_2 + 0x3c) = 0xffffffff;
+  auStack_68 = (undefined1  [16])0x0;
+  auStack_48 = (undefined1  [16])0x0;
+  param_2[8] = 0;
+  param_2[9] = 0;
+  param_2[10] = 0;
+  param_2[0xb] = 0;
+  param_2[0xc] = 0;
+  param_2[0xd] = 0;
+  param_2[0xe] = 0;
+  param_2[0xf] = 0;
+  param_2[0x10] = 0;
+  param_2[0x11] = 0;
+  auStack_58 = (undefined1  [16])0x0;
+  uStack_34 = param_6;
+  param_2[0x13] = 0xbff0000000000000;
+  *(undefined1 *)(param_2 + 0x12) = 0;
+  lStack_30 = param_1;
+  if (param_7 != '\0') {
+    func_0x000140094ba2(*(undefined8 *)(param_1 + 0xd0),0);
+  }
+  func_0x0001400c156c(param_5,*param_3,param_3[1],param_3[2],*param_4,param_4[1],param_4[2]);
+  *(undefined4 *)(param_1 + 0x98) = 0;
+  *(undefined4 *)(param_1 + 0xa0) = 0;
+  func_0x00014005f92a(param_5,*(undefined8 *)(param_1 + 0x38),auStack_68,&UNK_1401400e7);
+  auVar11 = ZEXT464(_UNK_1431679f4);
+  uVar3 = (longlong)(auStack_48._0_8_ - auStack_58._8_8_) / 0x60;
+  if (uVar3 != 0) {
+    pdVar6 = (double *)(auStack_58._8_8_ + 0x40);
+    do {
+      if (auVar11._0_4_ < 0.0) {
+code_r0x0001425196b0:
+        auVar10._8_8_ = 0;
+        auVar10._0_8_ = *pdVar6;
+        auVar10 = vcvtpd2ps_avx(auVar10);
+        auVar11 = ZEXT1664(auVar10);
+        iVar8 = iVar9;
+      }
+      else if (*pdVar6 < (double)auVar11._0_4_) goto code_r0x0001425196b0;
+      iVar9 = iVar9 + 1;
+      pdVar6 = pdVar6 + 0xc;
+    } while ((ulonglong)(longlong)iVar9 < uVar3);
+    if (0.0 <= auVar11._0_4_) {
+      *(undefined1 *)(param_2 + 7) = 1;
+      lVar7 = (longlong)iVar8 * 0x60;
+      puVar1 = (undefined8 *)(lVar7 + 8 + auStack_58._8_8_);
+      uVar5 = *puVar1;
+      uVar4 = puVar1[1];
+      *param_2 = *(undefined8 *)(lVar7 + auStack_58._8_8_);
+      param_2[1] = uVar5;
+      param_2[2] = uVar4;
+      puVar1 = (undefined8 *)(lVar7 + 0x28 + auStack_58._8_8_);
+      uVar5 = *puVar1;
+      uVar4 = puVar1[1];
+      param_2[3] = *(undefined8 *)(lVar7 + 0x20 + auStack_58._8_8_);
+      param_2[4] = uVar5;
+      param_2[5] = uVar4;
+      uVar5 = func_0x0001400cebea(*(undefined8 *)(lVar7 + 0x50 + auStack_58._8_8_));
+      param_2[6] = uVar5;
+      uVar2 = *(undefined4 *)(lVar7 + 0x5c + auStack_58._8_8_);
+      *(undefined1 *)(param_2 + 0x12) = uStack_38;
+      param_2[0x13] = (double)auVar11._0_4_;
+      *(undefined4 *)((longlong)param_2 + 0x3c) = uVar2;
+    }
+  }
+  func_0x0001400be68c(auStack_58 + 8);
+  func_0x000140025d15(auStack_68);
+  return param_2;
+}
+
+
+
+=== PhysicsCoreExperimental vtable slot 40 ===
+entry=14013e0c6 range=14013e0c6..14013e0ca source=ret-scan name=thunk_FUN_142516d50
+
+undefined8 thunk_FUN_142516d50(undefined8 param_1,ulonglong param_2)
+
+{
+  func_0x000140170d4b();
+  if ((param_2 & 1) != 0) {
+    func_0x000140140cdb(param_1,0x130);
+  }
+  return param_1;
+}
+
+
+
+=== ITyreModel vtable slot 0 ===
+entry=1400e4f0d range=1400e4f0d..1400e4f11 source=ret-scan name=thunk_FUN_142507f70
+
+undefined8 * thunk_FUN_142507f70(undefined8 *param_1,ulonglong param_2)
+
+{
+  *param_1 = &UNK_1456057b8;
+  if ((param_2 & 1) != 0) {
+    func_0x000140140cdb(param_1,8);
+  }
+  return param_1;
+}
+
+
+
+=== ITyreModel vtable slot 1 ===
+entry=142e37434 range=142e37434..142e37439 source=ret-scan name=_purecall
+
+void _purecall(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x000142e37434. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  _purecall();
+  return;
+}
+
+

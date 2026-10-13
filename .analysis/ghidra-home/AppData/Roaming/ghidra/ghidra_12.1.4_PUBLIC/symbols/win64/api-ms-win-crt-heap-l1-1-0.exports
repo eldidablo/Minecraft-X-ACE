@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LIBRARY NAME="api-ms-win-crt-heap-l1-1-0.dll" PATH="C:\Program Files\Java\jdk-25\bin\api-ms-win-crt-heap-l1-1-0.dll" DATE="Sun Dec 28 23:53:32 WET 2025" VERSION="10.0.26100.2454 (WinBuild.160101.0800)">
+    <EXPORT ORDINAL="1" NAME="_aligned_free" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="2" NAME="_aligned_malloc" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="3" NAME="_aligned_msize" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="4" NAME="_aligned_offset_malloc" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="5" NAME="_aligned_offset_realloc" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="6" NAME="_aligned_offset_recalloc" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="7" NAME="_aligned_realloc" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="8" NAME="_aligned_recalloc" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="9" NAME="_callnewh" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="10" NAME="_calloc_base" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="11" NAME="_expand" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="12" NAME="_free_base" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="13" NAME="_get_heap_handle" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="14" NAME="_heapchk" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="15" NAME="_heapmin" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="16" NAME="_heapwalk" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="17" NAME="_malloc_base" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="18" NAME="_msize" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="19" NAME="_query_new_handler" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="20" NAME="_query_new_mode" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="21" NAME="_realloc_base" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="22" NAME="_recalloc" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="23" NAME="_set_new_mode" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="24" NAME="calloc" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="25" NAME="free" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="26" NAME="malloc" PURGE="2147483647" COMMENT="" />
+    <EXPORT ORDINAL="27" NAME="realloc" PURGE="2147483647" COMMENT="" />
+</LIBRARY>

@@ -1,0 +1,216 @@
+
+=== PhysicsCore main callback A ===
+requested=142512960 range=142512960..1425129ef disassemble=true
+name=FUN_142512960 body=[[142512960, 1425129ef]]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_142512960(undefined8 param_1)
+
+{
+  undefined4 uVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  longlong unaff_GS_OFFSET;
+  
+  lVar2 = *(longlong *)(*(longlong *)(unaff_GS_OFFSET + 0x58) + (ulonglong)__tls_index * 8);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  uVar1 = *(undefined4 *)(lVar2 + 0x408);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  *(undefined4 *)(lVar2 + 0x408) = 3;
+  uVar3 = func_0x00014017d7d0(0x1469b2420,param_1);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  *(undefined4 *)(lVar2 + 0x408) = uVar1;
+  return uVar3;
+}
+
+
+
+=== PhysicsCore main callback B ===
+requested=142515ea0 range=142515ea0..142515f48 disassemble=true
+name=FUN_142515ea0 body=[[142515ea0, 142515f48]]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_142515ea0(undefined8 param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  undefined4 uVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  longlong unaff_GS_OFFSET;
+  
+  lVar2 = *(longlong *)(*(longlong *)(unaff_GS_OFFSET + 0x58) + (ulonglong)__tls_index * 8);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  uVar1 = *(undefined4 *)(lVar2 + 0x408);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  *(undefined4 *)(lVar2 + 0x408) = 3;
+  uVar3 = func_0x000140040084(0x1469b2420,param_1,param_2,param_3);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  *(undefined4 *)(lVar2 + 0x408) = uVar1;
+  return uVar3;
+}
+
+
+
+=== PhysicsCore main callback C ===
+PDR_RANGE_NOT_FOUND|target=1425142d0
+
+=== Experimental PhysicsCore callback A ===
+requested=142516f70 range=142516f70..142516fff disassemble=true
+name=FUN_142516f70 body=[[142516f70, 142516fff]]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_142516f70(undefined8 param_1)
+
+{
+  undefined4 uVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  longlong unaff_GS_OFFSET;
+  
+  lVar2 = *(longlong *)(*(longlong *)(unaff_GS_OFFSET + 0x58) + (ulonglong)__tls_index * 8);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  uVar1 = *(undefined4 *)(lVar2 + 0x408);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  *(undefined4 *)(lVar2 + 0x408) = 3;
+  uVar3 = func_0x00014017d7d0(0x1469b2420,param_1);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  *(undefined4 *)(lVar2 + 0x408) = uVar1;
+  return uVar3;
+}
+
+
+
+=== Experimental PhysicsCore callback B ===
+requested=142519d10 range=142519d10..142519db8 disassemble=true
+name=FUN_142519d10 body=[[142519d10, 142519db8]]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_142519d10(undefined8 param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  undefined4 uVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  longlong unaff_GS_OFFSET;
+  
+  lVar2 = *(longlong *)(*(longlong *)(unaff_GS_OFFSET + 0x58) + (ulonglong)__tls_index * 8);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  uVar1 = *(undefined4 *)(lVar2 + 0x408);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  *(undefined4 *)(lVar2 + 0x408) = 3;
+  uVar3 = func_0x000140040084(0x1469b2420,param_1,param_2,param_3);
+  if (*(char *)(lVar2 + 0x423) == '\0') {
+    func_0x000140035cce();
+  }
+  *(undefined4 *)(lVar2 + 0x408) = uVar1;
+  return uVar3;
+}
+
+
+
+=== Experimental PhysicsCore callback C ===
+PDR_RANGE_NOT_FOUND|target=142518630
+
+=== PhysicsCore component constructor ===
+requested=1425140a0 range=1425140a0..1425140f4 disassemble=true
+name=FUN_1425140a0 body=[[1425140a0, 1425140f4]]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_1425140a0(undefined8 param_1)
+
+{
+  undefined1 auStack_78 [32];
+  undefined8 uStack_58;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  undefined8 uStack_40;
+  undefined8 uStack_38;
+  undefined8 uStack_30;
+  undefined8 uStack_28;
+  undefined8 uStack_20;
+  ulonglong uStack_18;
+  
+  uStack_18 = _DAT_145ca23c0 ^ (ulonglong)auStack_78;
+  uStack_58 = _DAT_1456064a0;
+  uStack_50 = _UNK_1456064a8;
+  uStack_48 = _UNK_1456064b0;
+  uStack_40 = _UNK_1456064b8;
+  uStack_38 = 0;
+  uStack_30 = 0;
+  uStack_28 = 0;
+  uStack_20 = 0;
+  func_0x0001401a6d1a(param_1,&uStack_38,&uStack_58,10);
+  func_0x0001400bda57(uStack_18 ^ (ulonglong)auStack_78);
+  return;
+}
+
+
+
+=== PhysicsCore component factory ===
+PDR_RANGE_NOT_FOUND|target=1425134c0
+
+=== Experimental PhysicsCore component constructor ===
+requested=1425185c0 range=1425185c0..142518614 disassemble=true
+name=FUN_1425185c0 body=[[1425185c0, 142518614]]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_1425185c0(undefined8 param_1)
+
+{
+  undefined1 auStack_78 [32];
+  undefined8 uStack_58;
+  undefined8 uStack_50;
+  undefined8 uStack_48;
+  undefined8 uStack_40;
+  undefined8 uStack_38;
+  undefined8 uStack_30;
+  undefined8 uStack_28;
+  undefined8 uStack_20;
+  ulonglong uStack_18;
+  
+  uStack_18 = _DAT_145ca23c0 ^ (ulonglong)auStack_78;
+  uStack_58 = _DAT_1456064a0;
+  uStack_50 = _UNK_1456064a8;
+  uStack_48 = _UNK_1456064b0;
+  uStack_40 = _UNK_1456064b8;
+  uStack_38 = 0;
+  uStack_30 = 0;
+  uStack_28 = 0;
+  uStack_20 = 0;
+  func_0x0001401a6d1a(param_1,&uStack_38,&uStack_58,10);
+  func_0x0001400bda57(uStack_18 ^ (ulonglong)auStack_78);
+  return;
+}
+
+
+
+=== Experimental PhysicsCore component factory ===
+PDR_RANGE_NOT_FOUND|target=1425179e0

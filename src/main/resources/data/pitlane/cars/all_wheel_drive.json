@@ -1,0 +1,103 @@
+{
+  "displayName": "Pitlane Rally AWD",
+  "chassis": {
+    "massKg": 1515,
+    "lengthM": 4.32,
+    "widthM": 1.86,
+    "heightM": 1.49,
+    "centerOfMassM": { "x": 0.0, "y": 0.51, "z": 0.02 },
+    "momentOfInertiaKgM2": { "pitch": 2310, "yaw": 2860, "roll": 850 },
+    "dragCoefficient": 0.34,
+    "frontalAreaM2": 2.23
+  },
+  "wheels": {
+    "wheelbaseM": 2.63,
+    "frontTrackM": 1.59,
+    "rearTrackM": 1.58,
+    "suspensionTravelM": 0.25,
+    "bumpStopTravelM": 0.21,
+    "droopStopTravelM": 0.045,
+    "positions": [
+      { "xM": -0.795, "yM": -0.36, "zM": 1.315, "radiusM": 0.34, "steered": true,  "handbrakeAffected": false },
+      { "xM":  0.795, "yM": -0.36, "zM": 1.315, "radiusM": 0.34, "steered": true,  "handbrakeAffected": false },
+      { "xM": -0.79, "yM": -0.36, "zM": -1.315, "radiusM": 0.34, "steered": false, "handbrakeAffected": true },
+      { "xM":  0.79, "yM": -0.36, "zM": -1.315, "radiusM": 0.34, "steered": false, "handbrakeAffected": true }
+    ]
+  },
+  "suspension": {
+    "frontSpringNPerM": 36500,
+    "rearSpringNPerM": 34200,
+    "frontCompressionNsPerM": 3900,
+    "frontReboundNsPerM": 5700,
+    "rearCompressionNsPerM": 3700,
+    "rearReboundNsPerM": 5450,
+    "frontAntiRollNPerM": 9100,
+    "rearAntiRollNPerM": 8400,
+    "bumpStopNPerM": 132000,
+    "droopStopNPerM": 50000
+  },
+  "tire": {
+    "longitudinalStiffness": 100000,
+    "lateralStiffness": 85000,
+    "peakSlipRatio": 0.105,
+    "peakSlipAngleRad": 0.105,
+    "peakFriction": 1.08,
+    "loadSensitivity": 0.12,
+    "referenceLoadN": 3720,
+    "combinedSlipExponent": 1.8,
+    "pressureKpa": 220,
+    "idealPressureKpa": 215,
+    "temperatureC": 80,
+    "idealTemperatureC": 84
+  },
+  "engine": {
+    "torqueCurveNm": [
+      { "rpm": 900, "torqueNm": 165 },
+      { "rpm": 1900, "torqueNm": 275 },
+      { "rpm": 3100, "torqueNm": 355 },
+      { "rpm": 4500, "torqueNm": 382 },
+      { "rpm": 5900, "torqueNm": 365 },
+      { "rpm": 7000, "torqueNm": 310 }
+    ],
+    "idleRpm": 900,
+    "redlineRpm": 7200,
+    "throttleResponsePerSecond": 5.1,
+    "coastTorqueNm": 50,
+    "inertiaKgM2": 0.34
+  },
+  "transmission": {
+    "gearRatios": [3.64, 2.24, 1.52, 1.17, 0.94, 0.78],
+    "reverseRatio": 3.30,
+    "finalDriveRatio": 4.11,
+    "upshiftRpm": 6750,
+    "downshiftRpm": 2650,
+    "shiftDurationSeconds": 0.25
+  },
+  "drivetrain": {
+    "type": "AWD",
+    "frontTorqueShare": 0.42,
+    "frontDifferentialLock": 0.29,
+    "rearDifferentialLock": 0.34,
+    "centerDifferentialLock": 0.48
+  },
+  "brakes": {
+    "frontMaxTorqueNm": 2450,
+    "rearMaxTorqueNm": 1650,
+    "handbrakeMaxTorqueNm": 2750,
+    "frontBias": 0.60
+  },
+  "surfaceGrip": {
+    "default": 1.0,
+    "multipliers": {
+      "asphalt": 1.0,
+      "concrete": 0.97,
+      "stone": 0.92,
+      "dirt": 0.73,
+      "gravel": 0.71,
+      "sand": 0.56,
+      "grass": 0.50,
+      "snow": 0.41,
+      "ice": 0.19
+    }
+  }
+}
