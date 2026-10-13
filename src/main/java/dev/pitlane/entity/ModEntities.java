@@ -22,7 +22,7 @@ public final class ModEntities {
         Identifier id = Identifier.fromNamespaceAndPath(PitlaneMod.MOD_ID, path);
         ResourceKey<EntityType<?>> key = ResourceKey.create(Registries.ENTITY_TYPE, id);
         EntityType<CarEntity> type = EntityType.Builder.of(CarEntity::new, MobCategory.MISC)
-                .sized(2.0f, 1.45f)
+                .sized(2.0f, 1.37f)
                 .clientTrackingRange(96)
                 .updateInterval(1)
                 .build(key);
