@@ -4,7 +4,6 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import dev.pitlane.PitlaneMod;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.LightTexture;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.rendertype.RenderTypes;
 import net.minecraft.resources.Identifier;
@@ -59,7 +58,7 @@ final class ObjCarMesh {
                 .setColor(vertex.red, vertex.green, vertex.blue, 255)
                 .setUv(0.5f, 0.5f)
                 .setOverlay(0)
-                .setLight(LightTexture.FULL_BRIGHT)
+                .setLight(0x00F000F0)
                 .setNormal(pose, vertex.nx, vertex.ny, -vertex.nz);
     }
 
@@ -69,9 +68,9 @@ final class ObjCarMesh {
         List<float[]> uvs = new ArrayList<>();
         List<Triangle> triangles = new ArrayList<>();
         int red = 210, green = 210, blue = 210;
-        try (var resource = Minecraft.getInstance().getResourceManager().getResource(MODEL).orElseThrow(
+        var resource = Minecraft.getInstance().getResourceManager().getResource(MODEL).orElseThrow(
                 () -> new IllegalStateException("Missing car OBJ resource: " + MODEL));
-             var reader = new BufferedReader(new InputStreamReader(resource.open(), StandardCharsets.UTF_8))) {
+        try (var reader = new BufferedReader(new InputStreamReader(resource.open(), StandardCharsets.UTF_8))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 line = line.trim();
