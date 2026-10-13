@@ -266,6 +266,19 @@ public final class CarEntity extends Entity {
             lastInputTick = Integer.MIN_VALUE;
         }
 
+        if (hasDriver && input.throttle() > 0.0f && tickCount % 20 == 0) {
+            long groundedWheels = state.wheels().stream().filter(WheelState::grounded).count();
+            double totalWheelLoad = state.wheels().stream().mapToDouble(WheelState::normalLoadN).sum();
+            Vector3d diagnosticVelocity = state.velocity();
+            PitlaneMod.LOGGER.info(
+                    "Car diagnostic: driver={}, throttle={}, inputAge={}, gear={}, rpm={}, engineThrottle={}, speed={}, groundedWheels={}, wheelLoadN={}",
+                    getControllingPassenger().getGameProfile().name(), input.throttle(),
+                    tickCount - lastInputTick, state.gear(), Math.round(state.engineRpm()),
+                    String.format(java.util.Locale.ROOT, "%.2f", state.engineThrottle()),
+                    String.format(java.util.Locale.ROOT, "%.3f", diagnosticVelocity.length()),
+                    groundedWheels, Math.round(totalWheelLoad));
+        }
+
         VehicleState previous = state;
         for (int step = 0; step < SUBSTEPS_PER_TICK; step++) {
             state = CarPhysicsEngine.step(definition, state, input, new WorldSurfaceQuery(serverLevel), SUBSTEP_SECONDS);
