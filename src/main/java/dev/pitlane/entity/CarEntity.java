@@ -157,6 +157,12 @@ public final class CarEntity extends Entity {
         return Float.isFinite(value) ? Math.max(0.0f, Math.min(1.0f, value)) : 1.0f;
     }
 
+    @Override
+    public Player getControllingPassenger() {
+        Entity passenger = getFirstPassenger();
+        return passenger instanceof Player player ? player : null;
+    }
+
     public boolean isDriver(Player player) {
         return getControllingPassenger() == player;
     }
@@ -246,7 +252,7 @@ public final class CarEntity extends Entity {
             return;
         }
 
-        boolean hasDriver = getControllingPassenger() instanceof Player;
+        boolean hasDriver = getControllingPassenger() != null;
         CarControl input = hasDriver && lastInputTick != Integer.MIN_VALUE && tickCount - lastInputTick <= 1
                 ? driverInput : CarControl.NEUTRAL;
         if (!hasDriver) {
